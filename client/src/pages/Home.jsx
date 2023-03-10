@@ -83,17 +83,43 @@ const Home = () => {
 
 					<div className="img-tag">lorem ipsum</div>
 				</div>
+
+				<div className="gallery-grid">
+					<p>Gallery</p>
+
+					<div class="grid-container">
+								<div class="L"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S1"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S2"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S3"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S4"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S5"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S6"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="L2"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S7"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+								<div class="S8"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								</div>
+							</div>
+
+				</div>
+
+				<div className="tagline-2">
+					<h2>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</h2>
+					<h4 className="author">-lorem</h4>
+				</div>
+
 			</div>
 		</div>
 	);
 };
 
 export default Home;
-
-/* 
-	<h2>Gallery </h1>
-	<div className = "gallery"> 
-		
-	</div>
-
-*/
