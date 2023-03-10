@@ -47,6 +47,69 @@ const Home = () => {
 					
 				</div>
 
+				<div className="gallery-grid">
+					<p>Gallery</p>
+
+							<section class="layout">
+								<div class="L">1</div>
+								<div class="S1">2</div>
+								<div class="S2">3</div>
+								<div class="S3">4</div>
+								<div class="S4">5</div>
+								<div class="S5">6</div>
+								<div class="S6">7</div>
+								<div class="L2">8</div>
+								<div class="S7">9</div>
+							</section>
+					
+					<div class="grid-container">
+						<div class="grid-item">
+						<img
+							class="grid-item-1"
+							src="/assets/0__7RPcbo39crq3lgq 2.png"
+							alt=""
+					/>	
+						</div>
+						<div class="grid-item">
+						<img
+							class="grid-item-2"
+							src="/assets/0__7RPcbo39crq3lgq 2.png"
+							alt=""
+					/>
+						</div>
+						<div class="grid-item">
+						<img
+							class="grid-item-3"
+							src="/assets/0__7RPcbo39crq3lgq 2.png"
+							alt=""
+					/>
+						</div>
+						<div class="grid-item">
+						<img
+							class="grid-item-4"
+							src="/assets/0__7RPcbo39crq3lgq 2.png"
+							alt=""
+					/>
+						</div>
+						<div class="grid-item">
+						<img
+							class="grid-item-5"
+							src="/assets/0__7RPcbo39crq3lgq 2.png"
+							alt=""
+					/>
+						</div>
+						<div class="grid-item">
+							<img
+							class="grid-item-6"
+							src="/assets/0__7RPcbo39crq3lgq 2.png"
+							alt=""
+					/>
+						</div>
+						
+					</div>
+
+				</div>
+
 			</div>
 
 		</div>
@@ -56,10 +119,3 @@ const Home = () => {
  
 export default Home;
 
-/* 
-	<h2>Gallery </h1>
-	<div className = "gallery"> 
-		
-	</div>
-
-*/
