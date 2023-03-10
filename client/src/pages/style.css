@@ -207,3 +207,75 @@
 	background-color: white;
 	margin: 0 10px;
 }
+
+
+.home .lower-body .gallery-grid {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 100px;
+}
+
+.home .lower-body .gallery-grid p{
+	width: 90%;
+	margin-bottom: 50px;
+	font-size: xx-large;
+}
+.home .lower-body .gallery-grid .grid-container{
+	align-items: center;
+	width: 100%;
+	display: grid;
+ 	grid:
+    "L L S1 S2" 1fr
+    "L L S3 S4" 1fr
+    "S5 S6 L2 L2" 1fr
+    "S7 S8 L2 L2" 1fr
+    / 1fr 1fr 1fr 1fr;
+  	gap: 8px;
+}
+
+.home .lower-body .gallery-grid .grid-container div{
+	overflow: hidden;
+	max-height: 250px;
+}
+
+.home .lower-body .gallery-grid .grid-container .L{
+
+	grid-area: L; 
+	/*border: 1px solid yellow;*/
+	max-height: 500px;
+
+}
+.home .lower-body .gallery-grid .grid-container .S1 { grid-area: S1;}
+.home .lower-body .gallery-grid .grid-container .S2 { grid-area: S2;}
+.home .lower-body .gallery-grid .grid-container .S3 { grid-area: S3;}
+.home .lower-body .gallery-grid .grid-container .S4 { grid-area: S4;}
+.home .lower-body .gallery-grid .grid-container .S5 { grid-area: S5;}
+.home .lower-body .gallery-grid .grid-container .S6 { grid-area: S6;}
+.home .lower-body .gallery-grid .grid-container .L2 { grid-area: L2;max-height: 500px;}
+.home .lower-body .gallery-grid .grid-container .S7 { grid-area: S7;}
+.home .lower-body .gallery-grid .grid-container .S8 { grid-area: S8;}
+
+
+.home .lower-body .tagline-2 {
+	margin: 200px 0;
+	color: white;
+	border: 0px solid red;
+	width: 100%;
+	height: auto;
+
+	/*shadow box*/
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(20px);
+	
+	padding: 60px 40px;
+}
+.home .lower-body .tagline-2 h2,
+.author {
+	text-align: center;
+	font-size: 45px;
+	margin: 5px;
+}
+.home .lower-body .tagline-2 .author {
+	font-size: 25px;
+}
