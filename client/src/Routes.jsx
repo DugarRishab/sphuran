@@ -4,6 +4,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Auth from "./pages/Auth";
+import Events from "./pages/Events";
+import Event from "./pages/Event";
+import Sponsors from "./pages/Sponsors";
+import Schedule from "./pages/Schedule";
 
 const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 	return (
@@ -22,8 +26,42 @@ const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 					<Team login={login} logout={logout} user={user}></Team>
 				}
 			></Route>
-			
-			
+			<Route
+				exact
+				path="/events"
+				element={
+					<Events login={login} logout={logout} user={user}></Events>
+				}
+			></Route>
+			<Route
+				path="/event"
+				element={
+					<Event login={login} logout={logout} user={user}></Event>
+				}
+			></Route>
+			<Route
+				exact
+				path="/sponsors"
+				element={
+					<Sponsors
+						login={login}
+						logout={logout}
+						user={user}
+					></Sponsors>
+				}
+			></Route>
+			<Route
+				exact
+				path="/schedule"
+				element={
+					<Schedule
+						login={login}
+						logout={logout}
+						user={user}
+					></Schedule>
+				}
+			></Route>
+
 			<Route
 				exact
 				path="/auth"
