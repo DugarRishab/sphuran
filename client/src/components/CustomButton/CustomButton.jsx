@@ -13,7 +13,7 @@ const CustomButton = ({ text, variant, endIcon }) => {
 				alignItems: "flex-start",
 				padding: "7px 30px",
 				fontWeight: "600",
-				fontSize: "25px",
+				fontSize: "20px",
 				fontFamily: '"Exo 2", sans-serif',
 				textTransform: "none",
 			}}

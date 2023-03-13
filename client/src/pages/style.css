@@ -1,5 +1,5 @@
 :root {
-	--blue: rgb(51, 110, 177);
+	--blue: rgb(95, 150, 213);
 }
 .shadow-box {
 	background: rgba(255, 255, 255, 0.1);
@@ -147,7 +147,7 @@
 .home .lower-body .aboutus .aboutusbody .rightc .link {
 	text-decoration: underline;
 	cursor: pointer;
-	transition: 0.5s all;
+	transition: 0.25s all;
 	margin-top: 20px;
 }
 
@@ -299,20 +299,49 @@
 .events .header {
 	text-align: center;
 	width:100%;
-	border: 1px solid yellow;
+	border: 0px solid yellow;
 	color: white;
 	margin-top: 50vh;
 	transform: translateY(-50%);
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 76px;
 	
 }
 .events .lower-body{
-	margin: 5%;
+	margin: 400px 60px;
+}
+.events .lower-body .search-bar{
+	height: 50px;
+	width: 80%;
+	max-width: 750px;
+	min-width: 320px;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	margin: auto;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+
+}
+.events .lower-body .search-bar input{
+	height: 50px;
+	border-radius: 25px;
+	border: none;
+	width: 90%;
+	background: none;
+	padding: 0 20px;
+	color: white;
+}
+.events .lower-body .search-bar input:focus-visible{
+	border: 0px;
+	outline: none;
 }
 .events .lower-body .search-results{
 	
 	display: flex;
 	justify-content: space-between;
-	flex-direction: row;
+	flex-flow: row wrap;
 
 }
 .events .lower-body .search-results .search-card{
@@ -320,12 +349,14 @@
 	
 	flex-direction: column;
 	/* shadow box */
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.1);
 	backdrop-filter: blur(20px);
 	
 	-webkit-backdrop-filter: blur(20px);
 	width: 30%;
 	padding: 60px 40px;
+	color: white;
+	margin: 20px;
 }
 .events .lower-body .search-results .search-card .image-container{
 	display: flex;
@@ -333,16 +364,37 @@
 	overflow: hidden;
 	height: 225px;
 }
-.events .lower-body .search-results .search-card .card-text {
-
+.events .lower-body .search-results .search-card .card-text .text {
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 20px;
 }
 .events .lower-body .search-results .search-card .card-text .text-head{
 	text-align: center;
-	font-size: xx-large;
+	font-size: 40px;
 	padding: 10px;
 }
-.events .lower-body .search-results .search-card .read-more{
-	margin-top: 10px;
+.events .lower-body .search-results .search-card .bottom{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 20px;
+	justify-content: space-between;
+}
+.events .lower-body .search-results .search-card .bottom .button{
+	font-size: 18px;
+	font-weight: 400;
+}
+.events .lower-body .search-results .search-card .bottom .link{
+	text-decoration: underline;
+	cursor: pointer;
+	transition: 0.25s all;
+	color: rgb(208, 208, 208);
+	font-size: 18px;
+}
+.events .lower-body .search-results .search-card .bottom .link:hover{
+	color: var(--blue);
 }
 .events .lower-body .tagline-2 {
 	margin: 200px 0;
