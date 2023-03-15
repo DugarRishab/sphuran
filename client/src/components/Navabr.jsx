@@ -48,7 +48,7 @@ const Navbar = ({ user }) => {
 	return (
 		<div className="navbar">
 			<div className="contents">
-				<div className="logo">Sphuran'23</div>
+				<div className="logo">Sphuran 2.0</div>
 				<div className="nav-links">
 					<NavLink to="/" onClick={() => handleNavClick("home")}>
 						<div className="item">Home</div>

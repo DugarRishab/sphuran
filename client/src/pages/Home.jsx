@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<div className="home">
 			<div className="header">
-				<div className="date">07_02_2023 - 09_02_2023</div>
+				<div className="date">07_04_2023 - 09_04_2023</div>
 				<div className="title">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
@@ -17,7 +17,7 @@ const Home = () => {
 				></CustomButton>
 				<div className="logos">
 					<div className="item">
-						<img src="/assets/iiest-logo-white.png" alt="" />
+						<img src="/assets/EES_edited.png" alt="" />
 					</div>
 					<div className="divider"></div>
 					<div className="item">
