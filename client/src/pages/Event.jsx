@@ -8,7 +8,7 @@ const Event = () => {
 			</div>
 			<div className="lower-body">
 				<div className="desc">
-					<div className="desc-head">
+					<div className="title">
 						Description
 					</div>
 					<div className="desc-body">

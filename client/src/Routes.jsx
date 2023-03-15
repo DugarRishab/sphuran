@@ -41,7 +41,7 @@ const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 			></Route>
 			<Route
 				exact
-				path="/sponsors"
+				path="/sponsor"
 				element={
 					<Sponsors
 						login={login}
