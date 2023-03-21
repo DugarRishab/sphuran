@@ -40,7 +40,7 @@ export const themeOptions = {
 		},
 	},
 	typography: {
-		fontFamily: "Poppins",
+		fontFamily: "Exo 2",
 		// color: "white"
 	},
 	overrides: {
@@ -77,7 +77,7 @@ function App() {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<GoogleOAuthProvider clientId="163584497548-6uovpebrvioqdepje90dinuagvi60ulc.apps.googleusercontent.com">
+			<GoogleOAuthProvider clientId="864641738960-hmru6vpqugdtpct6rogp74h2tqvck1ff.apps.googleusercontent.com">
 				<div className="App">
 					<div className="bg">
 						<img src="/assets/Gradient1.jpg" alt="" />

@@ -111,16 +111,17 @@ const Auth = ({login, user}) => {
 				elevation={5}
 				sx={{
 					maxWidth: "500px",
-					minWidth: "350px",
+					minWidth: "300px",
 					width: "30%",
 					margin: "auto",
-					p: "20px",
+					p: "40px",
 					display: "flex",
 					flexDirection: "column",
 					alignItems: "center",
 					justifyContent: "center",
 					border: "1px solid rgba(200, 200, 200, 0.3)",
-					color: "white"
+					color: "white",
+					marginTop: "100px"
 				}}
 			>
 				<Typography variant="h6" fontWeight="600">

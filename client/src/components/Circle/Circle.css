@@ -39,8 +39,11 @@
 	animation: rotate-event 30s infinite linear;
 	transition: 0.5s all;
 }
-.circle.login{
-	transform: translateX(0%) translateY(-10%) scale(0.3);
+.circle.auth{
+	transform: translateX(0%) translateY(-50%) scale(0.3);
+}
+.circle.register{
+	transform: translateX(0%) translateY(-30%) scale(0.3);
 }
 .circle.team{
 	transform: translateX(-50%) translateY(-25%) scale(0.6);
