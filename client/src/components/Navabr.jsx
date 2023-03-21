@@ -11,60 +11,68 @@ import {
 } from "@mui/material";
 import { NavLink, useLocation, Link } from "react-router-dom";
 import "./Navbar.css";
+import { getUserData, logoutAuth } from "../services/api";
+import { alert } from "./CustomAlert/alert";
 
-const Navbar = ({ user }) => {
+const Navbar = ({ user, login, logout }) => {
 
 	const circle = document.querySelector(".circle");
-	const handleNavClick = (a) => {
-		
-		// circle.classList.remove(a);
-		// circle.classList.add(a);
-		// circle.classList.forEach((item) => {
-		// 	if (item !== "circle" && item !== a) {
-		// 		circle.classList.remove(item);
-		// 	}
-		// });
 
-		// switch (a) {
-		// 	case "home": {
-		// 		circle.style.left = "50%";
-		// 		circle.style.width = "1600px";
-		// 		circle.style.top = "-100px";
-				
-		// 		break;
-		// 	}
-		// 	case "events": {
-		// 		circle.style.left = "20%";
-		// 		circle.style.width = "800px";
-		// 		circle.style.top = "-100px";
-		// 		// circle.style.height = "100vh";
-		// 		break;
-		// 	}
-		// 	default: {
-		// 	}
-		// }
+	const handleClose = () => {
 		
-	}
+		const logginOut = async () => {
+			try {
+				await logoutAuth();
+				logout();
+				window.location.reload();
+			} catch (err) {
+				alert({ message: err.response.data.message, type: "error" });
+			}
+		};
+		logginOut();
+
+		// return navigate("/");
+
+		// redirect("")
+	};
+
+	useEffect(() => {
+		const refreshData = async () => {
+			try {
+				const res = await getUserData();
+				console.log(res.data.data.user);
+				if (res.data.message === "success") {
+					login(res.data.data.user);
+				}
+			} catch (err) {
+				alert({ message: err.response.data.message, type: "error" });
+			}
+		};
+		if (user) {
+			refreshData();
+		}
+	}, []);
+	
 	return (
 		<div className="navbar">
 			<div className="contents">
 				<div className="logo">Sphuran'23</div>
 				<div className="nav-links">
-					<NavLink to="/" onClick={() => handleNavClick("home")}>
+					<NavLink to="/">
 						<div className="item">Home</div>
 					</NavLink>
 					<NavLink
 						to="/events"
-						onClick={() => handleNavClick("events")}
+						
 					>
 						<div className="item">Events</div>
 					</NavLink>
-					<NavLink to="/team" onClick={() => handleNavClick("team")}>
+					<NavLink to="/team" >
 						<div className="item">Team</div>
 					</NavLink>
 					<NavLink
 						to="/sponsor"
-						onClick={() => handleNavClick("sponsor")}
+						
 					>
 						<div className="item">Sponsors</div>
 					</NavLink>
@@ -76,7 +84,7 @@ const Navbar = ({ user }) => {
 					</NavLink>
 					<NavLink
 						to="/schedule"
-						onClick={() => handleNavClick("schedule")}
+						
 					>
 						<div className="item">Schedule</div>
 					</NavLink>

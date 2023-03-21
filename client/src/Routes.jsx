@@ -8,6 +8,7 @@ import Events from "./pages/Events";
 import Event from "./pages/Event";
 import Sponsors from "./pages/Sponsors";
 import Schedule from "./pages/Schedule";
+import Register from "./pages/Register";
 
 const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 	return (
@@ -73,6 +74,34 @@ const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 						userLocation={userLocation}
 						setUserLocation={setUserLocation}
 					></Auth>
+				}
+			></Route>
+
+			<Route
+				exact
+				path="/auth"
+				element={
+					<Auth
+						login={login}
+						logout={logout}
+						user={user}
+						userLocation={userLocation}
+						setUserLocation={setUserLocation}
+					></Auth>
+				}
+			></Route>
+
+			<Route
+				exact
+				path="/register"
+				element={
+					<Register
+						login={login}
+						logout={logout}
+						user={user}
+						userLocation={userLocation}
+						setUserLocation={setUserLocation}
+					></Register>
 				}
 			></Route>
 		</Routes>

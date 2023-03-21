@@ -25,7 +25,7 @@ const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperTe
 						borderColor: "rgb(150, 150, 150)",
 						color: "white",
 						height: "60px",
-						borderRadius: "15px",
+						borderRadius: "5px",
 					},
 					"&:hover fieldset": {
 						borderColor: "#ff5252",
