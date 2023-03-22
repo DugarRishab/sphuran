@@ -56,24 +56,23 @@ const Navbar = ({ user, login, logout }) => {
 	return (
 		<div className="navbar">
 			<div className="contents">
-				<div className="logo">Sphuran 2.0</div>
+				<div className="logo">
+					<div className="img">
+						<img src="/assets/sphuran-logo.png" alt="" srcset="" />
+					</div>
+					<div>Shuran 2.0</div>
+				</div>
 				<div className="nav-links">
 					<NavLink to="/">
 						<div className="item">Home</div>
 					</NavLink>
-					<NavLink
-						to="/events"
-						
-					>
+					<NavLink to="/events">
 						<div className="item">Events</div>
 					</NavLink>
-					<NavLink to="/team" >
+					<NavLink to="/team">
 						<div className="item">Team</div>
 					</NavLink>
-					<NavLink
-						to="/sponsor"
-						
-					>
+					<NavLink to="/sponsor">
 						<div className="item">Sponsors</div>
 					</NavLink>
 					<NavLink to="/contact">
@@ -82,10 +81,7 @@ const Navbar = ({ user, login, logout }) => {
 					<NavLink to="/register">
 						<div className="item">Register</div>
 					</NavLink>
-					<NavLink
-						to="/schedule"
-						
-					>
+					<NavLink to="/schedule">
 						<div className="item">Schedule</div>
 					</NavLink>
 					{user ? (

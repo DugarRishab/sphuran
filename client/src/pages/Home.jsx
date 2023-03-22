@@ -9,7 +9,7 @@ const Home = () => {
 			<div className="header">
 				<div className="date">07_04_2023 - 09_04_2023</div>
 				<div className="title">
-				The Annual Technical Fest of Electrical Engineering
+				The Annual Technical Fest of the Department of Electrical Engineering
 				</div>
 				<CustomButton
 					text="Register Now"

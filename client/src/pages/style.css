@@ -190,6 +190,7 @@
 .home .lower-body .divimage1 .img img {
 	width: 100%;
 	object-fit: cover;
+	/* object-position: center; */
 	/* position: absolute; */
 	min-height: 100%;
 	min-width: 100%;
@@ -267,6 +268,14 @@
 }
 .home .lower-body .gallery-grid .grid-container .S8 {
 	grid-area: S8;
+}
+.home .lower-body .gallery-grid .grid-container img{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	/* position: absolute; */
+	min-height: 100%;
+	min-width: 100%;
 }
 
 .home .lower-body .tagline-2 {
