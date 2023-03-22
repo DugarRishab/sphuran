@@ -60,7 +60,7 @@ const Navbar = ({ user, login, logout }) => {
 					<div className="img">
 						<img src="/assets/sphuran-logo.png" alt="" srcset="" />
 					</div>
-					<div>Shuran 2.0</div>
+					<div>Sphuran 2.0</div>
 				</div>
 				<div className="nav-links">
 					<NavLink to="/">
