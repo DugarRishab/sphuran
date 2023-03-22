@@ -75,15 +75,15 @@ const Navbar = ({ user, login, logout }) => {
 					<NavLink to="/sponsor">
 						<div className="item">Sponsors</div>
 					</NavLink>
-					<NavLink to="/contact">
+					
 						<div className="item">Contact Us</div>
-					</NavLink>
+					
 					<NavLink to="/register">
 						<div className="item">Register</div>
 					</NavLink>
-					<NavLink to="/schedule">
+					{/* <NavLink to="/schedule">
 						<div className="item">Schedule</div>
-					</NavLink>
+					</NavLink> */}
 					{user ? (
 						<div className="item">
 							<Avatar alt={user.name} src={user.image}></Avatar>

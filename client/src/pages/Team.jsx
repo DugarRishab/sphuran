@@ -374,9 +374,16 @@ const Team = () => {
 			<div className="lower-body">
 				<div className="menu">
 					{teams.map((team) => (
-						<div className={`item ${
-							selectedTeam && team.id === selectedTeam.id && "active"
-						}`} onClick={() => handleMenuClick(team)}>{team.name}</div>
+						<div
+							className={`item ${
+								selectedTeam &&
+								team.id === selectedTeam.id &&
+								"active"
+							}`}
+							onClick={() => handleMenuClick(team)}
+						>
+							{team.name}
+						</div>
 					))}
 				</div>
 				<div className="results">
@@ -390,9 +397,14 @@ const Team = () => {
 											<img
 												src="/assets/circlex300.png"
 												alt=""
-												className='circle'
+												className="circle"
 											/>
-											<img src={mem.img} alt="" className='dp'></img>
+											<div className="dp">
+												<img
+													src={mem.img}
+													alt=""
+												></img>
+											</div>
 										</div>
 										<div className="details">
 											<div className="name">

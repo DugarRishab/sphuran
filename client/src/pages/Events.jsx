@@ -29,7 +29,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 2</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -49,7 +49,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 3</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -69,7 +69,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 3</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -88,7 +88,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 1</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -108,7 +108,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 2</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -127,7 +127,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 2</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -146,7 +146,7 @@ without deviating from a black line, while the robot race will test the speed an
 							<p>Rounds - 2</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -168,7 +168,7 @@ research, findings, and conclusions. Judges assess the posters based on creativi
 							<p></p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
@@ -188,7 +188,7 @@ clues and puzzles to find hidden electrical components. The event challenges par
 							<p>Rounds - 2</p>
 						</div>
 						<div className="bottom">
-							<p className="link">Read more</p>
+							
 							<CustomButton
 								variant={"contained"}
 								text="Register Now"
