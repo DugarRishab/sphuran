@@ -34,7 +34,7 @@ const Team = () => {
 				{
 					name: "Rajdeep Chakrabarty",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/B612_20221002_231041_053 - 510619041 Rajdeep_Chakrabarty.jpg",
 				},
 				{
 					name: "Ritu Raj Ranjan Mishra",
@@ -44,7 +44,7 @@ const Team = () => {
 				{
 					name: "Sanjay Sharma",
 					position: "Associate",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG_20220831_010337 - 2021EEB077 SANJAY_SHARMA.jpg",
 				},
 			],
 		},
@@ -55,7 +55,7 @@ const Team = () => {
 				{
 					name: "Jayanth Avadhani ",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG_20221025_132239571 - 510619064 M_Avadhani.jpg",
 				},
 				{
 					name: "Moulindu Mandal",
@@ -73,23 +73,23 @@ const Team = () => {
 				},{
 					name: "Pradip Sikder",
 					position: "Associate Head",
-					img: "/assets/profiles/newDP 1.jpg",
-				},{
+					img: "/assets/profiles/PicsArt_02-14-01.10.35-01-01-04 - 2020EEB052 PRADIP_SIKDAR(1).jpeg",
+				},/*{
 					name: "Madhushree Shaw",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Arneet Dutta",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
 				},{
 					name: "Debankan Chatterjee ",
 					position: "Associate",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/20230309_133307 - 2021EEB080 DEBANKAN_CHATTERJEE.jpg",
 				},{
 					name: "Priyanshu Kumar",
 					position: "Associate",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG-20230312-WA0007-01 - 2021EEB094 PRIYANSHU_KUMAR.jpeg",
 				},
 			],
 		},
@@ -119,11 +119,11 @@ const Team = () => {
 					name: "Rinku Kanwar Shaktawat",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Shreetama Majumdar",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Soma Sai Sattwik",
 					position: "Associate Head ",
 					img: "/assets/profiles/newDP 1.jpg",
@@ -143,11 +143,11 @@ const Team = () => {
 					name: "Sashank Kumar",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Sakshi Mishra",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},
+				},*/
 			],
 		},
 		{
@@ -157,7 +157,7 @@ const Team = () => {
 				{
 					name: "Jainendra Kumar Triloki ",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/1628158012274 - Copy - 510619038 Jainendra_Triloki.jpg",
 				},
 				{
 					name: "Ayan kamar",
@@ -168,27 +168,27 @@ const Team = () => {
 					name: "Abhinav Singh ",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Oindrila Biswas ",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*//*{
 					name: "Prince Kumar",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Gourab Mondal",
 					position: "Associate Head ",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Astitva Nath Mishra",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*//*{
 					name: "Disha Mondal ",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Prinshu Kumar",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
@@ -205,21 +205,21 @@ const Team = () => {
 				{
 					name: "Swarnila Roy",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG_5124 - 510619039 SWARNILA_ROY.jpg",
 				},
 				{
 					name: "Ushasi Naskar",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG_20230313_200244 - 510619017 Ushasi_Naskar.jpg",
 				},
 				{
 					name: "Pratim Ghosh  ",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG_20230312_161352 - 510619034 PRATIM_GHOSH.jpg",
 				},{
 					name: "Pulkit Kapoor ",
 					position: "Associate Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/20230114_113043 - 2020EEB049 PULKIT_KAPOOR.jpg",
 				},{
 					name: "Bipro Bhadra ",
 					position: "Associate Head",
@@ -232,11 +232,11 @@ const Team = () => {
 					name: "B Sudeshna",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Abhinay Kumar Nalapothula ",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},
+				},*/
 			],
 		},{
 			id: 7,
@@ -245,18 +245,18 @@ const Team = () => {
 				{
 					name: "Shubham Sarraf",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
-				},
+					img: "/assets/profiles/InShot_20210717_005020589 - 510619103 Shubham_sarraf.jpg",
+				},/*
 				{
 					name: "Hansraj kumar",
 					position: "Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},
+				},*//*
 				{
 					name: "Deepa Jha",
 					position: "Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Utsav Kumar Vishwakarma  ",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
@@ -267,16 +267,16 @@ const Team = () => {
 				},{
 					name: "Sougat Mahato",
 					position: "Associate Head ",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/Remini20220130214904477__01 - 2020EEB076 SOUGAT_MAHATO.jpg",
 				},{
 					name: "Ankit kumar ",
 					position: "Associate",
-					img: "/assets/profiles/newDP 1.jpg",
-				},{
+					img: "/assets/profiles/IMG20230304141324 - 2020EEB083 ANKIT_KUMAR.jpg",
+				},/*{
 					name: "Pritam Kumar Baski ",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Divya",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
@@ -308,23 +308,23 @@ const Team = () => {
 					name: "Dilshad Adil",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Soubhagya Saha ",
 					position: "Associate Head ",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*//*{
 					name: "Shreyansh Trivedi ",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Saksham Kumar",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Aanya kumari",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Sachin Saw",
 					position: "Associate",
 					img: "/assets/profiles/newDP 1.jpg",
@@ -334,28 +334,28 @@ const Team = () => {
 			id: 9,
 			name: "Website",
 			members: [
-				{
+				/*{
 					name: "Astha Kumari",
 					position: "Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},
+				},*/
 				{
-					name: "Suvro Sen ",
+					name: "Subhro Sen ",
 					position: "Head",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/IMG_20230321_171835 - 510619113 SUBHRO_SEN.jpg",
 				},
 				{
 					name: "Anirban Mukherjee",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},/*{
 					name: "Naveen Chamaria",
 					position: "Associate Head",
 					img: "/assets/profiles/newDP 1.jpg",
-				},{
+				},*/{
 					name: "Nafis Adnan Mondal",
 					position: "Associate",
-					img: "/assets/profiles/newDP 1.jpg",
+					img: "/assets/profiles/nafis.jpg",
 				},{
 					name: "Rishab Dugar ",
 					position: "Associate",
