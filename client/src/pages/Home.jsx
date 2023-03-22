@@ -7,9 +7,9 @@ const Home = () => {
 	return (
 		<div className="home">
 			<div className="header">
-				<div className="date">07_02_2023 - 09_02_2023</div>
+				<div className="date">07_04_2023 - 09_04_2023</div>
 				<div className="title">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				The Annual Technical Fest of Electrical Engineering
 				</div>
 				<CustomButton
 					text="Register Now"
@@ -17,7 +17,7 @@ const Home = () => {
 				></CustomButton>
 				<div className="logos">
 					<div className="item">
-						<img src="/assets/iiest-logo-white.png" alt="" />
+						<img src="/assets/EES_edited.png" alt="" />
 					</div>
 					<div className="divider"></div>
 					<div className="item">
@@ -57,10 +57,10 @@ const Home = () => {
 						</div>
 						<div className="rightc">
 							{about === "sphuran"
-								? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, itaque nihil maiores nobis sequi, id ducimus odio molestiae ea in at fuga similique, tenetur impedit corporis mollitia nam ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, itaque nihil maiores nobis sequi, id ducimus odio molestiae ea in at fuga similique, tenetur impedit corporis mollitia nam ipsam!"
+								? "Sphuran, the technical festival of IIEST Shibpur's Electrical Engineering Department, brings together students, industry leaders, and researchers to showcase technical skills and innovations. Known for its intellectually stimulating events like paper presentations, project exhibitions, robotics, and hackathons, Sphuran encourages creative and critical thinking. It's a great platform for students to network, build portfolios and gain exposure to the latest trends and technologies in electrical engineering."
 								: about === "iiests"
-								? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, itaque nihil maiores nobis sequi, id ducimus odio molestiae ea in at fuga similique, tenetur impedit corporis mollitia nam ipsam!"
-								: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, itaque nihil maiores nobis sequi, id ducimus odio molestiae ea in at fuga similique, tenetur impedit corporis mollitia nam ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, itaque nihil maiores nobis sequi, id ducimus odio molestiae ea in at fuga similique, tenetur impedit corporis mollitia nam ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, itaque nihil maiores nobis sequi, id ducimus odio molestiae ea in at fuga similique, tenetur impedit corporis mollitia nam ipsam!"}
+								? "Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) is a premier technical institute located in the historic city of Howrah, West Bengal, India. With a rich legacy dating back to 1856, IIEST Shibpur offers a wide range of undergraduate and postgraduate programs in engineering, technology, and basic sciences. The institute is renowned for its world-class faculty, state-of-the-art infrastructure, and innovative research culture that nurtures the next generation of engineers, scientists, and technologists."
+								: "The Electrical Engineers' Society (EES) at IIEST Shibpur is a student-run org that cultivates a community of electrical ELECTRICAL engineers. EES offers opportunities to showcase skills, collaborate on projects, and learn about advancements in electrical engineering through events, guest lectures, and workshops. EES plays a crucial role in supplementing students' education and preparing them for successful careers."}
 
 							<p className="link">{ about === "iiests" ? "Check our IIESTS website" : about === "sphuran" ? "Check out our events" : "Check out EES website"}</p>
 						</div>
@@ -68,54 +68,44 @@ const Home = () => {
 				</div>
 
 				<div className="tagline">
-					<h2>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</h2>
-					<h4 className="author">-lorem</h4>
+					<h2>Experience the Spark of Innovation: A Celebration of Electrical Excellence</h2>
+					<h4 className="author"></h4>
 				</div>
 
-				<div className="divimage1">
-					<div className="img">
-						<img
-							class="image1"
-							src="/assets/0__7RPcbo39crq3lgq 2.png"
-							alt=""
-						/>
-					</div>
-
-					<div className="img-tag">lorem ipsum</div>
-				</div>
+				
 
 				<div className="gallery-grid">
 					<p>Gallery</p>
 
 					<div class="grid-container">
-								<div class="L"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="L"><img class="image1" src="/assets/gallery/69841845_131138014931266_2812637652514242560_n.jpg" alt=""/>
 								</div>
-								<div class="S1"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S1"><img class="image1" src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg" alt=""/>
 								</div>
-								<div class="S2"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S2"><img class="image1" src="/assets/gallery/70922147_131138091597925_598385121535459328_n.jpg" alt=""/>
 								</div>
-								<div class="S3"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S3"><img class="image1" src="/assets/gallery/71813259_131137258264675_209588408270454784_n.jpg" alt=""/>
 								</div>
-								<div class="S4"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S4"><img class="image1" src="/assets/gallery/71766217_131137268264674_3070247042149253120_n.jpg" alt=""/>
 								</div>
-								<div class="S5"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S5"><img class="image1" src="/assets/gallery/71213662_131137248264676_505020924886515712_n.jpg" alt=""/>
 								</div>
-								<div class="S6"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S6"><img class="image1" src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg" alt=""/>
 								</div>
-								<div class="L2"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="L2"><img class="image1" src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg" alt=""/>
 								</div>
-								<div class="S7"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S7"><img class="image1" src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg" alt=""/>
 								</div>
-								<div class="S8"><img class="image1" src="/assets/0__7RPcbo39crq3lgq 2.png" alt=""/>
+								<div class="S8"><img class="image1" src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg" alt=""/>
 								</div>
 							</div>
 
 				</div>
 
-				<div className="tagline-2">
+				{/* <div className="tagline-2">
 					<h2>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</h2>
 					<h4 className="author">-lorem</h4>
-				</div>
+				</div> */}
 
 			</div>
 		</div>

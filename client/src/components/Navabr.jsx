@@ -56,7 +56,7 @@ const Navbar = ({ user, login, logout }) => {
 	return (
 		<div className="navbar">
 			<div className="contents">
-				<div className="logo">Sphuran'23</div>
+				<div className="logo">Sphuran 2.0</div>
 				<div className="nav-links">
 					<NavLink to="/">
 						<div className="item">Home</div>

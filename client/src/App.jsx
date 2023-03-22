@@ -82,7 +82,7 @@ function App() {
 					<div className="bg">
 						<img src="/assets/Gradient1.jpg" alt="" />
 						<img src="/assets/Gradient2.jpg" alt="" />
-						<img src="/assets/Gradient3.jpg" alt="" />
+						{/* <img src="/assets/Gradient3.jpg" alt="" /> */}
 					</div>
 
 					<Router>
