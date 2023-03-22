@@ -20,8 +20,7 @@ const Event = () => {
 					</div>
 				</div>
 				<div className="tagline-2">
-					<h2>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</h2>
-					<h4 className="author">-lorem</h4>
+					Register Now ! 	
 				</div>
 			</div>
 			</div>
