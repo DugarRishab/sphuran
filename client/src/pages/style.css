@@ -807,6 +807,7 @@
 	justify-content: space-between;
 	align-items: center;
 	color: white;
+	margin-bottom: 20px;
 }
 .footer .left-col{
 	display: flex;
