@@ -23,27 +23,20 @@ const Footer = () => {
 					<div className="contact">
 						<div className="name"> Souvik Sengupta</div>
 						<div className="mail">
-							<a href="mailto: 510619091.souvik@students.iiests.ac.in">
-								510619091.souvik@students.iiests.ac.in
+							<a href="mailto: ssengupta742@gmail.com">
+								ssengupta742@gmail.com
 							</a>
 						</div>
 					</div>
-					<div className="contact">
-						<div className="name"> Dilshad Adil </div>
+					<div className="contact3">
+						<div className="name"> Sayan Mitra </div>
 						<div className="mail">
-							<a href="mailto: 2020eeb08.dilshad@students.iiests.ac.in">
-								2020eeb08.dilshad@students.iiests.ac.in
+							<a href="mailto: mitrasayan2001@gmail.com">
+								mitrasayan2001@gmail.com
 							</a>
 						</div>
 					</div>
-					<div className="contact">
-						<div className="name"> Rituraj Ranjan Mishra</div>
-						<div className="mail">
-							<a href="mailto: 2020eeb075.rituraj@students.iiests.ac.in">
-								2020eeb075.rituraj@students.iiests.ac.in
-							</a>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
