@@ -4,7 +4,7 @@ const oauth2Client = require('../utils/oauth2client');/* eslint-disable new-cap 
 const { promisify } = require('util');
 const jwt = require('jsonwebtoken');
 const moment = require('moment');
-
+const axios = require("axios");
 const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
@@ -16,8 +16,9 @@ const createSendToken = (user, statusCode, res) => {
 	const token = signToken(user.id);
 
 	const cookieOptions = {
-		expires: new Date(Date.now() + process.env.JWT_COOKIE_EXPIRES_IN),
-		httpOnly: true
+		expires: new Date(Date.now() + +process.env.JWT_COOKIE_EXPIRES_IN),
+		httpOnly: true,
+		sameSite: 'none'
 	}
 	if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
 
@@ -25,7 +26,7 @@ const createSendToken = (user, statusCode, res) => {
 
 	res.cookie('jwt', token, cookieOptions);
 
-	console.log(res);
+	// console.log(res);
 
 	res.status(statusCode).json({
 		message: 'success',
@@ -71,13 +72,16 @@ exports.login = catchAsync(async (req, res, next) => {
 });
 exports.protect = catchAsync(async (req, res, next) => {
 	let token;
+	// console.log(req);
+
 	if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
 		token = req.headers.authorization.split(' ')[1];
 	}
-	else if (req.cookies.jwt) {
+	else if (req.cookies) {
 		token = req.cookies.jwt;
+		console.log(req.cookies);
 	}
-
+	console.log(req.cookies);
 	if (!token) {
 		return next(new AppError('you are not logged in', 401))
 	}

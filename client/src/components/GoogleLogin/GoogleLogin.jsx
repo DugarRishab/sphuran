@@ -4,10 +4,12 @@ import { useGoogleLogin } from "@react-oauth/google";
 import { googleAuth } from "../../services/api";
 import { alert } from "../CustomAlert/alert";
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 // import "./googleLogin.css";
 
 export default (props) => {
+	const navigate = useNavigate();
 	const responseGoogle = async (authResult) => {
 		try {
 			if (authResult["code"]) {
@@ -16,6 +18,7 @@ export default (props) => {
 				console.log("result=>", result);
 				props.login(result.data.data.user);
 				alert({ message: "Successfully Logged In", type: "success" });
+				navigate("/");
 			} else {
 				console.log(authResult);
 				throw new Error(authResult);

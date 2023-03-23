@@ -30,7 +30,7 @@ const Auth = ({login, user}) => {
 	const [adminPin, setAdminPin] = useState(null);
 	const navigate = useNavigate();
 
-	console.log(process.env.REACT_APP_RECAPTCHA_SECRET_KEY);
+	// console.log(process.env.REACT_APP_RECAPTCHA_SECRET_KEY);
 	const handleSubmit = async () => {
 		if (signup) {
 			let payload;
@@ -40,9 +40,9 @@ const Auth = ({login, user}) => {
 			} else if (!name || name.trim().length <= 0) {
 				alert({ message: "Please provide a Name", type: "error" });
 			} else {
-				const captchaToken = captchaRef.current.getValue();
-				console.log(captchaToken);
-				captchaRef.current.reset();
+				// const captchaToken = captchaRef.current.getValue();
+				// console.log(captchaToken);
+				// captchaRef.current.reset();
 
 				if (admin) {
 					payload = {
@@ -52,7 +52,7 @@ const Auth = ({login, user}) => {
 						passwordConfirm,
 						admin,
 						adminPin,
-						captchaToken,
+						// captchaToken,
 					};
 				} else {
 					payload = {
@@ -60,7 +60,7 @@ const Auth = ({login, user}) => {
 						email,
 						password,
 						passwordConfirm,
-						captchaToken,
+						// captchaToken,
 					};
 				}
 				try {
@@ -70,7 +70,7 @@ const Auth = ({login, user}) => {
 							message: "Successfully Logged In",
 							type: "success",
 						});
-						navigate("/dashboard");
+						navigate("/");
 					}
 					login(res.data.data.user);
 				} catch (err) {
@@ -92,7 +92,7 @@ const Auth = ({login, user}) => {
 						message: "Successfully Logged In",
 						type: "success",
 					});
-					navigate("/dashboard");
+					navigate("/");
 				}
 				login(res.data.data.user);
 			} catch (err) {
@@ -104,7 +104,7 @@ const Auth = ({login, user}) => {
 		}
 	};
 
-	const captchaRef = useRef(null);
+	// const captchaRef = useRef(null);
 	return (
 		<div className="auth">
 			<Paper

@@ -1,7 +1,7 @@
 import React from "react";
 import { TextField } from "@mui/material";
 
-const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperText, error, value, placeholder }) => {
+const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperText, error, value, placeholder, max, min }) => {
 	return (
 		<TextField
 			id="outlined-basic"
@@ -15,6 +15,8 @@ const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperTe
 			helperText={helperText}
 			error={error}
 			placeholder={placeholder}
+			max={max}
+			min ={min}
 			sx={{
 				mt: "00px",
 				mr: "20px",
