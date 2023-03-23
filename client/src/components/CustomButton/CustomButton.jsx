@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@mui/material";
 
-const CustomButton = ({ text, variant, endIcon }) => {
+const CustomButton = ({ text, variant, endIcon, onClick }) => {
 	return (
 		<Button
 			className="button"
@@ -18,6 +18,7 @@ const CustomButton = ({ text, variant, endIcon }) => {
 				textTransform: "none",
 			}}
 			endIcon={endIcon}
+			onClick={onClick}
 		>
 			{text}
 		</Button>

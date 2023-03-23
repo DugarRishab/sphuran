@@ -16,11 +16,16 @@ const createSendToken = (user, statusCode, res) => {
 	const token = signToken(user.id);
 
 	const cookieOptions = {
-		expires: new Date(Date.now() + +process.env.JWT_COOKIE_EXPIRES_IN),
-		httpOnly: true,
-		sameSite: 'none'
-	}
-	if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
+        expires: new Date(Date.now() + +process.env.JWT_COOKIE_EXPIRES_IN),
+        httpOnly: true,
+        path: '/',
+        // sameSite: "none",
+        secure: false,
+    };
+    if (process.env.NODE_ENV === 'production') {
+        cookieOptions.secure = true;
+        cookieOptions.sameSite = 'none';
+    }
 
 	user.password = undefined;
 
@@ -97,7 +102,7 @@ exports.protect = catchAsync(async (req, res, next) => {
 		return next(new AppError('Recently changed Password! Please login Again', 401));
 	}
 
-	console.log(log.success('!!! GRANTING ACCESS !!!'));
+	console.log(('!!! GRANTING ACCESS !!!'));
 
 	res.locals.user = currentUser;
 	req.user = currentUser;
