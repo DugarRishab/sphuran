@@ -82,6 +82,22 @@ const Sponsors = () => {
 						))}
 					</div>
 				</div>
+				<div className="past">
+					<div className="title">Past Sponsors</div>
+					<div className="items">
+						{sponsors.map((sponsor) => (
+							<div className="sponsor">
+								<div className="img">
+									<img
+										src={sponsor.img}
+										alt=""
+										className="dp"
+									></img>
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
 			</div>
 		</div>
 	);

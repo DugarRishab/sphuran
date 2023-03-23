@@ -83,7 +83,7 @@ without deviating from a black line, while the robot race will test the speed an
 							/>
 						</div>
 						<div className="card-text">
-							<p className="text-head">Coding</p>
+							<p className="text-head">Cyber Blame</p>
 							<p className="text">Coding competition is a competition where participants solve programming problems using various programming languages. The competition tests the participants' ability to write efficient and optimized code within a time limit. Participants are judged based on the correctness, speed, and elegance of their code. The competition provides a platform for coders to showcase their skills and compete with other talented programmers.</p>
 							<p>Rounds - 1</p>
 						</div>
@@ -195,10 +195,7 @@ clues and puzzles to find hidden electrical components. The event challenges par
 							></CustomButton>
 						</div></div>
 				</div>
-				<div className="tagline-2">
-					<h2>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</h2>
-					<h4 className="author">-lorem</h4>
-				</div>
+				
 			</div>
 		</div>
 	);
