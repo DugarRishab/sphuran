@@ -43,6 +43,18 @@ const Sponsors = () => {
 			img: "/assets/circlex300.png",
 		},
 	];
+	const pastSponsors = [
+		{
+			id: 1,
+			name: "Web Team",
+			img: "/assets/circlex300.png",
+		},
+		{
+			id: 2,
+			name: "Web Team",
+			img: "/assets/circlex300.png",
+		},
+	];
 	return (
 		<div className="sponsors">
 			<div className="header">OUR SPONSORS</div>
@@ -85,7 +97,7 @@ const Sponsors = () => {
 				<div className="past">
 					<div className="title">Past Sponsors</div>
 					<div className="items">
-						{sponsors.map((sponsor) => (
+						{pastSponsors.map((sponsor) => (
 							<div className="sponsor">
 								<div className="img">
 									<img
