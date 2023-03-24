@@ -809,7 +809,7 @@
 	border: 1px solid rgb(208, 208, 208, 0.75);
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	color: white;
 	margin-bottom: 20px;
@@ -821,8 +821,12 @@
 	align-items: center;
 }
 .footer .right-col{
-	width: 70%;
+	width: 30%;
 }
+.footer .right-col-2{
+	
+}
+
 .footer .left-col .logo{
 	width: 100px;
 }
@@ -837,28 +841,22 @@
     /* color: white !important; */
     font-size: 30px;
 }
-.footer .right-col .title{
+.footer .right-col .title, .footer .right-col-2 .title{
 	font-size: 20px;
-	margin-left: 50px;
+	margin-left: 0px;
+	padding: 10px 0;
 }
 .footer .right-col .contacts{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: center;
 	align-items: flex-start;
-	flex-flow: row wrap;
+	flex-flow: column nowrap;
 	/*border: 1px solid red; */
 }
 .footer .right-col .contacts .contact{
 	width: 45%;
-	padding: 20px;
-    /*border: 1px solid red; */
-	
-}
-.footer .right-col .contacts .contact3{
-	width: 45%;
-	padding: 20px;
-	margin-left: 438px;
+	padding: 10px;
     /*border: 1px solid red; */
 	
 }
@@ -875,4 +873,16 @@
 .footer .right-col .contacts .contact3 .mail a{
 	color: rgba(255, 255, 255, 0.75);
 	text-decoration: none;
+}
+.footer .right-col-2 .socials{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	flex-flow: column nowrap;
+}
+.footer .right-col-2 .socials .item{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
 }
