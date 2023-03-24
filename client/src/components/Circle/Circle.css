@@ -36,7 +36,7 @@
 }
 .circle.event{
 	transform: translateX(0%) translateY(-68%) scale(0.9);
-	animation: rotate-event 30s infinite linear;
+	/* animation: rotate-event 30s infinite linear; */
 	transition: 0.5s all;
 }
 .circle.auth{
@@ -47,7 +47,7 @@
 }
 .circle.team{
 	transform: translateX(-50%) translateY(-25%) scale(0.6);
-	animation: rotate-team 30s infinite linear;
+	/* animation: rotate-team 30s infinite linear; */
 }
 .circle.schedule{
 	transform: translateX(-70%) translateY(-60%) scale(1.5);

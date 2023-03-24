@@ -1,7 +1,7 @@
 import React from "react";
 import { TextField } from "@mui/material";
 
-const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperText, error, value, placeholder, max, min }) => {
+const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperText, error, value, placeholder, max, min, maxLength }) => {
 	return (
 		<TextField
 			id="outlined-basic"
@@ -16,10 +16,11 @@ const CustomTextField = ({ label, onInput, InputProps, fullWidth, type, helperTe
 			error={error}
 			placeholder={placeholder}
 			max={max}
-			min ={min}
+			min={min}
+			maxLength={maxLength}
 			sx={{
 				mt: "00px",
-				mr: "20px",
+				mr: "0px",
 				color: "white !important",
 
 				"& .MuiOutlinedInput-root": {

@@ -18,6 +18,11 @@ const userSchema = new mongoose.Schema(
             validate: [validator.isEmail, 'Invalid Email'],
             lowercase: true,
         },
+        phone: {
+            type: Number,
+            minLength: [10, 'Invalid Phone Number'],
+            maxLength: [10, 'Invalid Phone Number'],
+        },
         password: {
             type: String,
             required: [false, 'Every user must have a password'],
@@ -46,14 +51,15 @@ const userSchema = new mongoose.Schema(
             enum: ['user', 'admin'],
         },
         cllg: {
-            type: String
+            type: String,
         },
         year: {
-            type: Number
+            type: Number,
+            enum: [1, 2, 3, 4],
         },
         dept: {
-            type: String
-        }
+            type: String,
+        },
     },
     {
         toJSON: { virtuals: true },

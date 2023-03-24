@@ -28,13 +28,36 @@ const Footer = () => {
 							</a>
 						</div>
 					</div>
-					<div className="contact3">
+					<div className="contact">
 						<div className="name"> Sayan Mitra </div>
 						<div className="mail">
 							<a href="mailto: mitrasayan2001@gmail.com">
 								mitrasayan2001@gmail.com
 							</a>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div className="right-col-2">
+				<div className="title">VISIT US VIRTUALLY</div>
+				<div className="socials">
+					<div className="item">
+						<div className="logo">
+							<i class="fa-brands fa-facebook-f"></i>
+						</div>
+						<div className="link">/sphuran.ees</div>
+					</div>
+					<div className="item">
+						<div className="logo">
+							<i class="fa-brands fa-instagram"></i>
+						</div>
+						<div className="link">/_sphuran</div>
+					</div>
+					<div className="item">
+						<div className="logo">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</div>
+						<div className="link">/sphuran-iiests</div>
 					</div>
 					
 				</div>
