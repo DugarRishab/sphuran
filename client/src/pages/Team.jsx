@@ -359,7 +359,7 @@ const Team = () => {
 				},{
 					name: "Rishab Dugar ",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/newDP 1.jpg",
 				},
 			],
 		},
