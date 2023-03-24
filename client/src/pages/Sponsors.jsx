@@ -47,12 +47,17 @@ const Sponsors = () => {
 		{
 			id: 1,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/past/download.png",
 		},
 		{
 			id: 2,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/past/madeeasy.jpg",
+		},
+		{
+			id: 3,
+			name: "Web Team",
+			img: "/assets/sponsors/past/wow-momo.png",
 		},
 	];
 	return (
