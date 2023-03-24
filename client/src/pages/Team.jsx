@@ -346,8 +346,7 @@ const Team = () => {
 				},
 				{
 					name: "Anirban Mukherjee",
-					position: "Associate Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/anirban.jpeg",
 				},/*{
 					name: "Naveen Chamaria",
 					position: "Associate Head",
