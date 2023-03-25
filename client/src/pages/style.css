@@ -886,3 +886,58 @@
 	flex-direction: row;
 	padding: 10px;
 }
+.footer .right-col-2 .socials .item .logo{
+	margin: 0 10px 0 0;
+}
+
+
+.contact .header{
+	text-align: center;
+	width:100%;
+	border: 0px solid yellow;
+	color: white;
+	margin-top: 60vh;
+	transform: translateY(-50%);
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 76px;
+	transition: 0.5s all;
+}
+.contact .lower-body{
+	margin: auto;
+	margin-top: 100px;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-evenly;
+
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(20px);
+	width: 80%;
+	padding: 60px 40px;
+	
+}
+.contact .lower-body .items .title{
+	font-size: 25px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.contact .lower-body .items .item{
+	padding: 10px 0;
+}
+.contact .lower-body .items .item .name{
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+.contact .lower-body .socials .item{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+}
+.contact .lower-body .socials .item .logo{
+	margin: 0 10px 0 0;
+}

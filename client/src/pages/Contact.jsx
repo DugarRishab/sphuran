@@ -1,18 +1,13 @@
 import React from 'react';
 
-const Footer = () => {
+const Contact = () => {
 	return (
-		<div className="footer">
-			<div className="left-col">
-				<div className="logo">
-					<img src="/assets/sphuran-logo.png" alt="" />
-				</div>
-				<div className="name">Sphuran 2.0</div>
-			</div>
-			<div className="right-col">
-				<div className="title">Contacts</div>
-				<div className="contacts">
-					<div className="contact">
+		<div className="contact">
+			<div className="header">Contact Us</div>
+			<div className="lower-body">
+				<div className="items">
+					<div className="title">Email us</div>
+					<div className="item">
 						<div className="name"> Prof. Bhaskaran Barman</div>
 						<div className="mail">
 							<a href="mailto: bhaskaran.ee@faculty.iiests.ac.in">
@@ -20,7 +15,7 @@ const Footer = () => {
 							</a>
 						</div>
 					</div>
-					<div className="contact">
+					<div className="item">
 						<div className="name"> Souvik Sengupta</div>
 						<div className="mail">
 							<a href="mailto: ssengupta742@gmail.com">
@@ -28,7 +23,7 @@ const Footer = () => {
 							</a>
 						</div>
 					</div>
-					<div className="contact">
+					<div className="item">
 						<div className="name"> Sayan Mitra </div>
 						<div className="mail">
 							<a href="mailto: mitrasayan2001@gmail.com">
@@ -37,10 +32,8 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className="right-col-2">
-				<div className="title">VISIT US VIRTUALLY</div>
-				<div className="socials">
+				<div className="items socials">
+					<div className="title">or visit us Virtually</div>
 					<div className="item">
 						<div className="logo">
 							<i class="fa-brands fa-facebook-f"></i>
@@ -70,9 +63,24 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
+				<div className="items">
+					<div className="title">or just call us directly</div>
+					<div className="item">
+						<div className="name"> Souvik Sengupta</div>
+						<div className="mail">+91 82505 64473</div>
+					</div>
+					<div className="item">
+						<div className="name"> Sayan Mitra </div>
+						<div className="mail">+91 93324 29359</div>
+					</div>
+					<div className="item">
+						<div className="name"> Vasanth </div>
+						<div className="mail">+91 93901 30585</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
 }
  
-export default Footer;
+export default Contact;
