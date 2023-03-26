@@ -12,6 +12,8 @@ const Register = ({user, login, logout}) => {
 	const [name, setName] = useState();
 	const [phone, setPhone] = useState();
 
+	const { innerWidth: width, innerHeight: height } = window;
+
 	const navigate = useNavigate();
 
 	const handleSubmit = () => {
@@ -81,24 +83,29 @@ const Register = ({user, login, logout}) => {
 								<CustomTextField
 									label={"Name"}
 									onInput={(e) => setName(e.target.value)}
+									fullWidth={width <= 720 ? true : false}
 								></CustomTextField>
 								<CustomTextField
 									label={"Phone Number"}
 									onInput={(e) => setPhone(e.target.value)}
+									fullWidth={width <= 720 ? true : false}
 									type="number"
 									maxLength="10"
 								></CustomTextField>
 								<CustomTextField
 									label={"College Name"}
 									onInput={(e) => setCllg(e.target.value)}
+									fullWidth={width <= 720 ? true : false}
 								></CustomTextField>
 								<CustomTextField
 									label={"Department"}
 									onInput={(e) => setDept(e.target.value)}
+									fullWidth={width <= 720 ? true : false}
 								></CustomTextField>
 								<CustomTextField
 									label={"Year"}
 									onInput={(e) => setYear(e.target.value)}
+									fullWidth={width <= 720 ? true : false}
 									type="number"
 									max="4"
 									min="1"

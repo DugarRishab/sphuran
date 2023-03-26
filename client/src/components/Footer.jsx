@@ -39,7 +39,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="right-col-2">
-				<div className="title">VISIT US VIRTUALLY</div>
+				<div className="title">Visit us Virtually</div>
 				<div className="socials">
 					<div className="item">
 						<div className="logo">
