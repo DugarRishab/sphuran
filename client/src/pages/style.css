@@ -157,7 +157,7 @@
 }
 
 .home .lower-body .tagline {
-	margin: 200px 0;
+	margin: 200px 0 100px 0;
 	color: white;
 	border: 0px solid red;
 	width: 100%;
@@ -168,6 +168,9 @@
 	text-align: center;
 	font-size: 45px;
 	margin: 5px;
+}
+.home .lower-body .tagline .concept{
+	margin-top: 50px;
 }
 .home .lower-body .tagline .author {
 	font-size: 25px;

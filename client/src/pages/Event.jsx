@@ -1,6 +1,7 @@
 import React from 'react';
 // for singular events
 const Event = () => {
+	
 	return ( 
 		<div className="event">
 			<div className="header">
