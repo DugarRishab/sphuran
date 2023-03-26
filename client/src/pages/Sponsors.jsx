@@ -57,7 +57,7 @@ const Sponsors = () => {
 		{
 			id: 3,
 			name: "Web Team",
-			img: "/assets/sponsors/past/wow-momo.png",
+			img: "/assets/sponsors/past/wowmomo.jpg",
 		},
 	];
 	return (

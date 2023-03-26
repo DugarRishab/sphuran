@@ -91,6 +91,7 @@ const Home = () => {
 						Experience the Spark of Innovation:
 					</h4>
 					<h2>A Celebration of Electrical Excellence</h2>
+					<h2 className="concept">"Concepts Rectified, Calibre Amplified"</h2>
 				</div>
 
 				<div className="gallery-grid">
@@ -142,28 +143,28 @@ const Home = () => {
 						<div class="S6">
 							<img
 								class="image1"
-								src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg"
+								src="/assets/gallery/new.jpeg"
 								alt=""
 							/>
 						</div>
 						<div class="L2">
 							<img
 								class="image1"
-								src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg"
+								src="/assets/gallery/new4.jpeg"
 								alt=""
 							/>
 						</div>
 						<div class="S7">
 							<img
 								class="image1"
-								src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg"
+								src="/assets/gallery/new2.jpeg"
 								alt=""
 							/>
 						</div>
 						<div class="S8">
 							<img
 								class="image1"
-								src="/assets/gallery/70122500_121337579244643_3821815105759215616_n.jpg"
+								src="/assets/gallery/new3.jpeg"
 								alt=""
 							/>
 						</div>
