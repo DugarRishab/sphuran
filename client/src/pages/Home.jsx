@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<div className="home">
 			<div className="header">
-				<div className="date">07_04_2023 - 09_04_2023</div>
+				<div className="date">07_04_2023 to 09_04_2023</div>
 				<div className="title">
 					The Annual Technical Fest of the Department of Electrical
 					Engineering
