@@ -10,6 +10,7 @@ import Sponsors from "./pages/Sponsors";
 import Schedule from "./pages/Schedule";
 import Register from "./pages/Register";
 import Contact from "./pages/Contact";
+import ForYou from "./pages/ForYou";
 
 const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 	return (
@@ -36,6 +37,13 @@ const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 				}
 			></Route>
 			<Route
+				exact
+				path="/foryou"
+				element={
+					<ForYou login={login} logout={logout} user={user}></ForYou>
+				}
+			></Route>
+			<Route
 				path="/event"
 				element={
 					<Event login={login} logout={logout} user={user}></Event>
@@ -44,7 +52,11 @@ const AllRoutes = ({userLocation, setUserLocation, user, login, logout}) => {
 			<Route
 				path="/contact"
 				element={
-					<Contact login={login} logout={logout} user={user}></Contact>
+					<Contact
+						login={login}
+						logout={logout}
+						user={user}
+					></Contact>
 				}
 			></Route>
 			<Route

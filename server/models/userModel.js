@@ -60,6 +60,10 @@ const userSchema = new mongoose.Schema(
         dept: {
             type: String,
         },
+        events: {
+            type: [String],
+
+        }
     },
     {
         toJSON: { virtuals: true },

@@ -7,7 +7,7 @@ import { alert } from "../components/CustomAlert/alert";
 
 const Events = ({ user, login, logout }) => {
 
-const pastSponsors = [
+	const events = [
 		{
 			id: 1,
 			name: "Nuts and Bolts",

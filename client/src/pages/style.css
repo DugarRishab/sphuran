@@ -22,6 +22,7 @@
 	margin-top: 200px;
 	text-align: left;
 	padding: 0 40px;
+
 }
 .home .header .date {
 	font-family: "Exo 2";
@@ -169,7 +170,7 @@
 	font-size: 45px;
 	margin: 5px;
 }
-.home .lower-body .tagline .concept{
+.home .lower-body .tagline .concept {
 	margin-top: 50px;
 }
 .home .lower-body .tagline .author {
@@ -504,6 +505,7 @@
 	font-weight: 400;
 	font-size: 60px;
 	line-height: 76px;
+	transition: 0.5s all;
 }
 .team .lower-body {
 	display: flex;
@@ -931,13 +933,53 @@
 	margin: 0 10px 0 0;
 }
 
-.register .lower-body .form{
-	padding: 30px;
-	width: 80%;
-
+.foryou .header{
+	text-align: center;
+	width: 100%;
+	border: 0px solid yellow;
+	color: white;
+	margin-top: 60vh;
+	transform: translateY(-50%);
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 76px;
+	transition: 0.5s all;
 }
-.register .lower-body .form .title{
-	font-size: 25px;
+.foryou .lower-body{
+	margin: auto;
+	margin-top: 100px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-evenly;
+
+	width: 100%;
+}
+.foryou .lower-body .item{
+	width: 45%;
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(20px);
+	/* width: 80%; */
+	/* padding: 60px 40px; */
+}
+.foryou .lower-body .item .img{
+	width: 100%;
+	overflow: hidden;
+}
+.foryou .lower-body .item .img img{
+	width: 100%;
+}
+.foryou .lower-body .item .body{
+	padding: 20px 40px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 20px
+}
+.foryou .lower-body .item .body .button{
+	margin-top: 20px;
 }
 
 @media only screen and (max-width: 480px),
@@ -1058,36 +1100,41 @@
 	.sponsors .lower-body {
 		margin-top: 200px;
 	}
-	.sponsors .lower-body .desc{
+	.sponsors .lower-body .desc {
 		padding: 30px;
 	}
-	.sponsors .lower-body .desc .title, .sponsors .lower-body .present .title, .sponsors .lower-body .past .title{
+	.sponsors .lower-body .desc .title,
+	.sponsors .lower-body .present .title,
+	.sponsors .lower-body .past .title {
 		font-size: 25px;
 	}
-	.sponsors .lower-body .desc .desc-body{
+	.sponsors .lower-body .desc .desc-body {
 		font-size: 15px;
 	}
-	.sponsors .lower-body .present, .sponsors .lower-body .past{
+	.sponsors .lower-body .present,
+	.sponsors .lower-body .past {
 		padding: 30px;
 	}
-	.sponsors .lower-body .present .items .sponsor, .sponsors .lower-body .past .items .sponsor{
+	.sponsors .lower-body .present .items .sponsor,
+	.sponsors .lower-body .past .items .sponsor {
 		margin: 10px 0;
 	}
-	.sponsors .lower-body .present .items .sponsor .img, .sponsors .lower-body .past .items .sponsor .img{
+	.sponsors .lower-body .present .items .sponsor .img,
+	.sponsors .lower-body .past .items .sponsor .img {
 		width: 120px;
 		height: 120px;
 	}
-	.sponsors .lower-body .present .items .sponsor .img .dp, .sponsors .lower-body .past .items .sponsor .img .dp{
+	.sponsors .lower-body .present .items .sponsor .img .dp,
+	.sponsors .lower-body .past .items .sponsor .img .dp {
 		width: 100px;
 		height: 100px;
 	}
 
-	.contact .lower-body{
+	.contact .lower-body {
 		flex-direction: column;
 		padding: 30px;
 		gap: 20px;
 	}
-
 
 	.footer {
 		flex-direction: column;
@@ -1105,5 +1152,13 @@
 	}
 	.footer .right-col-2 .socials {
 		justify-content: flex-start;
+	}
+
+	.register .lower-body .form {
+		padding: 30px;
+		width: 80%;
+	}
+	.register .lower-body .form .title {
+		font-size: 25px;
 	}
 }

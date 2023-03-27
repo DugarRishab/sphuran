@@ -105,6 +105,9 @@ const Navbar = ({ user, login, logout }) => {
 							<NavLink to="/events">
 								<div className="item">Events</div>
 							</NavLink>
+							<NavLink to="/foryou">
+								<div className="item">For you</div>
+							</NavLink>
 							<NavLink to="/team">
 								<div className="item">Team</div>
 							</NavLink>
