@@ -74,11 +74,13 @@ const Team = () => {
 					name: "Pradip Sikder",
 					position: "Associate Head",
 					img: "/assets/profiles/PicsArt_02-14-01.10.35-01-01-04 - 2020EEB052 PRADIP_SIKDAR(1).jpeg",
-				},/*{
+				},
+				{
 					name: "Madhushree Shaw",
 					position: "Associate",
 					img: "/assets/profiles/dp.jpg",
-				},*/{
+				},
+				{
 					name: "Arneet Dutta",
 					position: "Associate",
 					img: "/assets/profiles/dp.jpg",
@@ -119,11 +121,11 @@ const Team = () => {
 					name: "Rinku Kanwar Shaktawat",
 					position: "Associate Head",
 					img: "/assets/profiles/dp.jpg",
-				},/*{
+				},{
 					name: "Shreetama Majumdar",
 					position: "Associate Head",
 					img: "/assets/profiles/dp.jpg",
-				},*/{
+				},{
 					name: "Soma Sai Sattwik",
 					position: "Associate Head ",
 					img: "/assets/profiles/dp.jpg",
@@ -143,11 +145,11 @@ const Team = () => {
 					name: "Sashank Kumar",
 					position: "Associate",
 					img: "/assets/profiles/dp.jpg",
-				},/*{
+				},{
 					name: "Sakshi Mishra",
 					position: "Associate",
 					img: "/assets/profiles/dp.jpg",
-				},*/
+				},
 			],
 		},
 		{
@@ -308,11 +310,11 @@ const Team = () => {
 					name: "Dilshad Adil",
 					position: "Associate Head",
 					img: "/assets/profiles/dp.jpg",
-				},/*{
+				},{
 					name: "Soubhagya Saha ",
 					position: "Associate Head ",
 					img: "/assets/profiles/dp.jpg",
-				},*//*{
+				},/*{
 					name: "Shreyansh Trivedi ",
 					position: "Associate",
 					img: "/assets/profiles/dp.jpg",
@@ -334,11 +336,11 @@ const Team = () => {
 			id: 9,
 			name: "Website",
 			members: [
-				/*{
+				{
 					name: "Astha Kumari",
 					position: "Head",
 					img: "/assets/profiles/dp.jpg",
-				},*/
+				},
 				{
 					name: "Subhro Sen ",
 					position: "Head",
