@@ -8,10 +8,34 @@ const Footer = () => {
 					<img src="/assets/sphuran-logo.png" alt="" />
 				</div>
 				<div className="name">Sphuran 2.0</div>
+				<div className="logos">
+					<div className="item">
+						<img src="/assets/EES_edited.png" alt="" />
+					</div>
+					<div className="divider"></div>
+					<div className="item">
+						<img src="/assets/iiest-logo-white.png" alt="" />
+					</div>
+				</div>
+				<div className="address">
+					Department of Electrical Engineering, IIEST SHIBPUR, P:O
+					Botanic Garden, Botanical Garden Road, IIEST
+					Shibpur, Howrah-711103, West Bengal
+				</div>
 			</div>
 			<div className="right-col">
 				<div className="title">Contacts</div>
 				<div className="contacts">
+					<div className="contact">
+						<div className="name">
+							Department of Electrical Engineering
+						</div>
+						<div className="mail">
+							<a href="mailto: bhaskaran.ee@faculty.iiests.ac.in">
+								sphuran.ees@gmail.com
+							</a>
+						</div>
+					</div>
 					<div className="contact">
 						<div className="name"> Prof. Bhaskaran Barman</div>
 						<div className="mail">
@@ -66,6 +90,16 @@ const Footer = () => {
 						<div className="link">
 							<a href="https://linkedin.com/in/sphuran-iiests">
 								/sphuran-iiests
+							</a>
+						</div>
+					</div>
+					<div className="item">
+						<div className="logo">
+							<i class="fa-brands fa-youtube"></i>
+						</div>
+						<div className="link">
+							<a href="https://www.youtube.com/@electricalengineerssociety8968">
+								/@electricalengineerssociety8968
 							</a>
 						</div>
 					</div>

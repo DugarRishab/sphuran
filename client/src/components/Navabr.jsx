@@ -184,6 +184,9 @@ const Navbar = ({ user, login, logout }) => {
 					<NavLink onClick={handleLinkClick} to="/events">
 						<div className="item">Events</div>
 					</NavLink>
+					<NavLink onClick={handleLinkClick} to="/foryou">
+						<div className="item">For you</div>
+					</NavLink>
 					<NavLink onClick={handleLinkClick} to="/team">
 						<div className="item">Team</div>
 					</NavLink>
