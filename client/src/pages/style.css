@@ -817,6 +817,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 30%;
 }
 .footer .right-col {
 	width: 30%;
@@ -842,8 +843,8 @@
 }
 
 .footer .left-col .logos .item {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	overflow: hidden;
 }
 .footer .left-col .logos .item img {
@@ -853,9 +854,17 @@
 }
 .footer .left-col .logos .divider {
 	width: 2px;
-	height: 100px;
+	height: 80px;
 	background-color: white;
 	margin: 0 10px;
+}
+.footer .left-col .address{
+	color: rgb(208, 208, 208, 0.75);
+	font-size: 15px;
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	
 }
 .footer .right-col .title,
 .footer .right-col-2 .title {
@@ -1163,7 +1172,8 @@
 		flex-direction: column;
 	}
 	.footer .left-col {
-		flex-direction: row;
+		flex-direction: column;
+		width: 100%;
 	}
 	.footer .right-col,
 	.footer .right-col-2 {
@@ -1183,5 +1193,20 @@
 	}
 	.register .lower-body .form .title {
 		font-size: 25px;
+	}
+
+	.foryou .lower-body{
+		flex-direction: column;
+		margin-top: 200px;
+
+	}
+	.foryou .lower-body .item{
+		width: 90%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.foryou .lower-body .item .body{
+		padding: 10px 30px;
+		font-size: 15px;
 	}
 }
