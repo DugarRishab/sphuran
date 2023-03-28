@@ -879,6 +879,9 @@
 .footer .right-col .contacts .contact .mail {
 	color: rgba(255, 255, 255, 0.75);
 }
+.footer .right-col .contacts .contact .ph-num {
+	color: rgba(255, 255, 255, 0.75);
+}
 .footer .right-col .contacts .contact .mail a {
 	color: rgba(255, 255, 255, 0.75);
 	text-decoration: none;

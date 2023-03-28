@@ -18,7 +18,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="address">
-					Department of Electrical Engineering, IIEST SHIBPUR, P:O
+					{/*Department of Electrical Engineering,*/} Sphuran, IIEST SHIBPUR, PO:
 					Botanic Garden, Botanical Garden Road, IIEST
 					Shibpur, Howrah-711103, West Bengal
 				</div>
@@ -51,6 +51,7 @@ const Footer = () => {
 								ssengupta742@gmail.com
 							</a>
 						</div>
+						<div className="ph-num">ph: +91 82505 64473</div>
 					</div>
 					<div className="contact">
 						<div className="name"> Sayan Mitra </div>
@@ -59,6 +60,7 @@ const Footer = () => {
 								mitrasayan2001@gmail.com
 							</a>
 						</div>
+						<div className="ph-num">ph: +91 93324 29359</div>
 					</div>
 				</div>
 			</div>
