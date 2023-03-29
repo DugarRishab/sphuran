@@ -11,7 +11,7 @@ import Schedule from "./pages/Schedule";
 import Register from "./pages/Register";
 import Contact from "./pages/Contact";
 import ForYou from "./pages/ForYou";
-import WellWishers from "./pages/WellWishers";
+import Wellwishers from "./pages/Wellwishers";
 
 const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 	return (
@@ -75,11 +75,11 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 				exact
 				path="/well-wishers"
 				element={
-					<WellWishers
+					<Wellwishers
 						login={login}
 						logout={logout}
 						user={user}
-					></WellWishers>
+					></Wellwishers>
 				}
 			></Route>
 			<Route
