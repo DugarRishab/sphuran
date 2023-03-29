@@ -87,7 +87,7 @@ function App() {
 
 					<Router>
 						<Circle></Circle>
-						<Navbar user={user}></Navbar>
+						<Navbar user={user} login={login} logout={logout}></Navbar>
 						<AllRoutes
 							user={user}
 							login={login}

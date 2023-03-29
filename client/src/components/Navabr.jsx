@@ -10,17 +10,23 @@ import {
 	Avatar,
 	IconButton,
 	Divider,
-	Drawer
+	Drawer,
+	Menu,
+	MenuItem,
 } from "@mui/material";
 import { NavLink, useLocation, Link } from "react-router-dom";
 import "./Navbar.css";
 import { getUserData, logoutAuth } from "../services/api";
 import { alert } from "./CustomAlert/alert";
 
-
 const Navbar = ({ user, login, logout }) => {
 	const circle = document.querySelector(".circle");
 
+	const [anchorEl, setAnchorEl] = React.useState(null);
+	const menuOpen = Boolean(anchorEl);
+	const handleClick = (event) => {
+		setAnchorEl(event.currentTarget);
+	};
 	const handleClose = () => {
 		const logginOut = async () => {
 			try {
@@ -114,6 +120,9 @@ const Navbar = ({ user, login, logout }) => {
 							<NavLink to="/sponsor">
 								<div className="item">Sponsors</div>
 							</NavLink>
+							<NavLink to="/well-wishers">
+								<div className="item">Our well wishers</div>
+							</NavLink>
 							<NavLink to="/contact">
 								<div className="item">Contact Us</div>
 							</NavLink>
@@ -125,13 +134,41 @@ const Navbar = ({ user, login, logout }) => {
         <div className="item">Schedule</div>
     </NavLink> */}
 							{user ? (
-								<div className="item">
-									<Avatar
-										alt={user.name}
-										src={user.image}
-									></Avatar>
-									{user.name}
-								</div>
+								<>
+									<div
+										className="item"
+										id="menu-button"
+										onClick={handleClick}
+										aria-controls={
+											menuOpen ? "basic-menu" : undefined
+										}
+										aria-haspopup="true"
+										aria-expanded={
+											menuOpen ? "true" : undefined
+										}
+									>
+										<Avatar
+											alt={user.name}
+											src={user.image}
+										></Avatar>
+										{user.name}
+									</div>
+									<Menu
+										id="basic-menu"
+										anchorEl={anchorEl}
+										open={menuOpen}
+										onClose={handleClose}
+										MenuListProps={{
+											"aria-labelledby": "menu-button",
+										}}
+									>
+										<MenuItem onClick={handleClose}>
+											<Button color="error">
+												Logout
+											</Button>
+										</MenuItem>
+									</Menu>
+								</>
 							) : (
 								<NavLink to="/auth">
 									<div className="button">
@@ -144,13 +181,41 @@ const Navbar = ({ user, login, logout }) => {
 					{width <= 720 && (
 						<div className="nav-links">
 							{user ? (
-								<div className="item">
-									<Avatar
-										alt={user.name}
-										src={user.image}
-									></Avatar>
-									{user.name}
-								</div>
+								<>
+									<div
+										className="item"
+										id="menu-button-2"
+										onClick={handleClick}
+										aria-controls={
+											menuOpen ? "basic-menu" : undefined
+										}
+										aria-haspopup="true"
+										aria-expanded={
+											menuOpen ? "true" : undefined
+										}
+									>
+										<Avatar
+											alt={user.name}
+											src={user.image}
+										></Avatar>
+										{user.name}
+									</div>
+									<Menu
+										id="basic-menu"
+										anchorEl={anchorEl}
+										open={menuOpen}
+										onClose={handleClose}
+										MenuListProps={{
+											"aria-labelledby": "menu-button-2",
+										}}
+									>
+										<MenuItem onClick={handleClose}>
+											<Button color="error">
+												Logout
+											</Button>
+										</MenuItem>
+									</Menu>
+								</>
 							) : (
 								<NavLink to="/auth">
 									<div className="button">
@@ -192,6 +257,9 @@ const Navbar = ({ user, login, logout }) => {
 					</NavLink>
 					<NavLink onClick={handleLinkClick} to="/sponsor">
 						<div className="item">Sponsors</div>
+					</NavLink>
+					<NavLink onClick={handleLinkClick} to="/well-wishers">
+						<div className="item">Our Well wishers</div>
 					</NavLink>
 					<NavLink onClick={handleLinkClick} to="/contact">
 						<div className="item">Contact Us</div>

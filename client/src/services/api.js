@@ -10,7 +10,7 @@ const api = axios.create({
 export const googleAuth = (code) => api.get(`/auth/google?code=${code}`);
 export const loginAuth = (payload) => api.post('./auth/login', payload);
 export const signupAuth = (payload) => api.post("./auth/signup", payload);
-export const logoutAuth = () => api.post("./auth/logout");
+export const logoutAuth = () => api.get("./auth/logout");
 
 export const getUserData = () => api.get("/user");
 export const updateUserData = (payload) => api.patch("/user", payload);
