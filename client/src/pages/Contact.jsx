@@ -8,9 +8,7 @@ const Contact = () => {
 				<div className="items">
 					<div className="title">Email us</div>
 					<div className="item">
-						<div className="name">
-							Sphuran
-						</div>
+						<div className="name">Sphuran</div>
 						<div className="mail">
 							<a href="mailto: bhaskaran.ee@faculty.iiests.ac.in">
 								sphuran.ees@gmail.com
@@ -44,9 +42,11 @@ const Contact = () => {
 				</div>
 				<div className="items socials">
 					<div className="title"> Visit us </div>
-					<div className="address"><p>IIEST SHIBPUR, PO:
-					Botanic Garden,</p> <p>Botanical Garden Road,</p> IIEST
-					Shibpur, Howrah-711103, West Bengal</div>
+					<div className="address">
+						<p>IIEST SHIBPUR, PO: Botanic Garden,</p>{" "}
+						<p>Botanical Garden Road,</p> IIEST Shibpur,
+						Howrah-711103, West Bengal
+					</div>
 					<div className="title">or Visit us Virtually</div>
 					<div className="item">
 						<div className="logo">
@@ -81,8 +81,8 @@ const Contact = () => {
 							<i class="fa-brands fa-youtube"></i>
 						</div>
 						<div className="link">
-							<a href="https://www.youtube.com/@electricalengineerssociety8968">
-								/@electricalengineerssociety8968
+							<a href="https://youtube.com/@sphuranees">
+								/@sphuranees
 							</a>
 						</div>
 					</div>

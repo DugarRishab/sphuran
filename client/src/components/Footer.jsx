@@ -28,7 +28,7 @@ const Footer = () => {
 				<div className="contacts">
 					<div className="contact">
 						<div className="name">
-							Department of Electrical Engineering
+							Sphuran
 						</div>
 						<div className="mail">
 							<a href="mailto: bhaskaran.ee@faculty.iiests.ac.in">
@@ -100,8 +100,8 @@ const Footer = () => {
 							<i class="fa-brands fa-youtube"></i>
 						</div>
 						<div className="link">
-							<a href="https://www.youtube.com/@electricalengineerssociety8968">
-								/@electricalengineerssociety8968
+							<a href="https://youtube.com/@sphuranees">
+								/@sphuranees
 							</a>
 						</div>
 					</div>
