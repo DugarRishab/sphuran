@@ -650,6 +650,10 @@
 	font-size: 20px;
 	line-height: 30px;
 }
+.sponsors .lower-body .desc .desc-body .link{
+	margin-top: 20px;
+	text-decoration: underline;
+}
 .sponsors .lower-body .present {
 	align-items: center;
 	align-self: center;

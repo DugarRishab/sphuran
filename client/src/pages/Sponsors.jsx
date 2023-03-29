@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomButton from '../components/CustomButton/CustomButton';
 
 const Sponsors = () => {
 	const sponsors = [
@@ -67,19 +68,27 @@ const Sponsors = () => {
 				<div className="desc">
 					<div className="title">Why Sponsor us? </div>
 					<div className="desc-body">
-													<p>Sphuran is the platform where the future's brightest
-								engineers showcase their innovative ideas and
-								cutting-edge technology. With a dynamic audience of
-								electrical engineering students, this event is the
-								perfect opportunity for your brand to make a lasting
-								impact on the next generation of tech leaders. </p> 
-								<p>By sponsoring Sphuran, you'll have the chance
-								to showcase your brand and demonstrate your
-								support for the next wave of tech innovation.
-								Plus, you'll get exposure to a highly engaged
-								and tech-savvy audience, making a positive
-								impact on your brand's reputation.</p>
-
+						<p>
+							Sphuran is the platform where the future's brightest
+							engineers showcase their innovative ideas and
+							cutting-edge technology. With a dynamic audience of
+							electrical engineering students, this event is the
+							perfect opportunity for your brand to make a lasting
+							impact on the next generation of tech leaders.{" "}
+						</p>
+						<p>
+							By sponsoring Sphuran, you'll have the chance to
+							showcase your brand and demonstrate your support for
+							the next wave of tech innovation. Plus, you'll get
+							exposure to a highly engaged and tech-savvy
+							audience, making a positive impact on your brand's
+							reputation.
+						</p>
+						<div className="link" className="link">
+							<a href="https://drive.google.com/file/d/1AXulPcG2BC-9KZ52kVb1SD6sHgsJj400/view">
+								Check out our brochure
+							</a>
+						</div>
 					</div>
 				</div>
 
