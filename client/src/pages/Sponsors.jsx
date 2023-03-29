@@ -6,42 +6,37 @@ const Sponsors = () => {
 		{
 			id: 1,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/download (1).png",
 		},
 		{
 			id: 2,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/download (2).png",
 		},
 		{
 			id: 3,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/download (3).png",
 		},
 		{
 			id: 4,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/download.png",
 		},
 		{
 			id: 5,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/download.jpg",
 		},
 		{
 			id: 6,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/Screenshot_20230330-011503_OneDrive.jpg",
 		},
 		{
 			id: 7,
 			name: "Web Team",
-			img: "/assets/circlex300.png",
-		},
-		{
-			id: 8,
-			name: "Web Team",
-			img: "/assets/circlex300.png",
+			img: "/assets/sponsors/present/Screenshot_20230330-011534_OneDrive.jpg",
 		},
 	];
 	const pastSponsors = [
@@ -59,6 +54,38 @@ const Sponsors = () => {
 			id: 3,
 			name: "Web Team",
 			img: "/assets/sponsors/past/wowmomo.jpg",
+		},
+	];
+	const partners = [
+		{
+			id: 1,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/Circuit club coloured.png",
+		},
+		{
+			id: 2,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/download (1).jpg",
+		},
+		{
+			id: 3,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/download (4).png",
+		},
+		{
+			id: 4,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/download (5).png",
+		},
+		{
+			id: 5,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/UNSTOP.png",
+		},
+		{
+			id: 6,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/download (6).png",
 		},
 	];
 	return (
@@ -108,6 +135,22 @@ const Sponsors = () => {
 						))}
 					</div>
 				</div>
+				<div className="partners">
+					<div className="title">Our Partners</div>
+					<div className="items">
+						{pastSponsors.map((sponsor) => (
+							<div className="sponsor">
+								<div className="img">
+									<img
+										src={sponsor.img}
+										alt=""
+										className="dp"
+									></img>
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
 				<div className="past">
 					<div className="title">Past Sponsors</div>
 					<div className="items">
@@ -124,6 +167,7 @@ const Sponsors = () => {
 						))}
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	);
