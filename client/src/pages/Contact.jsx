@@ -9,7 +9,7 @@ const Contact = () => {
 					<div className="title">Email us</div>
 					<div className="item">
 						<div className="name">
-							Department of Electrical Engineering
+							Sphuran
 						</div>
 						<div className="mail">
 							<a href="mailto: bhaskaran.ee@faculty.iiests.ac.in">
@@ -43,7 +43,11 @@ const Contact = () => {
 					</div>
 				</div>
 				<div className="items socials">
-					<div className="title">or visit us Virtually</div>
+					<div className="title"> Visit us </div>
+					<div className="address"><p>IIEST SHIBPUR, PO:
+					Botanic Garden,</p> <p>Botanical Garden Road,</p> IIEST
+					Shibpur, Howrah-711103, West Bengal</div>
+					<div className="title">or Visit us Virtually</div>
 					<div className="item">
 						<div className="logo">
 							<i class="fa-brands fa-facebook-f"></i>
