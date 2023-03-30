@@ -14,7 +14,7 @@ const Team = () => {
 				{
 					name: "Sayan Mitra",
 					position: "Main Coordinator",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/sayon.jpeg",
 				},
 				{
 					name: "Shubham Mishra",
@@ -23,7 +23,7 @@ const Team = () => {
 				},{
 					name: "Priyanshu Aggarwal",
 					position: "Assistant Main Coordinator",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/IMG_20230216_211627 - 2020EEB079 PRIYANSHU_AGRAWAL.png",
 				},
 			],
 		},
@@ -65,7 +65,7 @@ const Team = () => {
 				{
 					name: "Geeta Birua",
 					position: "Associate Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/geeta.jpeg",
 				},{
 					name: "Satarupa Mahato",
 					position: "Associate Head",
@@ -78,7 +78,7 @@ const Team = () => {
 				{
 					name: "Madhushree Shaw",
 					position: "Associate",
-					img: "/assets/profiles/IMG_20221023_191231-01 - 2021EEB023 MADHUSREE_SHAW.jpg",
+					img: "/assets/profiles/IMG_20221023_191231-01 - 2021EEB023 MADHUSREE_SHAW.jpeg",
 				},
 				{
 					name: "Arneet Dutta",
@@ -112,7 +112,7 @@ const Team = () => {
 				{
 					name: "Prayukta dey",
 					position: "Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/WhatsApp Image 2023-03-28 at 1.32.48 AM - 510619013 Prayukta_Dey.jpeg",
 				},{
 					name: "Abhishek Kumar",
 					position: "Associate Head",
@@ -132,7 +132,7 @@ const Team = () => {
 				},{
 					name: "Anurag Patel",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/DSC_0348 - 2021EEB033 ANURAG_PATEL.jpg",
 				},{
 					name: "Dishan Bhuin",
 					position: "Associate",
@@ -140,15 +140,15 @@ const Team = () => {
 				},{
 					name: "Yashika Mittal",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/IMG-20230121-WA0038__01 - 2021EEB087 YASHIKA_MITTAL.jpg",
 				},{
 					name: "Sashank Kumar",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/sashank.jpeg",
 				},{
 					name: "Sakshi Mishra",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/2021EEB046.jpeg_1 - 2021EEB046 SAKSHI_MISHRA.jpg",
 				},
 			],
 		},
@@ -181,12 +181,12 @@ const Team = () => {
 				},*/{
 					name: "Gourab Mondal",
 					position: "Associate Head ",
-					img: "/assets/profiles/dp.jpg",
-				},/*{
+					img: "/assets/profiles/IMG-20230322-WA0014 - 2020EEB006 GOURAB_MONDAL.jpg",
+				},{
 					name: "Astitva Nath Mishra",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
-				},*//*{
+					img: "/assets/profiles/DSC_0777 - 2021EEB025 ASTITVA_NATH MISHRA.JPG",
+				},/*{
 					name: "Disha Mondal ",
 					position: "Associate",
 					img: "/assets/profiles/dp.jpg",
@@ -197,7 +197,7 @@ const Team = () => {
 				},{
 					name: "Gourav Das ",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/IMG_20221018_160257 - 2021EEB084 GOURAV_DAS.jpg",
 				},
 			],
 		},{
@@ -229,7 +229,7 @@ const Team = () => {
 				},{
 					name: "Sharanya Bhattacharya",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/Screenshot_20230322_234456 - 2021EEB079 SHARANYA_BHATTACHARJEE.jpg",
 				},{
 					name: "B Sudeshna",
 					position: "Associate",
@@ -252,7 +252,7 @@ const Team = () => {
 				{
 					name: "Hansraj kumar",
 					position: "Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/1653849017982 (1) - 510619095 Hansraj_Kumar.jpg",
 				},*//*
 				{
 					name: "Deepa Jha",
@@ -281,7 +281,7 @@ const Team = () => {
 				},*/{
 					name: "Divya",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/Snapchat-522438405 - 2021EEB075 DIVYA_.jpg",
 				},
 			],
 		},{
@@ -291,7 +291,7 @@ const Team = () => {
 				{
 					name: "Mayank Kumar",
 					position: "Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/DSC_0038 - 510619042 Mayank_Kumar.jpg",
 				},
 				{
 					name: "Arghyadeep Sarkar",
@@ -305,7 +305,7 @@ const Team = () => {
 				},{
 					name: "Ishita Bhaya",
 					position: "Associate Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/IMG20221005000543 - 2020EEB074 ISHITA_BHAYA.jpg",
 				},{
 					name: "Dilshad Adil",
 					position: "Associate Head",
@@ -317,11 +317,11 @@ const Team = () => {
 				},/*{
 					name: "Shreyansh Trivedi ",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/1679510937303 - 2021EEB093 SHREYANSH_TRIVEDI.jpg",
 				},*/{
 					name: "Saksham Kumar",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/saksham.jpeg",
 				},/*{
 					name: "Aanya kumari",
 					position: "Associate",
@@ -329,7 +329,7 @@ const Team = () => {
 				},*/{
 					name: "Sachin Saw",
 					position: "Associate",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/IMG_20220528_225214_092 - 2021EEB083 SAW_SACHIN KUMAR YAMUNA.jpg",
 				},
 			],
 		},{
