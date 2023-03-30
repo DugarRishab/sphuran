@@ -89,7 +89,7 @@ const Events = ({ user, login, logout }) => {
 			venue: "EE Sublibrary"
 		},
 		{
-			name: "AUgmentation",
+			name: "Argumentation",
 			time: "3:30pm to 5:30pm",
 			venue: "EE Seminar Hall"
 		},
@@ -137,7 +137,41 @@ const Events = ({ user, login, logout }) => {
 		},
 	];
 	const Day3Events = [
-
+		{
+			name: "Electroquip (Round 3)",
+			time: "10pm to 11pm",
+			venue: "EE Seminar Hall",
+		},
+		{
+			name: "Vidyut Gyan (Round 2)",
+			time: "11:30pm to 1pm",
+			venue: "S-470 (3rd Floor)",
+		},
+		{
+			name: "Illumination (Round 2)",
+			time: "1:30pm to 2:30pm",
+			venue: "S-464 (3rd Floor)",
+		},
+		{
+			name: "Tech trends (Round 2)",
+			time: "2:30pm to 3:30pm",
+			venue: "EE Sublibrary",
+		},
+		{
+			name: "Ace the race",
+			time: "3pm to 4pm",
+			venue: "Netaji Bhawan",
+		},
+		{
+			name: "Alumni convention",
+			time: "4pm to 6pm",
+			venue: "EE Seminar Hall",
+		},
+		{
+			name: "Valedictory Ceremony",
+			time: "From 6pm",
+			venue: "I Hall",
+		},
 	];
 	
 	const navigate = useNavigate();
