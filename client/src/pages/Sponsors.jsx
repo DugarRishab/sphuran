@@ -61,6 +61,9 @@ const Sponsors = () => {
 			img: "/assets/sponsors/past/wowmomo.jpg",
 		},
 	];
+	const partners = [
+
+	]
 	return (
 		<div className="sponsors">
 			<div className="header">OUR SPONSORS</div>
@@ -84,7 +87,7 @@ const Sponsors = () => {
 							audience, making a positive impact on your brand's
 							reputation.
 						</p>
-						<div className="link" className="link">
+						<div className="link">
 							<a href="https://drive.google.com/file/d/1AXulPcG2BC-9KZ52kVb1SD6sHgsJj400/view">
 								Check out our brochure
 							</a>
@@ -100,6 +103,22 @@ const Sponsors = () => {
 								<div className="img">
 									<img
 										src={sponsor.img}
+										alt=""
+										className="dp"
+									></img>
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+				<div className="partners present">
+					<div className="title">Partners</div>
+					<div className="items">
+						{partners.map((partner) => (
+							<div className="sponsor">
+								<div className="img">
+									<img
+										src={partner.img}
 										alt=""
 										className="dp"
 									></img>
