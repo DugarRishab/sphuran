@@ -113,7 +113,7 @@ const Sponsors = () => {
 							reputation.
 						</p>
 						<div className="link">
-							<a href="https://drive.google.com/file/d/1AXulPcG2BC-9KZ52kVb1SD6sHgsJj400/view">
+							<a href="https://drive.google.com/file/d/1TGNRZMx1LChwYmiUtZPnlVl-79iI91-6/view?usp=drivesdk">
 								Check out our brochure
 							</a>
 						</div>
@@ -168,7 +168,6 @@ const Sponsors = () => {
 						))}
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	);
