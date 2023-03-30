@@ -1264,9 +1264,22 @@
 	.events .lower-body .search-results .search-card .bottom {
 		justify-content: space-around;
 	}
-
+	.events .lower-body .schedule{
+		flex-direction: row;
+	}
+	.events .lower-body .schedule .menu{
+		padding: 10px;
+	}
+	.events .lower-body .schedule .menu .item{
+		font-size: 15px;
+		margin: 5px 0;
+		width: 100%;
+	}
 	.team .lower-body {
 		margin-top: 200px;
+	}
+	.team .lower-body .results {
+		padding: 30px;
 	}
 	.team .lower-body .menu {
 		padding: 10px;
@@ -1276,9 +1289,23 @@
 		margin: 5px 0;
 		width: 100%;
 	}
-	.team .lower-body .results {
-		padding: 30px;
+	.events .lower-body .schedule .results{
+		padding: 10px;
 	}
+	
+	.events .lower-body .schedule .results .search-card{
+	width: 100%;
+	height: fit-content;
+	padding: 10px;
+}
+.events .lower-body .schedule .results .search-card .text-head{
+	font-size: 20px;
+	margin-top: 0;
+}
+.events .lower-body .schedule .results .search-card .details{
+	display: flex;
+	flex-direction: column;
+}
 	.team .lower-body .results .title {
 		font-size: 25px;
 	}
