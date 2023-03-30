@@ -179,16 +179,20 @@ const Events = ({ user, login, logout }) => {
 	const handleRegister = (id) => {
 
 		const registerEvent = async () => {
-			const payload = [...user.events];
-			payload.push(id);
+			
+
+			const userCopy = { ...user };
+			userCopy.events.push(id);
 			try {
-				const res = await updateUserData(payload);
+				const res = await updateUserData(userCopy);
 				if (res.data.message === "success") {
 					alert({
 						message: "Successfully Registered",
 						type: "success",
 					});
-					navigate("/");
+					navigate("/events");
+					
+					login(res.data.data.user);
 				}
 			} catch (err) {
 				alert({
@@ -259,7 +263,6 @@ const Events = ({ user, login, logout }) => {
 								<div className="card-text">
 									<p className="text-head">{event.name}</p>
 									<p className="text">{event.desc}</p>
-									
 								</div>
 								<div className="bottom">
 									<p className="link">
@@ -267,10 +270,15 @@ const Events = ({ user, login, logout }) => {
 											Read more
 										</Link>
 									</p>
-									<CustomButton
-										variant={"contained"}
-										text="Register Now"
-									></CustomButton>
+									{!user.events.includes(event.id.toString()) && (
+										<CustomButton
+											onClick={() =>
+												handleRegister(event.id)
+											}
+											variant={"contained"}
+											text="Register Now"
+										></CustomButton>
+									)}
 								</div>
 							</div>
 						))}

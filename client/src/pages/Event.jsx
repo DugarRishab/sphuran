@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import CustomButton from "../components/CustomButton/CustomButton";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { updateUserData } from "../services/api";
+import { alert } from "../components/CustomAlert/alert";
 // for singular events
-const Event = () => {
+const Event = ({user, login, logout}) => {
 	const events = [
 		{
 			id: 1,
@@ -76,6 +78,33 @@ const Event = () => {
 	const eventId = location.search.split("e=")[1];
 	const event = events.find((event) => event.id == eventId);
 
+		const navigate = useNavigate();
+
+		const handleRegister = (id) => {
+			const registerEvent = async () => {
+				const userCopy = { ...user };
+				userCopy.events.push(id);
+				try {
+					const res = await updateUserData(userCopy);
+					if (res.data.message === "success") {
+						alert({
+							message: "Successfully Registered",
+							type: "success",
+						});
+						navigate("/events");
+						login(res.data.data.user);
+					}
+				} catch (err) {
+					alert({
+						message: err.response.data.message,
+						type: "error",
+					});
+				}
+			};
+
+			registerEvent();
+		};
+
 	return (
 		<div className="event">
 			{event && (
@@ -91,10 +120,13 @@ const Event = () => {
 									{/* <div>Time - {event.time}</div>
 									<div>Venue - {event.venue}</div> */}
 								</div>
-								<CustomButton
-									variant={"contained"}
-									text="Register Now"
-								></CustomButton>
+								{!user.events.includes(event.id.toString()) && (
+									<CustomButton
+										onClick={() => handleRegister(event.id)}
+										variant={"contained"}
+										text="Register Now"
+									></CustomButton>
+								)}
 							</div>
 						</div>
 					</div>
