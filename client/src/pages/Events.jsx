@@ -74,11 +74,67 @@ const Events = ({ user, login, logout }) => {
 
 	const Day1Events = [
 		{
-			
+			name: "Inauguration",
+			time: "10am to 12pm",
+			venue: "I-hall"
+		},
+		{
+			name: "Electroquip",
+			time: "1pm to 1:45pm",
+			venue: "I-hall"
+		},
+		{
+			name: "Inauguration",
+			time: "2pm to 3pm",
+			venue: "EE Sublibrary"
+		},
+		{
+			name: "AUgmentation",
+			time: "3:30pm to 5:30pm",
+			venue: "EE Seminar Hall"
+		},
+		{
+			name: "Chess",
+			time: "6pm to 7:30pm",
+			venue: "Amenities"
+		},
+		{
+			name: "CyberBlame",
+			time: "8pm to 9:30pm",
+			venue: "Online (From Hostel)"
+		},
+		{
+			name: "Online Games (Valorant)",
+			time: "From 9:30pm",
+			venue: "Online (From Hostel)"
 		}
 	];
 	const Day2Events = [
-
+		{
+			name: "Electroquip (Round 2)",
+			time: "10:30am to 11:30am",
+			venue: "EE seminar Hall",
+		},
+		{
+			name: "Vidyut Gyan (Round 1)",
+			time: "12pm to 1pm",
+			venue: "Alumni Seminar Hall",
+		},
+		{
+			name: "Adhyayan (Round 2)",
+			time: "3pm to 4pm",
+			venue: "EE seminar Hall",
+		},
+		{
+			name: "Voltage Voyage",
+			time: "4pm to 6:30pm",
+			venue: "Parade Ground",
+		},
+		{
+			name: "Online Games (Fifa)",
+			time: "7:30pm to 9:30pm",
+			venue: "Amenities"
+		},
 	];
 	const Day3Events = [
 
@@ -121,8 +177,10 @@ const Events = ({ user, login, logout }) => {
 
 	const handleDayClick = (day) => {
 		setSelectedDay(day);
-		day === 1 ?
-			setSelectedEvents(Day1Events) : day === 2 ? selectedEvents(Day2Events) : selectedEvents(Day3Events);
+		if (day === 1)
+			setSelectedEvents(Day1Events);
+		if (day === 2) setSelectedEvents(Day2Events);
+		if (day === 3) setSelectedEvents(Day3Events);
 	};
 
 	return (
@@ -214,15 +272,20 @@ const Events = ({ user, login, logout }) => {
 									<div className="search-results">
 										{selectedEvents.map((event) => (
 											<div className="search-card">
-												
 												<div className="card-text">
 													<p className="text-head">
 														{event.name}
 													</p>
-												
-													<p>
-														Rounds - {event.rounds}
-													</p>
+
+													<div className="details">
+														<div>
+															Time - {event.time}
+														</div>
+														<div>
+															Venue -{" "}
+															{event.venue}
+														</div>
+													</div>
 												</div>
 												{/* <div className="bottom">
 													<p className="link">

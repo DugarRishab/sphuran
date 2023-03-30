@@ -431,7 +431,7 @@
 	flex-direction: row;
 	justify-content: space-around;
 }
-.events .lower-body .menu {
+.events .lower-body .schedule .menu {
 	width: 30%;
 	max-width: 300px;
 	max-height: 500px;
@@ -442,7 +442,7 @@
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 }
-.events .lower-body .menu .item {
+.events .lower-body .schedule .menu .item {
 	padding: 5px 10px;
 	margin: 5px;
 	background-color: rgba(255, 255, 255, 0);
@@ -452,16 +452,26 @@
 	font-size: 20px;
 	cursor: pointer;
 }
-.events .lower-body .menu .item.active {
+.events .lower-body .schedule .menu .item.active {
 	background-color: rgba(255, 255, 255, 0.25);
 	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
-.events .lower-body .results {
+.events .lower-body .schedule .results {
 	width: 60%;
 	background-color: rgba(255, 255, 255, 0.1);
 	padding: 60px 40px;
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
+}
+.events .lower-body .schedule .results .search-card{
+	width: 80%;
+	height: fit-content;
+	padding: 30px;
+}
+.events .lower-body .schedule .results .search-card .details{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 .events .lower-body .tagline-2 {
 	margin: 200px 0;
@@ -1105,7 +1115,10 @@
 	-webkit-backdrop-filter: blur(20px);
 	width: 80%;
 	padding: 60px 40px;
+	font-size: 20px;
+	
 }
+
 
 @media only screen and (max-width: 480px),
 	only screen and (max-device-width: 480px) {
