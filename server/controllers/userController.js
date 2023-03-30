@@ -20,9 +20,15 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
     });
 });
 exports.updateUser = catchAsync(async (req, res, next) => {
-    const user = await User.findByIdAndUpdate(req.params.id, req.body, {
-        new: true,
-    });
+
+    const user = await User.findByIdAndUpdate(
+        req.params.id,
+        req.body,
+        {
+            new: true,
+            runValidators: true,
+        }
+    );
 
     if (!user) {
         return next(new AppError('No such user found with id: ' + id, 404));
