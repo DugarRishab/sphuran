@@ -5,7 +5,7 @@ const WellWishers = () => {
 		<div className="well-wishers">
 			<div className="header">Our Well Wishers</div>
 			<div className="lower-body">
-				Our well wishers content:- A Fest such as these could never Have
+				A Fest such as these could never Have
 				been possible without the support of many individuals behind the
 				scenes. <br></br>
 				SPHURAN would like to thank all those who have been pivotal in

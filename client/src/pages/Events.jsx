@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CustomButton from "../components/CustomButton/CustomButton"
 import { updateUserData } from '../services/api';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { alert } from "../components/CustomAlert/alert";
 // for all events
 
@@ -259,10 +259,14 @@ const Events = ({ user, login, logout }) => {
 								<div className="card-text">
 									<p className="text-head">{event.name}</p>
 									<p className="text">{event.desc}</p>
-									<p>Rounds - {event.rounds}</p>
+									
 								</div>
 								<div className="bottom">
-									<p className="link">Read more</p>
+									<p className="link">
+										<Link to={`/event?e=${event.id}`}>
+											Read more
+										</Link>
+									</p>
 									<CustomButton
 										variant={"contained"}
 										text="Register Now"

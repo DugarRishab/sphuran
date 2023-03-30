@@ -410,7 +410,7 @@
 	flex-direction: row;
 	align-items: center;
 	font-size: 20px;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 .events .lower-body .search-results .search-card .bottom .button {
 	font-size: 18px;
@@ -501,7 +501,7 @@
 .event .header {
 	text-align: center;
 	width: 100%;
-	border: 1px solid yellow;
+	border: 0px solid yellow;
 	color: white;
 	margin-top: 60vh;
 	transform: translateY(-50%);
@@ -535,7 +535,11 @@
 	margin-top: 20px;
 	font-size: 20px;
 	line-height: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
+
 
 .event .lower-body .tagline-2 {
 	margin: 200px 0;
