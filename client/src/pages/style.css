@@ -354,6 +354,26 @@
 	justify-content: space-between;
 	flex-flow: row wrap;
 }
+.events .lower-body .tabs{
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+.events .lower-body .tabs .item{
+	padding: 5px 10px;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0);
+	/* width: 80%; */
+	font-size: 20px;
+	cursor: pointer;
+	color: white;
+}
+.events .lower-body .tabs .item.active{
+	background-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
 .events .lower-body .search-results .search-card {
 	display: flex;
 
@@ -405,6 +425,43 @@
 }
 .events .lower-body .search-results .search-card .bottom .link:hover {
 	color: var(--blue);
+}
+.events .lower-body .schedule{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.events .lower-body .menu {
+	width: 30%;
+	max-width: 300px;
+	max-height: 500px;
+	overflow-y: scroll;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+	padding: 60px 40px;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+}
+.events .lower-body .menu .item {
+	padding: 5px 10px;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0);
+	width: 80%;
+	font-size: 20px;
+	cursor: pointer;
+}
+.events .lower-body .menu .item.active {
+	background-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.events .lower-body .results {
+	width: 60%;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 60px 40px;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
 }
 .events .lower-body .tagline-2 {
 	margin: 200px 0;
@@ -1069,6 +1126,35 @@
 }
 .foryou .lower-body .item .body .button{
 	margin-top: 20px;
+}
+
+.well-wishers .header {
+	text-align: center;
+	width: 100%;
+	border: 0px solid yellow;
+	color: white;
+	margin-top: 60vh;
+	transform: translateY(-50%);
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 76px;
+	transition: 0.5s all;
+}
+.well-wishers .lower-body {
+	margin: auto;
+	margin-top: 100px;
+
+	/* display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-evenly; */
+
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(20px);
+	width: 80%;
+	padding: 60px 40px;
 }
 
 @media only screen and (max-width: 480px),

@@ -368,7 +368,7 @@ const Team = () => {
 	const [selectedTeam, setSelectedTeam] = useState();
 	const handleMenuClick = (team) => {
 		setSelectedTeam(team);
-	}
+	};
 	return (
 		<div className="team">
 			<div className="header">OUR TEAM</div>

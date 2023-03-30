@@ -28,6 +28,10 @@ const Navbar = ({ user, login, logout }) => {
 		setAnchorEl(event.currentTarget);
 	};
 	const handleClose = () => {
+		setAnchorEl(null);
+	};
+	const handleLogout = () => {
+		setAnchorEl(null);
 		const logginOut = async () => {
 			try {
 				await logoutAuth();
@@ -38,11 +42,7 @@ const Navbar = ({ user, login, logout }) => {
 			}
 		};
 		logginOut();
-
-		// return navigate("/");
-
-		// redirect("")
-	};
+	}
 
 	const { innerWidth: width, innerHeight: height } = window;
 	console.log(width, height);
@@ -161,8 +161,13 @@ const Navbar = ({ user, login, logout }) => {
 										MenuListProps={{
 											"aria-labelledby": "menu-button",
 										}}
+										sx={{
+											marginLeft: "20px",
+											marginTop: "20px",
+
+										}}
 									>
-										<MenuItem onClick={handleClose}>
+										<MenuItem onClick={handleLogout}>
 											<Button color="error">
 												Logout
 											</Button>
