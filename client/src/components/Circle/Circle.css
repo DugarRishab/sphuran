@@ -49,7 +49,7 @@
 	transform: translateX(-50%) translateY(-25%) scale(0.6);
 	/* animation: rotate-team 30s infinite linear; */
 }
-.circle.schedule{
+.circle.well-wishers{
 	transform: translateX(-70%) translateY(-60%) scale(1.5);
 }
 @keyframes rotate{
