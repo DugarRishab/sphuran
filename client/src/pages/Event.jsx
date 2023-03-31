@@ -120,7 +120,7 @@ const Event = ({user, login, logout}) => {
 									{/* <div>Time - {event.time}</div>
 									<div>Venue - {event.venue}</div> */}
 								</div>
-								{!user.events.includes(event.id.toString()) && (
+								{user && !user.events.includes(event.id.toString()) && (
 									<CustomButton
 										onClick={() => handleRegister(event.id)}
 										variant={"contained"}

@@ -270,7 +270,7 @@ const Events = ({ user, login, logout }) => {
 											Read more
 										</Link>
 									</p>
-									{!user.events.includes(event.id.toString()) && (
+									{user && !user.events.includes(event.id.toString()) && (
 										<CustomButton
 											onClick={() =>
 												handleRegister(event.id)
