@@ -214,8 +214,10 @@ const Event = ({user, login, logout}) => {
 								{event.desc}
 								<div className="details">
 									<div>
-										<b>Rules</b> - <a href={event.rules}>{event.rules}</a>
-									</div><br></br>
+										<b>Rules</b> -{" "}
+										<a href={event.rules}>{event.rules}</a>
+									</div>
+									<br></br>
 									<div>
 										<b>Rounds</b> - {event.rounds}
 									</div>
@@ -234,18 +236,18 @@ const Event = ({user, login, logout}) => {
 										<b>Entry Fee</b> - ₹{event.entryFee}
 									</div>
 								</div>
-								{user &&
-									!user.events.includes(
-										event.id.toString()
-									) && (
-										<CustomButton
-											onClick={() =>
-												handleRegister(event.id)
-											}
-											variant={"contained"}
-											text="Register Now"
-										></CustomButton>
-									)}
+								{((user && !user.events) ||
+									(user &&
+										user.events &&
+										!user.events.includes(
+											event.id.toString()
+										))) && (
+									<CustomButton
+										onClick={() => handleRegister(event.id)}
+										variant={"contained"}
+										text="Register Now"
+									></CustomButton>
+								)}
 							</div>
 						</div>
 					</div>

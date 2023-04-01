@@ -524,7 +524,7 @@ const Events = ({ user, login, logout }) => {
 								<div className="image-container">
 									<img
 										class="image1"
-										src="/assets/0__7RPcbo39crq3lgq 2.png"
+										src={event.img}
 										alt=""
 									/>
 								</div>
@@ -538,7 +538,7 @@ const Events = ({ user, login, logout }) => {
 											Read more
 										</Link>
 									</p>
-									{user && !user.events.includes(event.id.toString()) && (
+									{((user && !user.events) || (user && user.events && !user.events.includes(event.id.toString()))) && (
 										<CustomButton
 											onClick={() =>
 												handleRegister(event.id)
