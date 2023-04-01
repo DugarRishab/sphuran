@@ -18,7 +18,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "2",
 			name: "Electroquip",
-			img: "",
+			img: "/assets/eventposters/Electroquip.png",
 			desc: (
 				<>
 					Keen on quizzing yourselves with fluxes and farads,
@@ -49,7 +49,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "3",
 			name: "Illumination ",
-			img: "",
+			img: "/assets/eventposters/illumination.png",
 			desc: (
 				<p>
 					Attention all electronics enthusiasts! <br></br> Here's your
@@ -75,7 +75,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "4",
 			name: "Cyber Blame",
-			img: "",
+			img: "/assets/eventposters/Cyberblame.png",
 			desc: (
 				<>
 					From smartphones to self-driving cars, technology is
@@ -103,7 +103,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "5",
 			name: "Argumentation",
-			img: "",
+			img: "/assets/eventposters/Argumentation.png",
 			desc: (
 				<>
 					It's going to be legen-- wait for it --dary. It's going to
@@ -136,7 +136,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "7",
 			name: "Adhayan",
-			img: "",
+			img: "/assets/eventposters/Electroquip.png",
 			desc: (
 				<>
 					Attention all tech enthusiasts! <br></br>Are you ready to
@@ -180,8 +180,8 @@ const Events = ({ user, login, logout }) => {
 		// },
 		{
 			id: "10",
-			name: "voltage voyage",
-			img: "",
+			name: "Voltage Voyage",
+			img: "/assets/eventposters/Voltage Voyage.png",
 			desc: (
 				<>
 					Do you ever dream of being on a mind-bending adventure
@@ -261,7 +261,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "13",
 			name: "Shatranj",
-			img: "",
+			img: "/assets/eventposters/Shatranj.png",
 			desc: (
 				<>
 					Traxler , Scandinavian, Sicilian , Stafford or Ruy Lopez....
@@ -325,6 +325,29 @@ const Events = ({ user, login, logout }) => {
 					student, a professional, or just an enthusiast, this is your
 					chance to showcase your knowledge and compete with other
 					like-minded individuals.
+				</>
+			),
+			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+			rounds: "3",
+			venue: (
+				<>
+					Round 1 - ALumni Seminar Hall <br></br> S-470 (3rd Floor)
+				</>
+			),
+			teamSize: "1-2",
+			prizeMoney: "8000",
+			entryFee: "50/team",
+		},{
+			id: "16",
+			name: "Alumni Convention",
+			img: "",
+			desc: (
+				<>
+					As the fruit never falls away from a tree,one can never be away from their Alma mater no matter where they are in the World.
+					 <br></br> For the first time,Sphuran 2.0 is organising an alumni meet for all those who came ahead of us. All are invited to grace the occasion and bask in the 
+					 glory days of their college life within the hallowed walls of the Department.
+					 <br></br> Further, our alumnis who are in many positions around the world would grace us with their wisdom. A Business meet would follow the alumni convention. Come all and listen to
+					  experiences of those who have sailed the sea of the professional world.
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
