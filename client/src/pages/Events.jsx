@@ -407,12 +407,12 @@ const Events = ({ user, login, logout }) => {
 	const Day3Events = [
 		{
 			name: "Electroquip (Round 3)",
-			time: "10pm to 11pm",
+			time: "10am to 11am",
 			venue: "EE Seminar Hall",
 		},
 		{
 			name: "Vidyut Gyan (Round 2)",
-			time: "11:30pm to 1pm",
+			time: "11:30am to 1pm",
 			venue: "S-470 (3rd Floor)",
 		},
 		{
