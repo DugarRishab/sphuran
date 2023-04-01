@@ -301,7 +301,7 @@ const Team = () => {
 				{
 					name: "Rajat Rahar",
 					position: "Associate Head",
-					img: "/assets/profiles/dp.jpg",
+					img: "/assets/profiles/rajatrahar.jpeg",
 				},{
 					name: "Ishita Bhaya",
 					position: "Associate Head",
@@ -348,7 +348,7 @@ const Team = () => {
 				},
 				{
 					name: "Anirban Mukherjee",
-					position: "Head Associate",
+					position: "Associate Head",
 					img: "/assets/profiles/anirban.jpeg",
 				},/*{
 					name: "Naveen Chamaria",
