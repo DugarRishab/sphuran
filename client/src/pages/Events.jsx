@@ -16,7 +16,7 @@ const Events = ({ user, login, logout }) => {
 		// 	rounds: "2",
 		// },
 		{
-			id: 2,
+			id: "2",
 			name: "Electroquip",
 			img: "",
 			desc: (
@@ -47,7 +47,7 @@ const Events = ({ user, login, logout }) => {
 		},
 
 		{
-			id: 3,
+			id: "3",
 			name: "Illumination ",
 			img: "",
 			desc: (
@@ -73,7 +73,7 @@ const Events = ({ user, login, logout }) => {
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 		{
-			id: 4,
+			id: "4",
 			name: "Cyber Blame",
 			img: "",
 			desc: (
@@ -101,7 +101,7 @@ const Events = ({ user, login, logout }) => {
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 		{
-			id: 5,
+			id: "5",
 			name: "Argumentation",
 			img: "",
 			desc: (
@@ -134,7 +134,7 @@ const Events = ({ user, login, logout }) => {
 		// 	rounds: "2",
 		// },
 		{
-			id: 7,
+			id: "7",
 			name: "Adhayan",
 			img: "",
 			desc: (
@@ -179,7 +179,7 @@ const Events = ({ user, login, logout }) => {
 		// 	rounds: "2",
 		// },
 		{
-			id: 10,
+			id: "10",
 			name: "voltage voyage",
 			img: "",
 			desc: (
@@ -203,7 +203,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "100/team",
 		},
 		{
-			id: 11,
+			id: "11",
 			name: "Ace the Race",
 			img: "",
 			desc: (
@@ -227,7 +227,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "100/team",
 		},
 		{
-			id: 12,
+			id: "12",
 			name: "Tech Trends",
 			img: "",
 			desc: (
@@ -259,7 +259,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "70/team",
 		},
 		{
-			id: 13,
+			id: "13",
 			name: "Shatranj",
 			img: "",
 			desc: (
@@ -282,7 +282,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "50/team",
 		},
 		{
-			id: 14,
+			id: "14",
 			name: "Fun Events",
 			img: "",
 			desc: (
