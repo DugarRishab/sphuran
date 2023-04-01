@@ -42,7 +42,7 @@ const Events = ({ user, login, logout }) => {
 			),
 			teamSize: "2 to 3",
 			prizeMoney: "12,000",
-			entryFee: "70/team",
+			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 
@@ -69,7 +69,7 @@ const Events = ({ user, login, logout }) => {
 			venue: "Round 1 & 2- S-464 (3rd Floor)",
 			teamSize: "1 to 2",
 			prizeMoney: "10,000",
-			entryFee: "50/team",
+			entryFee: "50/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 		{
@@ -97,7 +97,7 @@ const Events = ({ user, login, logout }) => {
 			venue: "Online",
 			teamSize: "1",
 			prizeMoney: "10,000",
-			entryFee: "70/team",
+			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 		{
@@ -123,7 +123,7 @@ const Events = ({ user, login, logout }) => {
 			venue: "EE Seminar Hall",
 			teamSize: "2",
 			prizeMoney: "8,000",
-			entryFee: "70/team",
+			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 		// {
@@ -136,7 +136,7 @@ const Events = ({ user, login, logout }) => {
 		{
 			id: "7",
 			name: "Adhayan",
-			img: "/assets/eventposters/Electroquip.png",
+			img: "/assets/eventposters/adhayan.jpeg",
 			desc: (
 				<>
 					Attention all tech enthusiasts! <br></br>Are you ready to
@@ -162,7 +162,7 @@ const Events = ({ user, login, logout }) => {
 			),
 			teamSize: "2 to 3",
 			prizeMoney: "10,000",
-			entryFee: "50/team",
+			entryFee: "50/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 		},
 		// {
@@ -200,12 +200,12 @@ const Events = ({ user, login, logout }) => {
 			venue: "Parade Ground",
 			teamSize: "3-4",
 			prizeMoney: "10,000",
-			entryFee: "100/team",
+			entryFee: "100/team (for non-iiestians)",
 		},
 		{
 			id: "11",
 			name: "Ace the Race",
-			img: "",
+			img: "/assets/eventposters/acetherace.png",
 			desc: (
 				<>
 					Love building new and advanced robots? Wanna test your bot
@@ -224,12 +224,12 @@ const Events = ({ user, login, logout }) => {
 			venue: "Netaji Bhawan",
 			teamSize: "Any",
 			prizeMoney: "10,000",
-			entryFee: "100/team",
+			entryFee: "100/team (for non-iiestians)",
 		},
 		{
 			id: "12",
 			name: "Tech Trends",
-			img: "",
+			img: "/assets/eventposters/techtrends.jpeg",
 			desc: (
 				<>
 					Don't we often lose our way through tedious chapters of
@@ -256,7 +256,7 @@ const Events = ({ user, login, logout }) => {
 			),
 			teamSize: "2 to 3",
 			prizeMoney: "10,000",
-			entryFee: "70/team",
+			entryFee: "70/team (for non-iiestians)",
 		},
 		{
 			id: "13",
@@ -279,12 +279,12 @@ const Events = ({ user, login, logout }) => {
 			venue: "Amenities",
 			teamSize: "1",
 			prizeMoney: "4,000",
-			entryFee: "50/team",
+			entryFee: "50/team (for non-iiestians)",
 		},
 		{
 			id: "14",
 			name: "Fun Events",
-			img: "",
+			img: "/assets/eventposters/funevents.jpeg",
 			desc: (
 				<>
 					Are you tired of only technical events? No worries, we heard
@@ -309,12 +309,12 @@ const Events = ({ user, login, logout }) => {
 			venue: "Parade Ground",
 			teamSize: "1",
 			prizeMoney: "Goodies for All",
-			entryFee: "20/team",
+			entryFee: "20/team (for all)",
 		},
 		{
 			id: "15",
 			name: "Vidyut Gyan",
-			img: "",
+			img: "/assets/eventposters/vidyutgyan.jpeg",
 			desc: (
 				<>
 					Attention all electrical enthusiasts! It's time to put your
@@ -336,11 +336,11 @@ const Events = ({ user, login, logout }) => {
 			),
 			teamSize: "1-2",
 			prizeMoney: "8000",
-			entryFee: "50/team",
+			entryFee: "50/team (for non-iiestians)",
 		},{
 			id: "16",
 			name: "Alumni Convention",
-			img: "",
+			img: "/assets/eventposters/Alumni Convention.png",
 			desc: (
 				<>
 					As the fruit never falls away from a tree,one can never be away from their Alma mater no matter where they are in the World.
@@ -350,16 +350,41 @@ const Events = ({ user, login, logout }) => {
 					  experiences of those who have sailed the sea of the professional world.
 				</>
 			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "3",
+			rules: "",
+			rounds: "",
 			venue: (
 				<>
-					Round 1 - ALumni Seminar Hall <br></br> S-470 (3rd Floor)
+					EE Seminar Hall, 9th April, 4PM - 6PM
 				</>
 			),
-			teamSize: "1-2",
+			/*teamSize: "1-2",
 			prizeMoney: "8000",
-			entryFee: "50/team",
+			entryFee: "50/team",*/
+		},{
+			id: "17",
+			name: "Online Gaming",
+			img: "/assets/eventposters/onlinegaming.jpeg",
+			desc: (
+				<>
+					Flaunt your gaming tactics and win prizes at SPHURAN 2.0’s exuberant online gaming events “Valorant” and “FIFA 2022” on 7th and 8th April 2023. Swoop into the battlefields in your virtual form, line up to action or lurk in a cubby, set the spikes and dink the flankers to call an " ace " !! Or alternatively, become a world champion at FIFA through your strategic moves and legendary goals.
+So what are you waiting for! Register your team for the savage online gaming competitions “Valorant” and “FIFA 2019” .
+"Be a warrior not a worrier because ... the only fear here is no Wi-fi !”
+				</>
+			),
+			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2?usp=sharing",
+			rounds: "As many required",
+			venue: (
+				<>
+					Valorant- 7/4,9:30 PM onwards,Online 
+					<br />
+					Fifa- 8/4,7:30 PM-9:30 PM, Amenities 
+				</>
+			),
+			teamSize: (<>Fifa-1 <br></br>
+				Valo-5+1</>),
+			prizeMoney: "4,000/Game",
+			entryFee: (<>Fifa-40 (For All)<br />
+				Valo-100/Team  (For All) </>),
 		},
 	];
 
