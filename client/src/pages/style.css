@@ -1170,7 +1170,13 @@
 	width: 80%;
 	padding: 60px 40px;
 	font-size: 20px;
-	
+}
+.well-wishers .lower-body ul{
+	list-style:decimal;
+	margin: 0 20px;
+}
+.well-wishers .lower-body ul li{
+	margin: 10px 0;
 }
 
 
