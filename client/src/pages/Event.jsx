@@ -326,10 +326,10 @@ const Event = ({user, login, logout}) => {
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "3",
+			rounds: "2",
 			venue: (
 				<>
-					Round 1 - ALumni Seminar Hall <br></br> S-470 (3rd Floor)
+					Round 1 - ALumni Seminar Hall <br></br> Round 2 - S-470 (3rd Floor)
 				</>
 			),
 			teamSize: "1-2",
@@ -428,10 +428,13 @@ So what are you waiting for! Register your team for the savage online gaming com
 					<div className="lower-body">
 						<div className="desc">
 							<div className="title">{event.name}</div>
+							<div className="img">
+								<img src={event.img} alt="" />
+							</div>
 							<div className="desc-body">
 								{event.desc}
 								<div className="details">
-									<div>
+									<div className="link">
 										<b>Rules</b> -{" "}
 										<a href={event.rules}>{event.rules}</a>
 									</div>
@@ -454,18 +457,22 @@ So what are you waiting for! Register your team for the savage online gaming com
 										<b>Entry Fee</b> - ₹{event.entryFee}
 									</div>
 								</div>
-								{((user && !user.events) ||
-									(user &&
-										user.events &&
-										!user.events.includes(
-											event.id.toString()
-										))) && (
-									<CustomButton
-										onClick={() => handleRegister(event.id)}
-										variant={"contained"}
-										text="Register Now"
-									></CustomButton>
-								)}
+								{event.id !== "15" &&
+									((user && !user.events) ||
+										(user &&
+											user.events &&
+											!user.events.includes(
+												event.id.toString()
+											))) && (
+										<CustomButton
+											onClick={() =>
+												handleRegister(event.id)
+											}
+											variant={"contained"}
+											text="Register Now"
+										></CustomButton>
+									)}
+								{}
 							</div>
 						</div>
 					</div>
