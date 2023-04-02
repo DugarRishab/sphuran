@@ -428,10 +428,11 @@ So what are you waiting for! Register your team for the savage online gaming com
 					<div className="lower-body">
 						<div className="desc">
 							<div className="title">{event.name}</div>
+							<div className="img"><img src={event.img} alt="" /></div>
 							<div className="desc-body">
 								{event.desc}
 								<div className="details">
-									<div>
+									<div className="link">
 										<b>Rules</b> -{" "}
 										<a href={event.rules}>{event.rules}</a>
 									</div>

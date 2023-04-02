@@ -396,6 +396,7 @@
 	overflow: hidden;
 	width: 100%;
 	height: fit-content;
+	height: 150px;
 }
 .events .lower-body .search-results .search-card .image-container img{
 		width: 100%;
@@ -407,16 +408,16 @@
 .events .lower-body .search-results .search-card .card-text .text {
 	font-size: 20px;
 	line-height: 30px;
-	margin-top: 20px;
+	margin-top: 00px;
 	text-overflow: ellipsis;
-	height: 2w0px;
-	max-height: 220px;
+	height: 180px;
+	max-height: 180px;
 	
 	overflow: hidden;
 }
 .events .lower-body .search-results .search-card .card-text .text-head {
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 	padding: 10px;
 }
 .events .lower-body .search-results .search-card .bottom {
@@ -546,6 +547,15 @@
 	text-align: left;
 	font-size: 40px;
 }
+.event .lower-body .desc .img{
+	width: 100%;
+	overflow: hidden;
+}
+.event .lower-body .desc .img img{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
 .event .lower-body .desc .desc-body {
 	color: white;
 	margin-top: 20px;
@@ -554,6 +564,13 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+}
+.event .link{
+	text-decoration: underline;
+	cursor: pointer;
+	transition: 0.25s all;
+	color: rgb(208, 208, 208);
+	font-size: 18px;
 }
 
 
