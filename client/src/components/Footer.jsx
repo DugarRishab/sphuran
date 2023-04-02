@@ -18,18 +18,19 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="address">
-					{/*Department of Electrical Engineering,*/} Sphuran, IIEST SHIBPUR, PO:
-					Botanic Garden, Botanical Garden Road, IIEST
+					{/*Department of Electrical Engineering,*/} Sphuran, IIEST
+					SHIBPUR, PO: Botanic Garden, Botanical Garden Road, IIEST
 					Shibpur, Howrah-711103, West Bengal
+				</div>
+				<div className="address">
+					© sphuran.co.in 2023. All right reserved
 				</div>
 			</div>
 			<div className="right-col">
 				<div className="title">Contacts</div>
 				<div className="contacts">
 					<div className="contact">
-						<div className="name">
-							Sphuran
-						</div>
+						<div className="name">Sphuran</div>
 						<div className="mail">
 							<a href="mailto: bhaskaran.ee@faculty.iiests.ac.in">
 								sphuran.ees@gmail.com
