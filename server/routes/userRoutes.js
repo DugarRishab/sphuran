@@ -10,6 +10,8 @@ Router.route('/all').get(
     userController.getAllUsers
 );
 
+Router.route('/event-details').get(userController.getEventDetails);
+
 Router.route('/:id')
     .get(
         authController.protect,
@@ -30,7 +32,9 @@ Router.route('/:id')
 Router.route('/')
     .get(authController.protect, userController.getMe)
     .patch(authController.protect, userController.updateMe)
-	.delete(authController.protect, userController.deleteMe);
+    .delete(authController.protect, userController.deleteMe);
+    
+
 	
 
 module.exports = Router;
