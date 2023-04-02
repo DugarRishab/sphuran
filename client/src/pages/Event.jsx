@@ -457,7 +457,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 										<b>Entry Fee</b> - ₹{event.entryFee}
 									</div>
 								</div>
-								{event.id !== "15" &&
+								{
 									((user && !user.events) ||
 										(user &&
 											user.events &&

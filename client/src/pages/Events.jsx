@@ -569,7 +569,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 					<div className="search-results">
 						{events.map(
 							(event) =>
-								event.id != 15 && (
+								(
 									<div className="search-card">
 										<div className="image-container">
 											<img
@@ -610,49 +610,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 									</div>
 								)
 						)}
-						{events.map(
-							(event) =>
-								event.id == 15 && (
-									<div className="search-card">
-										<div className="image-container">
-											<img
-												class="image1"
-												src={event.img}
-												alt=""
-											/>
-										</div>
-										<div className="card-text">
-											<p className="text-head">
-												{event.name}
-											</p>
-											<p className="text">{event.desc}</p>
-										</div>
-										<div className="bottom">
-											<p className="link">
-												<Link
-													to={`/event?e=${event.id}`}
-												>
-													Read more
-												</Link>
-											</p>
-											{/* {((user && !user.events) ||
-												(user &&
-													user.events &&
-													!user.events.includes(
-														event.id.toString()
-													))) && (
-												<CustomButton
-													onClick={() =>
-														handleRegister(event.id)
-													}
-													variant={"contained"}
-													text="Register Now"
-												></CustomButton>
-											)} */}
-										</div>
-									</div>
-								)
-						)}
+						
 					</div>
 				)}
 				{selectedTab === "schedule" && (
