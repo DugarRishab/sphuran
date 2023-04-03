@@ -11,6 +11,9 @@ const userSchema = new mongoose.Schema(
             trim: true,
             minLength: [4, 'Name must have atleat - 4 characters'],
         },
+        image: {
+            type: String
+        },
         email: {
             type: String,
             required: [true, 'Every User must have a unique email'],
