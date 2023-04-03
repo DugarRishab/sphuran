@@ -400,7 +400,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 			venue: "I-hall"
 		},
 		{
-			name: "Inauguration",
+			name: "Tech Trends (Round 1)",
 			time: "2pm to 3pm",
 			venue: "EE Sublibrary"
 		},
