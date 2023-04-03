@@ -565,6 +565,12 @@ So what are you waiting for! Register your team for the savage online gaming com
 						Schedule
 					</div>
 				</div>
+				<div className="extra">
+					To download the event brochure,&nbsp;
+					<a href="/assets/events.pdf" download>
+						<div className="link">Click here</div>
+					</a>
+				</div>
 				{selectedTab === "events" && (
 					<div className="search-results">
 						{events.map(
