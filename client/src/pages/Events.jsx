@@ -390,7 +390,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 
 	const Day1Events = [
 		{
-			name: "Inauguration and Technical Conclave",
+			name: "Inauguration and Technical Conclave ",
 			time: "10am to 12pm",
 			venue: "I-hall"
 		},
