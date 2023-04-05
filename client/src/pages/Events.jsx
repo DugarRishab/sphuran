@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import CustomButton from "../components/CustomButton/CustomButton"
-import { updateUserData } from '../services/api';
+import React, { useState } from "react";
+import CustomButton from "../components/CustomButton/CustomButton";
+import { updateUserData } from "../services/api";
 import { Link, useNavigate } from "react-router-dom";
 import { alert } from "../components/CustomAlert/alert";
 // for all events
 
 const Events = ({ user, login, logout }) => {
-
 	const events = [
 		// {
 		// 	id: 1,
@@ -89,8 +88,8 @@ const Events = ({ user, login, logout }) => {
 					2023. <br></br> The coding contest is the perfect
 					opportunity to put your skills and knowledge of programming
 					languages to the test and compete against other talented
-					coders. <br></br> So, dust off your programming skills,
-					fire up your laptop, and get ready to take on the challenge!
+					coders. <br></br> So, dust off your programming skills, fire
+					up your laptop, and get ready to take on the challenge!
 				</>
 			),
 			rounds: "1",
@@ -337,54 +336,76 @@ const Events = ({ user, login, logout }) => {
 			teamSize: "1-2",
 			prizeMoney: "8000",
 			entryFee: "50/team (for non-iiestians)",
-		},{
+		},
+		{
 			id: "16",
 			name: "Alumni Convention",
 			img: "/assets/eventposters/Alumni Convention.png",
 			desc: (
 				<>
-					As the fruit never falls away from a tree,one can never be away from their Alma mater no matter where they are in the World.
-					 <br></br> For the first time,Sphuran 2.0 is organising an alumni meet for all those who came ahead of us. All are invited to grace the occasion and bask in the 
-					 glory days of their college life within the hallowed walls of the Department.
-					 <br></br> Further, our alumnis who are in many positions around the world would grace us with their wisdom. A Business meet would follow the alumni convention. Come all and listen to
-					  experiences of those who have sailed the sea of the professional world.
+					As the fruit never falls away from a tree,one can never be
+					away from their Alma mater no matter where they are in the
+					World.
+					<br></br> For the first time,Sphuran 2.0 is organising an
+					alumni meet for all those who came ahead of us. All are
+					invited to grace the occasion and bask in the glory days of
+					their college life within the hallowed walls of the
+					Department.
+					<br></br> Further, our alumnis who are in many positions
+					around the world would grace us with their wisdom. A
+					Business meet would follow the alumni convention. Come all
+					and listen to experiences of those who have sailed the sea
+					of the professional world.
 				</>
 			),
 			rules: "",
 			rounds: "",
-			venue: (
-				<>
-					EE Seminar Hall, 9th April, 4PM - 6PM
-				</>
-			),
+			venue: <>EE Seminar Hall, 9th April, 4PM - 6PM</>,
 			/*teamSize: "1-2",
 			prizeMoney: "8000",
 			entryFee: "50/team",*/
-		},{
+		},
+		{
 			id: "17",
 			name: "Online Gaming",
 			img: "/assets/eventposters/onlinegaming.jpeg",
 			desc: (
 				<>
-					Flaunt your gaming tactics and win prizes at SPHURAN 2.0’s exuberant online gaming events “Valorant” and “FIFA 2022” on 7th and 8th April 2023. Swoop into the battlefields in your virtual form, line up to action or lurk in a cubby, set the spikes and dink the flankers to call an " ace " !! Or alternatively, become a world champion at FIFA through your strategic moves and legendary goals.
-So what are you waiting for! Register your team for the savage online gaming competitions “Valorant” and “FIFA 2019” .
-"Be a warrior not a worrier because ... the only fear here is no Wi-fi !”
+					Flaunt your gaming tactics and win prizes at SPHURAN 2.0’s
+					exuberant online gaming events “Valorant” and “FIFA 2022” on
+					7th and 8th April 2023. Swoop into the battlefields in your
+					virtual form, line up to action or lurk in a cubby, set the
+					spikes and dink the flankers to call an " ace " !! Or
+					alternatively, become a world champion at FIFA through your
+					strategic moves and legendary goals. So what are you waiting
+					for! Register your team for the savage online gaming
+					competitions “Valorant” and “FIFA 2019” . "Be a warrior not
+					a worrier because ... the only fear here is no Wi-fi !”
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2?usp=sharing",
 			rounds: "As many required",
 			venue: (
 				<>
-					Valorant- 7/4,9:30 PM onwards,Online 
+					Valorant- 7/4,9:30 PM onwards,Online
 					<br />
-					Fifa- 8/4,7:30 PM-9:30 PM, Amenities 
+					Fifa- 8/4,7:30 PM-9:30 PM, Amenities
 				</>
 			),
-			teamSize: (<>Fifa-1 <br></br>
-				Valo-5+1</>),
+			teamSize: (
+				<>
+					Fifa-1 <br></br>
+					Valo-5+1
+				</>
+			),
 			prizeMoney: "4,000/Game",
-			entryFee: (<>Fifa-40 (For All)<br />
-				Valo-100/Team  (For All) </>),
+			entryFee: (
+				<>
+					Fifa-40 (For All)
+					<br />
+					Valo-100/Team (For All){" "}
+				</>
+			),
 		},
 	];
 
@@ -392,38 +413,38 @@ So what are you waiting for! Register your team for the savage online gaming com
 		{
 			name: "Inauguration and Technical Conclave ",
 			time: "10am to 12pm",
-			venue: "I-hall"
+			venue: "I-hall",
 		},
 		{
 			name: "Electroquip",
 			time: "1pm to 1:45pm",
-			venue: "I-hall"
+			venue: "I-hall",
 		},
 		{
 			name: "Tech Trends (Round 1)",
 			time: "2pm to 3pm",
-			venue: "EE Sublibrary"
+			venue: "EE Sublibrary",
 		},
 		{
 			name: "Argumentation",
 			time: "3:30pm to 5:30pm",
-			venue: "EE Seminar Hall"
+			venue: "EE Seminar Hall",
 		},
 		{
 			name: "Chess",
 			time: "6pm to 7:30pm",
-			venue: "Amenities"
+			venue: "Amenities",
 		},
 		{
 			name: "CyberBlame",
 			time: "8pm to 9:30pm",
-			venue: "Online (From Hostel)"
+			venue: "Online (From Hostel)",
 		},
 		{
 			name: "Online Games (Valorant)",
 			time: "From 9:30pm",
-			venue: "Online (From Hostel)"
-		}
+			venue: "Online (From Hostel)",
+		},
 	];
 	const Day2Events = [
 		{
@@ -449,7 +470,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 		{
 			name: "Online Games (Fifa)",
 			time: "7:30pm to 9:30pm",
-			venue: "Amenities"
+			venue: "Amenities",
 		},
 	];
 	const Day3Events = [
@@ -489,14 +510,11 @@ So what are you waiting for! Register your team for the savage online gaming com
 			venue: "I Hall",
 		},
 	];
-	
+
 	const navigate = useNavigate();
 
 	const handleRegister = (id) => {
-
 		const registerEvent = async () => {
-			
-
 			const userCopy = { ...user };
 			userCopy.events.push(id);
 			try {
@@ -507,7 +525,7 @@ So what are you waiting for! Register your team for the savage online gaming com
 						type: "success",
 					});
 					navigate("/events");
-					
+
 					login(res.data.data.user);
 				}
 			} catch (err) {
@@ -516,23 +534,22 @@ So what are you waiting for! Register your team for the savage online gaming com
 					type: "error",
 				});
 			}
-		}
+		};
 
 		registerEvent();
-	}
+	};
 
 	const [selectedTab, setSelectedTab] = useState("events");
 	const handleTabClick = (tab) => {
 		setSelectedTab(tab);
-	}
+	};
 
 	const [selectedDay, setSelectedDay] = useState();
 	const [selectedEvents, setSelectedEvents] = useState(Day1Events);
 
 	const handleDayClick = (day) => {
 		setSelectedDay(day);
-		if (day === 1)
-			setSelectedEvents(Day1Events);
+		if (day === 1) setSelectedEvents(Day1Events);
 		if (day === 2) setSelectedEvents(Day2Events);
 		if (day === 3) setSelectedEvents(Day3Events);
 	};
@@ -573,50 +590,42 @@ So what are you waiting for! Register your team for the savage online gaming com
 				</div>
 				{selectedTab === "events" && (
 					<div className="search-results">
-						{events.map(
-							(event) =>
-								(
-									<div className="search-card">
-										<div className="image-container">
-											<img
-												class="image1"
-												src={event.img}
-												alt=""
-											/>
-										</div>
-										<div className="card-text">
-											<p className="text-head">
-												{event.name}
-											</p>
-											<p className="text">{event.desc}</p>
-										</div>
-										<div className="bottom">
-											<p className="link">
-												<Link
-													to={`/event?e=${event.id}`}
-												>
-													Read more
-												</Link>
-											</p>
-											{((user && !user.events) ||
-												(user &&
-													user.events &&
-													!user.events.includes(
-														event.id.toString()
-													))) && (
-												<CustomButton
-													onClick={() =>
-														handleRegister(event.id)
-													}
-													variant={"contained"}
-													text="Register Now"
-												></CustomButton>
-											)}
-										</div>
-									</div>
-								)
-						)}
-						
+						{events.map((event) => (
+							<div className="search-card">
+								<div className="image-container">
+									<img
+										class="image1"
+										src={event.img}
+										alt=""
+									/>
+								</div>
+								<div className="card-text">
+									<p className="text-head">{event.name}</p>
+									<p className="text">{event.desc}</p>
+								</div>
+								<div className="bottom">
+									<p className="link">
+										<Link to={`/event?e=${event.id}`}>
+											Read more
+										</Link>
+									</p>
+									{((user && !user.events) ||
+										(user &&
+											user.events &&
+											!user.events.includes(
+												event.id.toString()
+											))) && (
+										<CustomButton
+											onClick={() =>
+												handleRegister(event.id)
+											}
+											variant={"contained"}
+											text="Register Now"
+										></CustomButton>
+									)}
+								</div>
+							</div>
+						))}
 					</div>
 				)}
 				{selectedTab === "schedule" && (
@@ -692,6 +701,6 @@ So what are you waiting for! Register your team for the savage online gaming com
 			</div>
 		</div>
 	);
-}
- 
+};
+
 export default Events;

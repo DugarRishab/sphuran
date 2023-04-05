@@ -214,7 +214,7 @@ const Navbar = ({ user, login, logout }) => {
 											"aria-labelledby": "menu-button-2",
 										}}
 									>
-										<MenuItem onClick={handleClose}>
+										<MenuItem onClick={handleLogout}>
 											<Button color="error">
 												Logout
 											</Button>
