@@ -11,7 +11,7 @@ const Sponsors = () => {
 		{
 			id: 2,
 			name: "Web Team",
-			img: "/assets/sponsors/present/download (2).png",
+			img: "/assets/sponsors/present/crspl-logo.jpg",
 		},
 		{
 			id: 3,
@@ -38,6 +38,11 @@ const Sponsors = () => {
 			name: "Web Team",
 			img: "/assets/sponsors/present/Screenshot_20230330-011534_OneDrive.jpg",
 		},
+		{
+			id: 8,
+			name: "Web Team",
+			img: "/assets/sponsors/present/WhatsApp Image 2023-04-05 at 09.07.15.jpg",
+		},
 	];
 	const pastSponsors = [
 		{
@@ -61,6 +66,16 @@ const Sponsors = () => {
 			id: 1,
 			name: "Web Team",
 			img: "/assets/sponsors/partners/Circuit club coloured.png",
+		},
+		{
+			id: 1,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/lightstudio-logo-white-transparent 500x125.png",
+		},
+		{
+			id: 1,
+			name: "Web Team",
+			img: "/assets/sponsors/partners/The Telegraph Online Edugraph Logo White Background.png",
 		},
 		{
 			id: 2,
