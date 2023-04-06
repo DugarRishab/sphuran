@@ -14,6 +14,46 @@ const Event = ({user, login, logout}) => {
 		// 	rounds: "2",
 		// },
 		{
+			id: "0",
+			name: "Industrial Conclave",
+			img: "/assets/eventposters/2023.png",
+			desc: (
+				<>
+					SPHURAN 2.0 is organizing an Industrial Conclave on April
+					7th, 2023, from 10 AM to 12 PM at I Hall. The conclave will
+					be graced by eminent speakers who are experts in their
+					respective fields. The purpose of this conclave is to
+					provide a platform for professionals from various industries
+					to share their knowledge, expertise, and experiences with
+					the students of SPHURAN 2.0. <br></br>The keynote speaker at
+					the event will be Professor Gautam Bandyopadhyay, former
+					Head of the Department and Professor at IIEST Shibpur. He
+					will be sharing his insights and knowledge on the latest
+					trends and technologies in the field of engineering and
+					technology. <br></br>Another eminent speaker at the event
+					will be Professor Debaprasad Kastha, who is a Senior Member
+					of IEEE and a Professor at IIT Kharagpur. He will be
+					speaking on the importance of innovation and research in the
+					field of engineering and technology. <br></br>Srijib
+					Majumdar, Head of Delivery, BFSI Products & Platform, US
+					unit, Tata Consultancy Services, will also be sharing his
+					experiences and insights of the industry.<br></br>{" "}
+					Additionally, the conclave will also feature a presentation
+					by Mr. Souradeep Mitra, an Electrical Consultant at Conveyor
+					& Ropeway Technical Services Pvt. Ltd. He will speak about
+					Automation in Ropeway operation.<br></br> Overall, the
+					Industrial Conclave at SPHURAN 2.0 promises to be an
+					informative and insightful event for the students, faculty,
+					and professionals from various industries who will be
+					attending. It is an excellent opportunity to gain valuable
+					knowledge and insights into the latest trends and
+					technologies in the field of engineering and technology.
+				</>
+			),
+			// rounds: "3",
+			venue: <>I hall</>,
+		},
+		{
 			id: "2",
 			name: "Electroquip",
 			img: "/assets/eventposters/Electroquip.png",
@@ -87,8 +127,8 @@ const Event = ({user, login, logout}) => {
 					2023. <br></br> The coding contest is the perfect
 					opportunity to put your skills and knowledge of programming
 					languages to the test and compete against other talented
-					coders. <br></br> So, dust off your programming skills,
-					fire up your laptop, and get ready to take on the challenge!
+					coders. <br></br> So, dust off your programming skills, fire
+					up your laptop, and get ready to take on the challenge!
 				</>
 			),
 			rounds: "1",
@@ -329,60 +369,83 @@ const Event = ({user, login, logout}) => {
 			rounds: "2",
 			venue: (
 				<>
-					Round 1 - ALumni Seminar Hall <br></br> Round 2 - S-470 (3rd Floor)
+					Round 1 - ALumni Seminar Hall <br></br> Round 2 - S-470 (3rd
+					Floor)
 				</>
 			),
 			teamSize: "1-2",
 			prizeMoney: "8000",
 			entryFee: "50/team (for non-iiestians)",
-		},{
+		},
+		{
 			id: "16",
 			name: "Alumni Convention",
 			img: "/assets/eventposters/Alumni Convention.png",
 			desc: (
 				<>
-					As the fruit never falls away from a tree,one can never be away from their Alma mater no matter where they are in the World.
-					 <br></br> For the first time,Sphuran 2.0 is organising an alumni meet for all those who came ahead of us. All are invited to grace the occasion and bask in the 
-					 glory days of their college life within the hallowed walls of the Department.
-					 <br></br> Further, our alumnis who are in many positions around the world would grace us with their wisdom. A Business meet would follow the alumni convention. Come all and listen to
-					  experiences of those who have sailed the sea of the professional world.
+					As the fruit never falls away from a tree,one can never be
+					away from their Alma mater no matter where they are in the
+					World.
+					<br></br> For the first time,Sphuran 2.0 is organising an
+					alumni meet for all those who came ahead of us. All are
+					invited to grace the occasion and bask in the glory days of
+					their college life within the hallowed walls of the
+					Department.
+					<br></br> Further, our alumnis who are in many positions
+					around the world would grace us with their wisdom. A
+					Business meet would follow the alumni convention. Come all
+					and listen to experiences of those who have sailed the sea
+					of the professional world.
 				</>
 			),
 			rules: "",
 			rounds: "",
-			venue: (
-				<>
-					EE Seminar Hall, 9th April, 4PM - 6PM
-				</>
-			),
+			venue: <>EE Seminar Hall, 9th April, 4PM - 6PM</>,
 			/*teamSize: "1-2",
 			prizeMoney: "8000",
 			entryFee: "50/team",*/
-		},{
+		},
+		{
 			id: "17",
 			name: "Online Gaming",
 			img: "/assets/eventposters/onlinegaming.jpeg",
 			desc: (
 				<>
-					Flaunt your gaming tactics and win prizes at SPHURAN 2.0’s exuberant online gaming events “Valorant” and “FIFA 2022” on 7th and 8th April 2023. Swoop into the battlefields in your virtual form, line up to action or lurk in a cubby, set the spikes and dink the flankers to call an " ace " !! Or alternatively, become a world champion at FIFA through your strategic moves and legendary goals.
-So what are you waiting for! Register your team for the savage online gaming competitions “Valorant” and “FIFA 2019” .
-"Be a warrior not a worrier because ... the only fear here is no Wi-fi !”
+					Flaunt your gaming tactics and win prizes at SPHURAN 2.0’s
+					exuberant online gaming events “Valorant” and “FIFA 2022” on
+					7th and 8th April 2023. Swoop into the battlefields in your
+					virtual form, line up to action or lurk in a cubby, set the
+					spikes and dink the flankers to call an " ace " !! Or
+					alternatively, become a world champion at FIFA through your
+					strategic moves and legendary goals. So what are you waiting
+					for! Register your team for the savage online gaming
+					competitions “Valorant” and “FIFA 2019” . "Be a warrior not
+					a worrier because ... the only fear here is no Wi-fi !”
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2?usp=sharing",
 			rounds: "As many required",
 			venue: (
 				<>
-					Valorant- 7/4,9:30 PM onwards,Online 
+					Valorant- 7/4,9:30 PM onwards,Online
 					<br />
-					Fifa- 8/4,7:30 PM-9:30 PM, Amenities 
+					Fifa- 8/4,7:30 PM-9:30 PM, Amenities
 				</>
 			),
-			teamSize: (<>Fifa-1 <br></br>
-				Valo-5+1</>),
+			teamSize: (
+				<>
+					Fifa-1 <br></br>
+					Valo-5+1
+				</>
+			),
 			prizeMoney: "4,000/Game",
-			entryFee: (<>Fifa-40 (For All)<br />
-				Valo-100/Team  (For All) </>),
+			entryFee: (
+				<>
+					Fifa-40 (For All)
+					<br />
+					Valo-100/Team (For All){" "}
+				</>
+			),
 		},
 	];
 
