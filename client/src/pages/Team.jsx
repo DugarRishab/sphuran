@@ -324,7 +324,7 @@ const Team = () => {
 					img: "/assets/profiles/DSC_0038 - 510619042 Mayank_Kumar.jpg",
 				},
 				{
-					name: "Rishav Chowdhuri",
+					name: "Rishav Choudhuri",
 					position: "Head",
 					img: "/assets/profiles/IMG_20230403_000758_758.jpg",
 				},
