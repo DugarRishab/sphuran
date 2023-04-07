@@ -106,7 +106,7 @@ exports.deleteMe = catchAsync(async (req, res, next) => {
     });
 });
 exports.getEventDetails = catchAsync(async (req, res, next) => {
-    const users = await User.find().select({name: 1, _id: 0, id: 1, events: 1});
+    const users = await User.find().select({name: 1, _id: 0, id: 1, events: 1, email: 1, phone: 1});
 
     const events = [
         // {
@@ -205,11 +205,16 @@ exports.getEventDetails = catchAsync(async (req, res, next) => {
     events.forEach(event => {
         const eventUsers = users.filter(user => user.events.includes(`${event.id}`));
         console.log(eventUsers);
+
+        // eventUsers.forEach(u => {
+        //     u.events = null
+        //     delete u['events'];
+        // });
         details.push({
             Name: event.name,
             id: event.id,
             "Total Registrations": eventUsers.length,
-            participants: eventUsers.map(user => user.name)
+            participants: eventUsers.map(user => ({name: user.name, email: user.email, phone: user.phone}))
         });
     });
 
