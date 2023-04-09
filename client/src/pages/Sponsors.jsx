@@ -43,6 +43,11 @@ const Sponsors = () => {
 			name: "Web Team",
 			img: "/assets/sponsors/present/WhatsApp Image 2023-04-05 at 09.07.15.jpg",
 		},
+		{
+			id: 9,
+			name: "Web Team",
+			img: "/assets/sponsors/present/madeeasy.jpg",
+		},
 	];
 	const pastSponsors = [
 		{
