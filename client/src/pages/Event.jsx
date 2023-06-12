@@ -13,6 +13,8 @@ const Event = ({user, login, logout}) => {
 		// 	desc: "The robotics event will feature two exciting competitions: a line follower and a robot race. The line follower will challenge robots to follow a course without deviating from a black line, while the robot race will test the speed and agility of robots as they navigate an obstacle course.",
 		// 	rounds: "2",
 		// },
+
+		//test
 		{
 			id: "0",
 			name: "Industrial Conclave",
