@@ -14,7 +14,7 @@ const Event = ({user, login, logout}) => {
 		// 	rounds: "2",
 		// },
 
-		//test
+		//test2
 		{
 			id: "0",
 			name: "Industrial Conclave",
