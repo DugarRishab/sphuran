@@ -221,86 +221,86 @@ const Events = ({ user, login, logout }) => {
 		// 	desc: "Electrical treasure hunt is a fun-filled event where participants solve clues and puzzles to find hidden electrical components. The event challenges participants to use their knowledge of circuits, power systems, and electrical engineering to locate the hidden treasures. It's a great way to learn while having fun and promotes teamwork and problem-solving skills. ",
 		// 	rounds: "2",
 		// },
-		{
-			id: "10",
-			name: "Voltage Voyage",
-			img: "/assets/eventposters/Voltage Voyage.png",
-			desc: (
-				<>
-					Do you ever dream of being on a mind-bending adventure
-					spanning several exciting landscapes in an Indiana Jones-ish
-					style? Well, Sphuran 2.0 brings you another breathtaking
-					event Voltage Voyage where you need to rush your brain all
-					way through the basic concepts of Electrical Engineering to
-					track down the hidden treasures and snatch the chance of
-					squashing out the best of team work. <bg></bg> So guys,
-					energise yourself and get ready to manifest something so
-					educative yet so much fun !
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "1",
-			venue: "Parade Ground",
-			teamSize: "3-4",
-			prizeMoney: "10,000",
-			entryFee: "100/team (for non-iiestians)",
-		},
-		{
-			id: "11",
-			name: "Ace the Race",
-			img: "/assets/eventposters/acetherace.png",
-			desc: (
-				<>
-					Love building new and advanced robots? Wanna test your bot
-					deign skills to the limit? <br></br>“Ace the Race” is an
-					exciting robot design competition. We envision that student
-					teams will develop their own robotic systems in order to
-					compete in Line follower races, challenging the limits of
-					robotic design and autonomy technologies. This challenge
-					will test the speed, accuracy and agility of your robots to
-					the next level. So get ready to amp your design skills for a
-					fierce robo battle!
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "1",
-			venue: "Netaji Bhawan",
-			teamSize: "Any",
-			prizeMoney: "10,000",
-			entryFee: "100/team (for non-iiestians)",
-		},
-		{
-			id: "12",
-			name: "Tech Trends",
-			img: "/assets/eventposters/techtrends.jpeg",
-			desc: (
-				<>
-					Don't we often lose our way through tedious chapters of
-					unappealing books while going for something quite simple and
-					conclusive? As far as we go, that's definitely a very boring
-					way to learn.<br></br>Therefore, be your own mentor to
-					learning as we are yet with another unique and exciting
-					event where you can showcase your hidden talent of
-					presenting ideas in a visually simpler way. All you need to
-					do is, bring up your research recipe, cook it up with some
-					attractive content, garnish it with lots, and lots of your
-					creativity with a pinch of simplicity, and there you go,
-					ready to serve! <br></br>It's always nice to find your
-					hidden self, isn't it? So what are you even waiting for, go
-					and register now!
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "2",
-			venue: (
-				<>
-					Round 1 - EE sublibrary <br></br> Round 2 - EE Sublibrary
-				</>
-			),
-			teamSize: "2 to 3",
-			prizeMoney: "10,000",
-			entryFee: "70/team (for non-iiestians)",
-		},
+		// {
+		// 	id: "10",
+		// 	name: "Voltage Voyage",
+		// 	img: "/assets/eventposters/Voltage Voyage.png",
+		// 	desc: (
+		// 		<>
+		// 			Do you ever dream of being on a mind-bending adventure
+		// 			spanning several exciting landscapes in an Indiana Jones-ish
+		// 			style? Well, Sphuran 2.0 brings you another breathtaking
+		// 			event Voltage Voyage where you need to rush your brain all
+		// 			way through the basic concepts of Electrical Engineering to
+		// 			track down the hidden treasures and snatch the chance of
+		// 			squashing out the best of team work. <bg></bg> So guys,
+		// 			energise yourself and get ready to manifest something so
+		// 			educative yet so much fun !
+		// 		</>
+		// 	),
+		// 	rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+		// 	rounds: "1",
+		// 	venue: "Parade Ground",
+		// 	teamSize: "3-4",
+		// 	prizeMoney: "10,000",
+		// 	entryFee: "100/team (for non-iiestians)",
+		// },
+		// {
+		// 	id: "11",
+		// 	name: "Ace the Race",
+		// 	img: "/assets/eventposters/acetherace.png",
+		// 	desc: (
+		// 		<>
+		// 			Love building new and advanced robots? Wanna test your bot
+		// 			deign skills to the limit? <br></br>“Ace the Race” is an
+		// 			exciting robot design competition. We envision that student
+		// 			teams will develop their own robotic systems in order to
+		// 			compete in Line follower races, challenging the limits of
+		// 			robotic design and autonomy technologies. This challenge
+		// 			will test the speed, accuracy and agility of your robots to
+		// 			the next level. So get ready to amp your design skills for a
+		// 			fierce robo battle!
+		// 		</>
+		// 	),
+		// 	rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+		// 	rounds: "1",
+		// 	venue: "Netaji Bhawan",
+		// 	teamSize: "Any",
+		// 	prizeMoney: "10,000",
+		// 	entryFee: "100/team (for non-iiestians)",
+		// },
+		// {
+		// 	id: "12",
+		// 	name: "Tech Trends",
+		// 	img: "/assets/eventposters/techtrends.jpeg",
+		// 	desc: (
+		// 		<>
+		// 			Don't we often lose our way through tedious chapters of
+		// 			unappealing books while going for something quite simple and
+		// 			conclusive? As far as we go, that's definitely a very boring
+		// 			way to learn.<br></br>Therefore, be your own mentor to
+		// 			learning as we are yet with another unique and exciting
+		// 			event where you can showcase your hidden talent of
+		// 			presenting ideas in a visually simpler way. All you need to
+		// 			do is, bring up your research recipe, cook it up with some
+		// 			attractive content, garnish it with lots, and lots of your
+		// 			creativity with a pinch of simplicity, and there you go,
+		// 			ready to serve! <br></br>It's always nice to find your
+		// 			hidden self, isn't it? So what are you even waiting for, go
+		// 			and register now!
+		// 		</>
+		// 	),
+		// 	rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+		// 	rounds: "2",
+		// 	venue: (
+		// 		<>
+		// 			Round 1 - EE sublibrary <br></br> Round 2 - EE Sublibrary
+		// 		</>
+		// 	),
+		// 	teamSize: "2 to 3",
+		// 	prizeMoney: "10,000",
+		// 	entryFee: "70/team (for non-iiestians)",
+		// },
 		{
 			id: "13",
 			name: "Shatranj",
