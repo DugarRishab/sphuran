@@ -1,12 +1,11 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-
+import React, { useState, useEffect } from 'react';
 import Navbar from "./components/Navabr";
 import AllRoutes from "./Routes";
-import { useState } from "react";
 import Footer from "./components/Footer";
-
+import { getUserData } from "./services/api";
 import "./App.css";
 import Circle from "./components/Circle/Circle";
 
@@ -20,8 +19,8 @@ export const themeOptions = {
 			main: "#ff8a80",
 		},
 		background: {
-			paper: "rgb(15, 15, 15)",
-			default: "rgb(15, 15, 15)",
+			// paper: "rgb(15, 15, 15)",
+			// default: "rgb(15, 15, 15)",
 		},
 		success: {
 			main: "#27c52f",
@@ -41,7 +40,7 @@ export const themeOptions = {
 	},
 	typography: {
 		fontFamily: "Exo 2",
-		// color: "white"
+		color: "white"
 	},
 	overrides: {
 		MuiAppBar: {
@@ -74,6 +73,8 @@ function App() {
 		setUser(null);
 		localStorage.setItem("user", JSON.stringify(null));
 	};
+
+	
 
 	return (
 		<ThemeProvider theme={theme}>

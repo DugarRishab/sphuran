@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Autocomplete, TextField } from "@mui/material";
 
 const Team = () => {
 	const teams = [
@@ -409,28 +410,82 @@ const Team = () => {
 			],
 		},
 	];
-	const [selectedTeam, setSelectedTeam] = useState();
+	const [selectedTeam, setSelectedTeam] = useState(teams[0]);
 	const handleMenuClick = (team) => {
 		setSelectedTeam(team);
 	};
+
+	const handleDropDownClick = (teamName) => {
+		console.log(teamName);
+		setSelectedTeam(teams.find((team) => team.name === teamName));
+	};
+	const { innerWidth: width, innerHeight: height } = window;
+
 	return (
 		<div className="team">
 			<div className="header">OUR TEAM</div>
 			<div className="lower-body">
-				<div className="menu">
-					{teams.map((team) => (
-						<div
-							className={`item ${
-								selectedTeam &&
-								team.id === selectedTeam.id &&
-								"active"
-							}`}
-							onClick={() => handleMenuClick(team)}
-						>
-							{team.name}
-						</div>
-					))}
-				</div>
+				{width < 720 ? (
+					<Autocomplete
+						disablePortal
+						className="team-dropdown"
+						options={[...teams.map((team) => team.name)]}
+						sx={{
+							mt: "00px",
+							mr: "0px",
+							color: "white !important",
+							width: "300px",
+
+							"& .MuiOutlinedInput-root": {
+								"& fieldset": {
+									borderColor: "rgb(150, 150, 150)",
+									color: "white",
+									height: "60px",
+									borderRadius: "5px",
+								},
+								"&:hover fieldset": {
+									borderColor: "var(--primary)",
+								},
+								"&:focus fieldset": {
+									borderColor: "var(--primary)",
+								},
+							},
+							"& .MuiInputLabel-root": {
+								color: "rgb(150, 150, 150)",
+							},
+							"& .MuiOutlinedInput-input": {
+								color: "white",
+								bgcolor: "var(--bg)",
+								border: "0px solid red",
+								height: "100%",
+							},
+							"& .MuiPaper-root": {
+								color: "white",
+								// bgcolor: "var(--bg)",
+							},
+						}}
+						renderInput={(params) => (
+							<TextField {...params} label="Team Name" />
+						)}
+						onChange={(e, value) => handleDropDownClick(value)}
+					/>
+				) : (
+					<div className="menu">
+						{teams.map((team) => (
+							<div
+								key={team.id}
+								className={`item ${
+									selectedTeam &&
+									team.id === selectedTeam.id &&
+									"active"
+								}`}
+								onClick={() => handleMenuClick(team)}
+							>
+								{team.name}
+							</div>
+						))}
+					</div>
+				)}
 				<div className="results">
 					{selectedTeam ? (
 						<>
@@ -445,10 +500,7 @@ const Team = () => {
 												className="circle"
 											/>
 											<div className="dp">
-												<img
-													src={mem.img}
-													alt=""
-												></img>
+												<img src={mem.img} alt=""></img>
 											</div>
 										</div>
 										<div className="details">
