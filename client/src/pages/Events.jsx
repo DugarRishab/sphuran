@@ -14,50 +14,50 @@ const Events = ({ user, login, logout }) => {
 		// 	desc: "The robotics event will feature two exciting competitions: a line follower and a robot race. The line follower will challenge robots to follow a course without deviating from a black line, while the robot race will test the speed and agility of robots as they navigate an obstacle course.",
 		// 	rounds: "2",
 		// },
-		{
-			id: "0",
-			name: "Industrial Conclave",
-			img: "/assets/eventposters/2023.png",
-			desc: (
-				<>
-					SPHURAN 2.0 is organizing an Industrial Conclave on April
-					7th, 2023, from 10 AM to 12 PM at I Hall. The conclave will
-					be graced by eminent speakers who are experts in their
-					respective fields. The purpose of this conclave is to
-					provide a platform for professionals from various industries
-					to share their knowledge, expertise, and experiences with
-					the students of SPHURAN 2.0. <br></br>The keynote speaker at
-					the event will be Professor Gautam Bandyopadhyay, former
-					Head of the Department and Professor at IIEST Shibpur. He
-					will be sharing his insights and knowledge on the latest
-					trends and technologies in the field of engineering and
-					technology. <br></br>Another eminent speaker at the event
-					will be Professor Debaprasad Kastha, who is a Senior Member
-					of IEEE and a Professor at IIT Kharagpur. He will be
-					speaking on the importance of innovation and research in the
-					field of engineering and technology. <br></br>Srijib
-					Majumdar, Head of Delivery, BFSI Products & Platform, US
-					unit, Tata Consultancy Services, will also be sharing his
-					experiences and insights of the industry.<br></br>{" "}
-					Additionally, the conclave will also feature a presentation
-					by Mr. Souradeep Mitra, an Electrical Consultant at Conveyor
-					& Ropeway Technical Services Pvt. Ltd. He will speak about
-					Automation in Ropeway operation.<br></br> Overall, the
-					Industrial Conclave at SPHURAN 2.0 promises to be an
-					informative and insightful event for the students, faculty,
-					and professionals from various industries who will be
-					attending. It is an excellent opportunity to gain valuable
-					knowledge and insights into the latest trends and
-					technologies in the field of engineering and technology.
-				</>
-			),
-			// rounds: "3",
-			venue: (
-				<>
-					I hall
-				</>
-			),
-		},
+		// {
+		// 	id: "0",
+		// 	name: "Industrial Conclave",
+		// 	img: "/assets/eventposters/2023.png",
+		// 	desc: (
+		// 		<>
+		// 			SPHURAN 2.0 is organizing an Industrial Conclave on April
+		// 			7th, 2023, from 10 AM to 12 PM at I Hall. The conclave will
+		// 			be graced by eminent speakers who are experts in their
+		// 			respective fields. The purpose of this conclave is to
+		// 			provide a platform for professionals from various industries
+		// 			to share their knowledge, expertise, and experiences with
+		// 			the students of SPHURAN 2.0. <br></br>The keynote speaker at
+		// 			the event will be Professor Gautam Bandyopadhyay, former
+		// 			Head of the Department and Professor at IIEST Shibpur. He
+		// 			will be sharing his insights and knowledge on the latest
+		// 			trends and technologies in the field of engineering and
+		// 			technology. <br></br>Another eminent speaker at the event
+		// 			will be Professor Debaprasad Kastha, who is a Senior Member
+		// 			of IEEE and a Professor at IIT Kharagpur. He will be
+		// 			speaking on the importance of innovation and research in the
+		// 			field of engineering and technology. <br></br>Srijib
+		// 			Majumdar, Head of Delivery, BFSI Products & Platform, US
+		// 			unit, Tata Consultancy Services, will also be sharing his
+		// 			experiences and insights of the industry.<br></br>{" "}
+		// 			Additionally, the conclave will also feature a presentation
+		// 			by Mr. Souradeep Mitra, an Electrical Consultant at Conveyor
+		// 			& Ropeway Technical Services Pvt. Ltd. He will speak about
+		// 			Automation in Ropeway operation.<br></br> Overall, the
+		// 			Industrial Conclave at SPHURAN 2.0 promises to be an
+		// 			informative and insightful event for the students, faculty,
+		// 			and professionals from various industries who will be
+		// 			attending. It is an excellent opportunity to gain valuable
+		// 			knowledge and insights into the latest trends and
+		// 			technologies in the field of engineering and technology.
+		// 		</>
+		// 	),
+		// 	// rounds: "3",
+		// 	venue: (
+		// 		<>
+		// 			I hall
+		// 		</>
+		// 	),
+		// },
 		{
 			id: "2",
 			name: "Electroquip",
