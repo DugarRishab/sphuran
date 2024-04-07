@@ -412,12 +412,12 @@
 	overflow: hidden;
 	width: 100%;
 	height: fit-content;
-	height: 150px;
+	height: 180px;
 }
 .events .lower-body .search-results .search-card .image-container img {
 	width: 100%;
 	height: auto;
-	object-fit: cover;
+	object-fit: contain;
 	object-position: center;
 }
 
