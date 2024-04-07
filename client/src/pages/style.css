@@ -501,11 +501,15 @@
 	width: 80%;
 	height: fit-content;
 	padding: 30px;
+	width: 100%;
 }
 .events .lower-body .schedule .results .search-card .details {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
+	/* border: 1px solid green; */
+	width: 100%;
+	gap: 20px;
 }
 .events .lower-body .tagline-2 {
 	margin: 200px 0;
@@ -1367,8 +1371,20 @@
 		margin: 5px 0;
 		width: 100%;
 	}
+	.events .lower-body .schedule {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.events .lower-body .schedule .menu{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
 	.events .lower-body .schedule .results {
 		padding: 10px;
+		width: 100%;
 	}
 
 	.events .lower-body .schedule .results .search-card {
