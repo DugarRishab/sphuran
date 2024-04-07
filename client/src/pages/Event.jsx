@@ -6,101 +6,87 @@ import { alert } from "../components/CustomAlert/alert";
 // for singular events
 const Event = ({user, login, logout}) => {
 	const events = [
-		// {
-		// 	id: 1,
-		// 	name: "Nuts and Bolts",
-		// 	img: "",
-		// 	desc: "The robotics event will feature two exciting competitions: a line follower and a robot race. The line follower will challenge robots to follow a course without deviating from a black line, while the robot race will test the speed and agility of robots as they navigate an obstacle course.",
-		// 	rounds: "2",
-		// },
-		{
-			id: "0",
-			name: "Industrial Conclave",
-			img: "/assets/eventposters/2023.png",
-			desc: (
-				<>
-					SPHURAN 2.0 is organizing an Industrial Conclave on April
-					7th, 2023, from 10 AM to 12 PM at I Hall. The conclave will
-					be graced by eminent speakers who are experts in their
-					respective fields. The purpose of this conclave is to
-					provide a platform for professionals from various industries
-					to share their knowledge, expertise, and experiences with
-					the students of SPHURAN 2.0. <br></br>The keynote speaker at
-					the event will be Professor Gautam Bandyopadhyay, former
-					Head of the Department and Professor at IIEST Shibpur. He
-					will be sharing his insights and knowledge on the latest
-					trends and technologies in the field of engineering and
-					technology. <br></br>Another eminent speaker at the event
-					will be Professor Debaprasad Kastha, who is a Senior Member
-					of IEEE and a Professor at IIT Kharagpur. He will be
-					speaking on the importance of innovation and research in the
-					field of engineering and technology. <br></br>Srijib
-					Majumdar, Head of Delivery, BFSI Products & Platform, US
-					unit, Tata Consultancy Services, will also be sharing his
-					experiences and insights of the industry.<br></br>{" "}
-					Additionally, the conclave will also feature a presentation
-					by Mr. Souradeep Mitra, an Electrical Consultant at Conveyor
-					& Ropeway Technical Services Pvt. Ltd. He will speak about
-					Automation in Ropeway operation.<br></br> Overall, the
-					Industrial Conclave at SPHURAN 2.0 promises to be an
-					informative and insightful event for the students, faculty,
-					and professionals from various industries who will be
-					attending. It is an excellent opportunity to gain valuable
-					knowledge and insights into the latest trends and
-					technologies in the field of engineering and technology.
-				</>
-			),
-			// rounds: "3",
-			venue: <>I hall</>,
-		},
 		{
 			id: "2",
 			name: "Electroquip",
-			img: "/assets/eventposters/Electroquip.png",
+			img: "/assets/eventposters/electroquip.jpg",
 			desc: (
 				<>
-					Keen on quizzing yourselves with fluxes and farads,
-					transformers and taps, lightning arcs and all things core?
-					Wanna show off your calibre in the electrical domain? Well
-					then, you are at just the right place. Organized in
-					collaboration with industry experts, 'Electroquip' is a quiz
-					event like no other. Get ready to test your concepts of
-					basic electrical engineering, machines, power systems and
-					control systems. Those who make it to the victory stand will
-					get handsome prizes and suitable recognition for their
-					knowledge and skills in the field.
+					🔌🔌 Get ready to unleash the power of your knowledge and
+					embark on an electrifying journey at "Electroquip" - the
+					ultimate quiz competition at the heart of the Electrical
+					Department's technical fest! SPHURAN 3.0. Dive deep into the
+					world of electricity and circuits, conquer the challenges of
+					electrical machines, navigate the complexities of power
+					systems, and master the intricacies of control systems? If
+					so, then Electroquip is your moment to shine!
+					<br />
+					⚡ Brace yourself for an adrenaline-fueled battle of
+					intellects, where every question sparks excitement and every
+					answer propels you closer to victory. Whether you're a
+					seasoned scholar or a newcomer to the field, there's
+					something for everyone in this thrilling competition.
+					<br />
+					🏆 But wait, there's more! In addition to the thrill of the
+					challenge and the glory of victory, participants of
+					Electroquip stand a chance to win some incredible prizes -
+					from cutting-edge gadgets to exclusive scholarships, the
+					rewards are as electrifying as the competition itself!
+					<br />
+					💡 So, gather your team, charge up your brain cells, and
+					join us at Electroquip for an unforgettable experience that
+					will leave you buzzing with excitement. See you at the quiz
+					where brilliance meets prizes!
 				</>
 			),
 			rounds: "3",
-			venue: (
-				<>
-					Round 1- I hall <br></br> Round 2- EE seminar hall <br></br>{" "}
-					Round 3- EE seminar hall
-				</>
-			),
+			venue: <>Round 1, 2, & 3 - EE seminar hall (2nd Floor, EE Dept)</>,
 			teamSize: "2 to 3",
 			prizeMoney: "12,000",
 			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+			register: "https://forms.gle/fucjtsH44QkKJHTx7",
 		},
-
 		{
 			id: "3",
 			name: "Illumination ",
-			img: "/assets/eventposters/illumination.png",
+			img: "/assets/eventposters/illumination.jpg",
 			desc: (
 				<p>
-					Attention all electronics enthusiasts! <br></br> Here's your
-					chance to showcase your electronic skills! A series of
-					challenging design problems awaits you at “Illumination”, a
-					circuit simulation event. Your aim is to engineer the best
-					electronic circuits that solve the problems, using any
-					circuit simulation software of your choice. Credit will be
-					given based on the functionality, ingenuity and efficiency
-					of the design. We also have a hardware round, where you will
-					be working with real components and breathing life into your
-					designs. <br></br> Have fun creating new circuits and
-					watching the electrons dance around!
+					💡💡 Get ready to illuminate your imagination and spark
+					innovation at "Illumination" – the exhilarating circuit
+					simulation competition set to electrify the stage of the
+					Electrical Engineers' Society's technical fest SPHURAN 3.0!
+					Are you ready to bring your circuit design skills to life in
+					a virtual arena? Illumination invites you to harness the
+					power of simulation software and showcase your ability to
+					create, optimize, and troubleshoot circuits with precision
+					and flair. Dive deep into the world of electronics as you
+					navigate through a series of challenges, from basic circuits
+					to advanced systems. Whether you're a seasoned engineer or a
+					budding enthusiast, Illumination offers a platform for you
+					to shine bright like a circuit board!
+					<br />
+					⚡ With each simulation, you'll be put to the test, pushing
+					the boundaries of your knowledge and ingenuity. From
+					analyzing complex circuit configurations to troubleshooting
+					voltage drops, Illumination will electrify your senses and
+					ignite your passion for electrical engineering.
+					<br />
+					🏆 And the best part? Participants of Illumination have the
+					chance to win incredible prizes and earn recognition for
+					their circuit mastery. It's not just about the competition –
+					it's about celebrating innovation and pushing the boundaries
+					of what's possible.
+					<br />
+					🚀 So, gather your tools, fire up your imagination, and get
+					ready to make your mark on the world of circuit simulation
+					at Illumination. This is your moment to shine and showcase
+					your talent to the world! <br /> 🌟 Don't miss out on this
+					electrifying opportunity to test your skills and forge new
+					connections. Join us at Illumination and let your circuits
+					light up the stage! See you at the competition where
+					innovation meets simulation! ⚡
 				</p>
 			),
 			rounds: "2",
@@ -109,26 +95,48 @@ const Event = ({user, login, logout}) => {
 			prizeMoney: "10,000",
 			entryFee: "50/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+			register: "https://forms.gle/WTM7Cu1QDz9ceShe9",
 		},
 		{
 			id: "4",
 			name: "Cyber Blame",
-			img: "/assets/eventposters/Cyberblame.png",
+			img: "/assets/eventposters/cyberblame.jpg",
 			desc: (
 				<>
-					From smartphones to self-driving cars, technology is
-					changing the way we live, work, and communicate with each
-					other. And at the forefront of this technological revolution
-					are coders - the people who create the software that powers
-					our devices and systems.<br></br> To celebrate the
-					importance of coding and to encourage the development of new
-					and innovative technology, we are thrilled to announce Cyber
-					Blame, a coding contest for our upcoming tech fest, Sphuran
-					2023. <br></br> The coding contest is the perfect
-					opportunity to put your skills and knowledge of programming
-					languages to the test and compete against other talented
-					coders. <br></br> So, dust off your programming skills, fire
-					up your laptop, and get ready to take on the challenge!
+					💻💻 Get ready to immerse yourself in the world of coding
+					and cybersecurity at "CyberBlame" – the ultimate coding
+					competition at the heart of the Electrical Engineers'
+					Society's technical fest SPHURAN 3.0! Are you a coding
+					enthusiast with a passion for problem-solving and
+					innovation? CyberBlame challenges you to showcase your
+					programming prowess and cybersecurity skills in an
+					adrenaline-pumping competition.
+					<br />
+					🔒 Prepare to tackle a series of coding challenges designed
+					to test your logic, creativity, and ability to navigate
+					through complex scenarios. From algorithmic puzzles to
+					cybersecurity simulations, CyberBlame will push your skills
+					to the limit.
+					<br />
+					🛡 Dive into the realm of cybersecurity as you defend virtual
+					networks, thwart cyber threats, and demonstrate your ability
+					to secure digital systems against vulnerabilities.
+					<br />
+					🏆 The stakes are high, and the rewards are even higher!
+					Participants of CyberBlame have the opportunity to win
+					prestigious awards, valuable prizes, and most importantly,
+					earn recognition for their coding expertise.
+					<br />
+					💡 So, sharpen your coding skills, gear up for the
+					challenge, and get ready to showcase your talent in the
+					thrilling arena of CyberBlame. This is your chance to shine
+					and leave a lasting impact on the world of coding and
+					cybersecurity!
+					<br />
+					🚀 Don't miss out on this exhilarating opportunity to test
+					your abilities and compete with the best. Join us at
+					CyberBlame and let your code speak for itself! See you at
+					the competition where innovation meets cybersecurity!
 				</>
 			),
 			rounds: "1",
@@ -141,20 +149,41 @@ const Event = ({user, login, logout}) => {
 		{
 			id: "5",
 			name: "Argumentation",
-			img: "/assets/eventposters/Argumentation.png",
+			img: "/assets/eventposters/argumentation.jpg",
 			desc: (
 				<>
-					It's going to be legen-- wait for it --dary. It's going to
-					be legendary! <br></br>Equipped with facts and logic along
-					with the desire to excel in heated arguments, the contenders
-					are ready for the battle of words to begin in
-					`Argumentation`. Powerful speeches, fiery replies and
-					definitive comebacks. Team Sphuran is excited to conduct
-					this debate as it is sure to rouse your oratory skills
-					letting you exhibit the power of your mind in an
-					electrifying debate. <br></br>So hold no vendetta as we seek
-					flaming debates with red-hot words! Meet you at the
-					disclosure. <br></br> Happy debating!
+					🗣🗣 Prepare to delve into thought-provoking discussions and
+					showcase your persuasive prowess at "Argumentation" – the
+					dynamic debate competition at the heart of the technical
+					fest of Electrical Engineers' Society named SPHURAN 3.0! Are
+					you passionate about presenting compelling arguments and
+					defending your viewpoints with clarity and conviction?
+					Argumentation provides the platform for you to articulate
+					your ideas and engage in stimulating debates. Engage in
+					riveting debates on a spectrum of topics relevant to
+					technology, society, and innovation. Whether you thrive on
+					policy discussions or philosophical dilemmas, Argumentation
+					offers a stage for intellectual exploration.
+					<br />
+					🏆 Compete against your peers in a structured format that
+					emphasizes critical thinking and effective communication.
+					Demonstrate your ability to analyze issues from multiple
+					angles and influence opinions through well-reasoned
+					arguments.
+					<br />
+					📣 The stage is set, and the spotlight is on you!
+					Participants of Argumentation have the opportunity to earn
+					accolades and recognition for their eloquence and debate
+					skills.
+					<br />
+					🎤 So, refine your rhetoric, hone your reasoning, and join
+					us at Argumentation for an exhilarating intellectual
+					challenge. This is your chance to make your voice heard and
+					leave a lasting impact on the audience!
+					<br />
+					🚀 Don't miss this stimulating opportunity to participate in
+					meaningful debates. See you at Argumentation, where ideas
+					clash and minds are enriched through lively discourse! 💬
 				</>
 			),
 			rounds: "1",
@@ -163,33 +192,44 @@ const Event = ({user, login, logout}) => {
 			prizeMoney: "8,000",
 			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+			register: "https://forms.gle/7gfA97uLnsXuSBSa9",
 		},
-		// {
-		// 	id: 6,
-		// 	name: "Electrical Quiz ",
-		// 	img: "",
-		// 	desc: "It would be a quiz event which would be based on general electrical knowledge. Participants would be tested on their knowledge related to everything in the electrical world from history to concepts.",
-		// 	rounds: "2",
-		// },
+
 		{
 			id: "7",
 			name: "Adhayan",
-			img: "/assets/eventposters/adhayan.jpeg",
+			img: "/assets/eventposters/adhayan.jpg",
 			desc: (
 				<>
-					Attention all tech enthusiasts! <br></br>Are you ready to
-					showcase your problem-solving skills and analytical thinking
-					in the tech industry? If so, we have an exciting opportunity
-					for you! <br></br> Sphuran 2023 includes Adhayan, a case
-					study competition that challenges participants to come up
-					with innovative solutions to real-world current tech trends
-					and business problems. The competition apart from boosting
-					your creative thinking would provide some amazing prizes for
-					the winners, including cash prizes, and certificates of
-					recognition. <br></br> We can't wait to see you at the Tech
-					Fest and witness the incredible solutions you come up with.
-					Let's innovate, analyze, and excel together in the world of
-					tech!
+					📈📈 Brace yourself for an intellectual adventure like no
+					other as "Adhyayan" takes center stage in the technical fest
+					of Electrical Engineers' Society SPHURAN 3.0! Get ready to
+					immerse yourself in the world of strategic analysis and
+					problem-solving. Adhyayan challenges you to think
+					critically, analyze meticulously, and craft innovative
+					solutions to real-world scenarios.From unraveling industry
+					puzzles to devising cutting-edge strategies, Adhyayan
+					promises to stretch your intellect and ignite your
+					creativity. It's not just a competition – it's a journey of
+					exploration and discovery.
+					<br />
+					🏆 And the rewards? Prepare to be dazzled! Participants of
+					Adhyayan stand a chance to win prestigious awards and
+					coveted prizes, each one more enticing than the last. It's
+					not just about recognition – it's about stepping into the
+					spotlight and being celebrated for your ingenuity and
+					problem-solving prowess.
+					<br />
+					💡 So, rally your team, sharpen your analytical skills, and
+					prepare to make your mark on the world of strategic analysis
+					at Adhyayan. This is your opportunity to shine bright and
+					showcase your talent to the world!
+					<br />
+					🌟 Don't miss out on this exhilarating opportunity to
+					challenge yourself and emerge victorious. Join us at
+					Adhyayan and let your intellect soar to new heights! See you
+					at the competition where every case study is a chance to
+					redefine success! 🚀
 				</>
 			),
 			rounds: "2",
@@ -202,114 +242,41 @@ const Event = ({user, login, logout}) => {
 			prizeMoney: "10,000",
 			entryFee: "50/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+			register: "https://forms.gle/GqXBPDpzHqbPBwPy8",
 		},
-		// {
-		// 	id: 8,
-		// 	name: "Poster Presentation",
-		// 	img: "",
-		// 	desc: "It is a platform for students to showcase their work visually. Participants create an informative and visually appealing poster that summarizes their research, findings, and conclusions. Judges assess the posters based on creativity, content, and design, and winners are recognized for their contributions. These competitions provide an opportunity to network, learn, and enhance presentation skills.",
-		// },
-		// {
-		// 	id: 9,
-		// 	name: "ElectroSearch",
-		// 	img: "",
-		// 	desc: "Electrical treasure hunt is a fun-filled event where participants solve clues and puzzles to find hidden electrical components. The event challenges participants to use their knowledge of circuits, power systems, and electrical engineering to locate the hidden treasures. It's a great way to learn while having fun and promotes teamwork and problem-solving skills. ",
-		// 	rounds: "2",
-		// },
-		{
-			id: "10",
-			name: "Voltage Voyage",
-			img: "/assets/eventposters/Voltage Voyage.png",
-			desc: (
-				<>
-					Do you ever dream of being on a mind-bending adventure
-					spanning several exciting landscapes in an Indiana Jones-ish
-					style? Well, Sphuran 2.0 brings you another breathtaking
-					event Voltage Voyage where you need to rush your brain all
-					way through the basic concepts of Electrical Engineering to
-					track down the hidden treasures and snatch the chance of
-					squashing out the best of team work. <bg></bg> So guys,
-					energise yourself and get ready to manifest something so
-					educative yet so much fun !
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "1",
-			venue: "Parade Ground",
-			teamSize: "3-4",
-			prizeMoney: "10,000",
-			entryFee: "100/team (for non-iiestians)",
-		},
-		{
-			id: "11",
-			name: "Ace the Race",
-			img: "/assets/eventposters/acetherace.png",
-			desc: (
-				<>
-					Love building new and advanced robots? Wanna test your bot
-					deign skills to the limit? <br></br>“Ace the Race” is an
-					exciting robot design competition. We envision that student
-					teams will develop their own robotic systems in order to
-					compete in Line follower races, challenging the limits of
-					robotic design and autonomy technologies. This challenge
-					will test the speed, accuracy and agility of your robots to
-					the next level. So get ready to amp your design skills for a
-					fierce robo battle!
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "1",
-			venue: "Netaji Bhawan",
-			teamSize: "Any",
-			prizeMoney: "10,000",
-			entryFee: "100/team (for non-iiestians)",
-		},
-		{
-			id: "12",
-			name: "Tech Trends",
-			img: "/assets/eventposters/techtrends.jpeg",
-			desc: (
-				<>
-					Don't we often lose our way through tedious chapters of
-					unappealing books while going for something quite simple and
-					conclusive? As far as we go, that's definitely a very boring
-					way to learn.<br></br>Therefore, be your own mentor to
-					learning as we are yet with another unique and exciting
-					event where you can showcase your hidden talent of
-					presenting ideas in a visually simpler way. All you need to
-					do is, bring up your research recipe, cook it up with some
-					attractive content, garnish it with lots, and lots of your
-					creativity with a pinch of simplicity, and there you go,
-					ready to serve! <br></br>It's always nice to find your
-					hidden self, isn't it? So what are you even waiting for, go
-					and register now!
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "2",
-			venue: (
-				<>
-					Round 1 - EE sublibrary <br></br> Round 2 - EE Sublibrary
-				</>
-			),
-			teamSize: "2 to 3",
-			prizeMoney: "10,000",
-			entryFee: "70/team (for non-iiestians)",
-		},
+
 		{
 			id: "13",
 			name: "Shatranj",
-			img: "/assets/eventposters/Shatranj.png",
+			img: "/assets/eventposters/shatranj.jpg",
 			desc: (
 				<>
-					Traxler , Scandinavian, Sicilian , Stafford or Ruy Lopez....
-					<br></br>Which one do you prefer or wanna try your own
-					variations this time ? <br></br> Delve in your thoughts ,put
-					together your openings and defences , set up your traps and
-					prepare yourself for the next Gambit cause <br></br>Sphuran
-					2023 brings to you an enthusing chess competition on
-					7/04/23. And don't forget ... <br></br>' Every move must
-					have a purpose ! !'
+					♟♟ Prepare yourself to strategize, compete, and make your
+					best moves at "Shatranj" – the thrilling chess event at the
+					heart of the Electrical Engineers' Society's technical fest
+					*SPHURAN 3.0! Are you a chess enthusiast with a knack for
+					strategic thinking and calculated moves? Shatranj invites
+					you to showcase your skills and battle it out on the
+					chessboard. Engage against fellow chess aficionados in an
+					exciting tournament format that will test your tactical
+					prowess and decision-making abilities.
+					<br />
+					🧠 Dive into intense matches, plan your strategies
+					carefully, and outwit your opponents to claim victory in
+					this ultimate game of minds.
+					<br />
+					🥇 The stakes are high, and so are the rewards! Participants
+					of Shatranj have the chance to win prestigious awards and
+					earn recognition for their mastery of the game.
+					<br />
+					🏰 So, hone your tactics, anticipate your opponent's moves,
+					and join us at Shatranj for an unforgettable chess
+					experience. This is your moment to shine and prove your
+					prowess on the chessboard!
+					<br />
+					🚀 Don't overlook this exciting opportunity to showcase your
+					passion for chess. See you at Shatranj, where every move
+					counts and victory awaits!
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
@@ -318,124 +285,112 @@ const Event = ({user, login, logout}) => {
 			teamSize: "1",
 			prizeMoney: "4,000",
 			entryFee: "50/team (for non-iiestians)",
+			register:
+				"https://docs.google.com/forms/d/e/1FAIpQLScOsrcbJw0Tz6vz0XjmHmRDTt0abQR5Z6sa2IS3E-oryOOSaQ/viewform?usp=sf_link",
 		},
-		{
-			id: "14",
-			name: "Fun Events",
-			img: "/assets/eventposters/funevents.jpeg",
-			desc: (
-				<>
-					Are you tired of only technical events? No worries, we heard
-					you. We've got an exciting lineup of games that will put
-					your skills to the test and keep you entertained throughout
-					the day. <br></br>First up is the Dart Game, where you can
-					show off your precision and accuracy by hitting the bullseye
-					and scoring high. <br></br> Next, we have Wire the Loop.
-					This exciting game involves taking a ring of wire through a
-					loop without touching it. It may sound simple, but it
-					requires a steady hand, careful planning, and quick
-					reflexes. <br></br> And finally, get ready for the Headphone
-					Game, where you'll wear noise-canceling headphones and try
-					to lip-read what the coordinator is saying, competing
-					against others to see who can get the most phrases right.{" "}
-					<br></br> Don't miss out on this opportunity to challenge
-					your technical skills and have fun at the same time!
-				</>
-			),
-			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "1",
-			venue: "Parade Ground",
-			teamSize: "1",
-			prizeMoney: "Goodies for All",
-			entryFee: "20/team (for all)",
-		},
+
 		{
 			id: "15",
 			name: "Vidyut Gyan",
-			img: "/assets/eventposters/vidyutgyan.jpeg",
+			img: "/assets/eventposters/vidyutgyan.jpg",
 			desc: (
 				<>
-					Attention all electrical enthusiasts! It's time to put your
-					knowledge to the test in our upcoming electrical quiz
-					competition! <br></br> This competition is open to anyone
-					with a passion for electrical engineering knowledge and a
-					desire to learn more about the field. Whether you're a
-					student, a professional, or just an enthusiast, this is your
-					chance to showcase your knowledge and compete with other
-					like-minded individuals.
+					🌟🌟Get ready to power up your knowledge and dive into the
+					fascinating world of electrical and electronics at "Vidyut
+					Gyaan" – the ultimate quiz competition at the heart of the
+					technical fest of Electrical Engineers' Society namely
+					SPHURAN 3.0! Are you fascinated by circuits, intrigued by
+					electronics, and curious about everything powered by
+					electricity? Vidyut Gyaan is your chance to showcase your
+					expertise in this dynamic field. Explore a thrilling quiz
+					format that will challenge your understanding of electrical
+					principles, electronic components, digital systems, and
+					their real-world applications.
+					<br />⚡ From transistor configurations to circuit analysis,
+					Vidyut Gyaan covers a wide range of topics designed to test
+					your knowledge and problem-solving skills.
+					<br />
+					🏆 Compete with fellow enthusiasts and electrify the stage
+					with your brilliance! Participants of Vidyut Gyaan have the
+					opportunity to win exciting prizes and earn well-deserved
+					recognition for their electrical and electronics acumen.
+					<br />
+					📚 So, gear up, study those schematics, and get ready to
+					unleash your Vidyut Gyaan! This is your moment to shine and
+					prove that you're a true aficionado of electrical and
+					electronics knowledge. <br />
+					🚀 Embrace the challenge and showcase your passion at Vidyut
+					Gyaan! Join us for an electrifying quiz where knowledge
+					shines brightest. See you at the competition where
+					brilliance takes center stage!
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
-			rounds: "2",
+			rounds: "3",
 			venue: (
 				<>
-					Round 1 - ALumni Seminar Hall <br></br> Round 2 - S-470 (3rd
-					Floor)
+					Round 1 - ALumni Seminar Hall <br></br> S-470 (3rd Floor)
 				</>
 			),
 			teamSize: "1-2",
 			prizeMoney: "8000",
 			entryFee: "50/team (for non-iiestians)",
+			register: "https://forms.gle/7WAwc733UWvhHCbU8",
 		},
-		{
-			id: "16",
-			name: "Alumni Convention",
-			img: "/assets/eventposters/Alumni Convention.png",
-			desc: (
-				<>
-					As the fruit never falls away from a tree,one can never be
-					away from their Alma mater no matter where they are in the
-					World.
-					<br></br> For the first time,Sphuran 2.0 is organising an
-					alumni meet for all those who came ahead of us. All are
-					invited to grace the occasion and bask in the glory days of
-					their college life within the hallowed walls of the
-					Department.
-					<br></br> Further, our alumnis who are in many positions
-					around the world would grace us with their wisdom. A
-					Business meet would follow the alumni convention. Come all
-					and listen to experiences of those who have sailed the sea
-					of the professional world.
-				</>
-			),
-			rules: "",
-			rounds: "",
-			venue: <>EE Seminar Hall, 9th April, 4PM - 6PM</>,
-			/*teamSize: "1-2",
-			prizeMoney: "8000",
-			entryFee: "50/team",*/
-		},
+
 		{
 			id: "17",
 			name: "Online Gaming",
-			img: "/assets/eventposters/onlinegaming.jpeg",
+			img: "/assets/eventposters/onlinegaming.jpg",
 			desc: (
 				<>
-					Flaunt your gaming tactics and win prizes at SPHURAN 2.0’s
-					exuberant online gaming events “Valorant” and “FIFA 2022” on
-					7th and 8th April 2023. Swoop into the battlefields in your
-					virtual form, line up to action or lurk in a cubby, set the
-					spikes and dink the flankers to call an " ace " !! Or
-					alternatively, become a world champion at FIFA through your
-					strategic moves and legendary goals. So what are you waiting
-					for! Register your team for the savage online gaming
-					competitions “Valorant” and “FIFA 2019” . "Be a warrior not
-					a worrier because ... the only fear here is no Wi-fi !”
+					🎮🎮 Get ready for an adrenaline-fueled online gaming
+					extravaganza featuring FIFA and BGMI (Battlegrounds Mobile
+					India) at the upcoming technical fest SPHURAN 3.0 hosted by
+					the Electrical Engineers' Society! Embark on a virtual
+					journey where gaming prowess meets competitive spirit.
+					Whether you're a seasoned FIFA player or a battle royale
+					champion in BGMI, this event promises thrilling matches and
+					epic showdowns.
+					<br />
+					⚽ In FIFA, showcase your skills on the digital pitch,
+					dribble past defenders, and score spectacular goals to claim
+					victory. It's not just a game – it's a chance to become a
+					virtual football legend!
+					<br />
+					🔫 Dive into the intense world of BGMI, where strategic
+					gameplay and sharp reflexes determine survival. Drop into
+					the battleground, loot, shoot, and outlast your opponents to
+					emerge as the last one standing.
+					<br />
+					🏆 Compete against fellow gamers, challenge yourself, and
+					aim for glory as you battle your way to the top of the
+					leaderboard.
+					<br />
+					🎉 Join us for an unforgettable gaming experience, filled
+					with excitement, camaraderie, and epic moments. Whether
+					you're aiming for the championship title or simply here for
+					the thrill, this gaming event is not to be missed!
+					<br />
+					🚀 Gear up, level up, and get ready to dominate the virtual
+					arena at the Electrical Department's gaming event. Let's
+					game on and make this event an unforgettable celebration of
+					skill,strategy, and sportsmanship!
 				</>
 			),
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2?usp=sharing",
 			rounds: "As many required",
 			venue: (
 				<>
-					Valorant- 7/4,9:30 PM onwards,Online
+					BGMI- 7th and 8th, 10:00 PM onwards, Online
 					<br />
-					Fifa- 8/4,7:30 PM-9:30 PM, Amenities
+					Fifa- 8th, 9:00 PM - 10:00 PM, Amenities
 				</>
 			),
 			teamSize: (
 				<>
 					Fifa-1 <br></br>
-					Valo-5+1
+					BGMI-5+1
 				</>
 			),
 			prizeMoney: "4,000/Game",
@@ -443,7 +398,13 @@ const Event = ({user, login, logout}) => {
 				<>
 					Fifa-40 (For All)
 					<br />
-					Valo-100/Team (For All){" "}
+					BGMI-100/Team (For All){" "}
+				</>
+			),
+			register: (
+				<>
+					BGMI - https://forms.gle/WFbkrEhW2HmbfHNt9 FIFA -
+					https://docs.google.com/forms/d/e/1FAIpQLSfU4obQyhhhNYyE-KJk4lPM4ceeYDmUrW8UnSMWDbkZBqeWWA/viewform?vc=0&c=0&w=1&flr=0
 				</>
 			),
 		},
@@ -498,8 +459,9 @@ const Event = ({user, login, logout}) => {
 								{event.desc}
 								<div className="details">
 									<div className="link">
-										<b>Rules</b> -{" "}
-										<a href={event.rules}>{event.rules}</a>
+										<b>Register</b> -{" "}
+										<a href={event.register}>{event.register}</a>
+										{/* {event.register} */}
 									</div>
 									<br></br>
 									<div>
