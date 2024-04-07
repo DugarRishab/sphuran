@@ -82,6 +82,16 @@ const Navbar = ({ user, login, logout }) => {
 		<>
 			<div className="navbar">
 				<div className="contents">
+					<div className="logo">
+						<div className="img">
+							<img
+								src="/assets/sphuran-logo.png"
+								alt=""
+								srcset=""
+							/>
+						</div>
+						<div>Sphuran 3.0</div>
+					</div>
 					{width <= 720 && (
 						<IconButton
 							id="drawer-btn"
@@ -93,16 +103,6 @@ const Navbar = ({ user, login, logout }) => {
 							<span class="material-icons">menu</span>
 						</IconButton>
 					)}
-					<div className="logo">
-						<div className="img">
-							<img
-								src="/assets/sphuran-logo.png"
-								alt=""
-								srcset=""
-							/>
-						</div>
-						<div>Sphuran 3.0</div>
-					</div>
 					{width > 720 && (
 						<div className="nav-links">
 							<NavLink to="/">
