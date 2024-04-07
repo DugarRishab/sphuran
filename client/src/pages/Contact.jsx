@@ -24,18 +24,18 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="item">
-						<div className="name"> Souvik Sengupta</div>
+						<div className="name"> Utsav Kumar Vishwakarma</div>
 						<div className="mail">
-							<a href="mailto: ssengupta742@gmail.com">
-								ssengupta742@gmail.com
+							<a href="mailto: 2020eeb010.utsav@students.iiests.ac.in">
+							2020eeb010.utsav@students.iiests.ac.in
 							</a>
 						</div>
 					</div>
 					<div className="item">
-						<div className="name"> Sayan Mitra </div>
+						<div className="name"> Bipro Bhadra </div>
 						<div className="mail">
-							<a href="mailto: mitrasayan2001@gmail.com">
-								mitrasayan2001@gmail.com
+							<a href="mailto: 2020eeb097.bipro@students.iiests.ac.in">
+							2020eeb097.bipro@students.iiests.ac.in
 							</a>
 						</div>
 					</div>
@@ -90,17 +90,14 @@ const Contact = () => {
 				<div className="items">
 					<div className="title">or just call us directly</div>
 					<div className="item">
-						<div className="name"> Souvik Sengupta</div>
-						<div className="mail">+91 82505 64473</div>
+						<div className="name"> Utsav Kumar Vishwakarma</div>
+						<div className="mail">+91 8709825784</div>
 					</div>
 					<div className="item">
-						<div className="name"> Sayan Mitra </div>
-						<div className="mail">+91 93324 29359</div>
+						<div className="name"> Bipro Bhadra </div>
+						<div className="mail">+91 7890938525</div>
 					</div>
-					<div className="item">
-						<div className="name"> Vasanth </div>
-						<div className="mail">+91 93901 30585</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
