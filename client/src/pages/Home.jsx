@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<div className="home">
 			<div className="header">
-				<div className="date">07_04_2023 to 09_04_2023</div>
+				<div className="date">07_04_2024 to 09_04_2024</div>
 				<div className="title">
 					The Annual Technical Fest of the Department of Electrical
 					Engineering
@@ -62,7 +62,7 @@ const Home = () => {
 						</div>
 						<div className="rightc">
 							{about === "sphuran"
-								? "Sphuran, the technical festival of IIEST Shibpur's Electrical Engineering Department, brings together students, industry leaders, and researchers to showcase technical skills and innovations. Known for its intellectually stimulating events like paper presentations, project exhibitions, robotics, and hackathons, Sphuran encourages creative and critical thinking. It's a great platform for students to network, build portfolios and gain exposure to the latest trends and technologies in electrical engineering."
+								? "Sphuran, the technical festival of IIEST Shibpur's Electrical Engineering Department, brings together students, industry leaders, and researchers to showcase technical skills and innovations. Known for its intellectually stimulating events like paper presentations, project exhibitions, and hackathons, Sphuran encourages creative and critical thinking. It's a great platform for students to network, build portfolios and gain exposure to the latest trends and technologies in electrical engineering."
 								: about === "iiests"
 								? "Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) is a premier technical institute located in the historic city of Howrah, West Bengal, India. With a rich legacy dating back to 1856, IIEST Shibpur offers a wide range of undergraduate and postgraduate programs in engineering, technology, and basic sciences. The institute is renowned for its world-class faculty, state-of-the-art infrastructure, and innovative research culture that nurtures the next generation of engineers, scientists, and technologists."
 								: "The Electrical Engineers' Society (EES) at IIEST Shibpur is a student-run org that cultivates a community of electrical ELECTRICAL engineers. EES offers opportunities to showcase skills, collaborate on projects, and learn about advancements in electrical engineering through events, guest lectures, and workshops. EES plays a crucial role in supplementing students' education and preparing them for successful careers."}

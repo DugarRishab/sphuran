@@ -82,6 +82,16 @@ const Navbar = ({ user, login, logout }) => {
 		<>
 			<div className="navbar">
 				<div className="contents">
+					<div className="logo">
+						<div className="img">
+							<img
+								src="/assets/sphuran-logo.png"
+								alt=""
+								srcset=""
+							/>
+						</div>
+						<div>Sphuran 3.0</div>
+					</div>
 					{width <= 720 && (
 						<IconButton
 							id="drawer-btn"
@@ -93,16 +103,6 @@ const Navbar = ({ user, login, logout }) => {
 							<span class="material-icons">menu</span>
 						</IconButton>
 					)}
-					<div className="logo">
-						<div className="img">
-							<img
-								src="/assets/sphuran-logo.png"
-								alt=""
-								srcset=""
-							/>
-						</div>
-						<div>Sphuran 2.0</div>
-					</div>
 					{width > 720 && (
 						<div className="nav-links">
 							<NavLink to="/">
@@ -120,20 +120,20 @@ const Navbar = ({ user, login, logout }) => {
 							<NavLink to="/sponsor">
 								<div className="item">Sponsors</div>
 							</NavLink>
-							<NavLink to="/well-wishers">
+							{/* <NavLink to="/well-wishers">
 								<div className="item">Our well wishers</div>
-							</NavLink>
+							</NavLink> */}
 							<NavLink to="/contact">
 								<div className="item">Contact Us</div>
 							</NavLink>
 
-							<NavLink to="/register">
+							{/* <NavLink to="/register">
 								<div className="item">Register</div>
-							</NavLink>
+							</NavLink> */}
 							{/* <NavLink to="/schedule">
         <div className="item">Schedule</div>
     </NavLink> */}
-							{user ? (
+							{/* {user ? (
 								<>
 									<div
 										className="item"
@@ -164,7 +164,6 @@ const Navbar = ({ user, login, logout }) => {
 										sx={{
 											marginLeft: "20px",
 											marginTop: "20px",
-
 										}}
 									>
 										<MenuItem onClick={handleLogout}>
@@ -180,10 +179,10 @@ const Navbar = ({ user, login, logout }) => {
 										<div className="item">Login</div>
 									</div>
 								</NavLink>
-							)}
+							)} */}
 						</div>
 					)}
-					{width <= 720 && (
+					{/* {width <= 720 && (
 						<div className="nav-links">
 							{user ? (
 								<>
@@ -229,7 +228,7 @@ const Navbar = ({ user, login, logout }) => {
 								</NavLink>
 							)}
 						</div>
-					)}
+					)} */}
 				</div>
 			</div>
 			<Drawer
@@ -237,6 +236,11 @@ const Navbar = ({ user, login, logout }) => {
 				anchor="left"
 				open={drawerOpen}
 				className="drawer"
+				sx={{
+					"& .MuiPaper-root": {
+						bgcolor: "#171717",
+					},
+				}}
 			>
 				<IconButton
 					onClick={handleDrawerClose}
@@ -263,16 +267,16 @@ const Navbar = ({ user, login, logout }) => {
 					<NavLink onClick={handleLinkClick} to="/sponsor">
 						<div className="item">Sponsors</div>
 					</NavLink>
-					<NavLink onClick={handleLinkClick} to="/well-wishers">
+					{/* <NavLink onClick={handleLinkClick} to="/well-wishers">
 						<div className="item">Our Well wishers</div>
-					</NavLink>
+					</NavLink> */}
 					<NavLink onClick={handleLinkClick} to="/contact">
 						<div className="item">Contact Us</div>
 					</NavLink>
 
-					<NavLink onClick={handleLinkClick} to="/register">
+					{/* <NavLink onClick={handleLinkClick} to="/register">
 						<div className="item">Register</div>
-					</NavLink>
+					</NavLink> */}
 					{/* <NavLink to="/schedule">
         <div className="item">Schedule</div>
     </NavLink> */}

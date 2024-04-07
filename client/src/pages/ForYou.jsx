@@ -6,7 +6,7 @@ const ForYou = () => {
 		<div className="foryou">
 			<div className="header">For You</div>
 			<div className="lower-body">
-				<div className="item">
+				{/* <div className="item">
 					<div className="img">
 						<img src="/assets/campus.jpg" alt="" />
 					</div>
@@ -33,38 +33,38 @@ const ForYou = () => {
 							></CustomButton>
 						</a>
 					</div>
-				</div>
+				</div> */}
 				<div className="item">
 					<div className="img">
 						<img src="/assets/merchandise.jpg" alt="" />
 					</div>
 					<div className="body">
-						Get ready to electrify your minds as The Sphuran 2023
+						Get ready to electrify your minds as The Sphuran 2024
 						T-shirt is up for grabs. Flaunt this uber-cool, chic and
 						stylish tee and become a part of the electrifying
-						experience this April. Along with this, we have Sphuran
-						bands to flaunt your participation and tuck this special
-						memory up of Sphuran with you forever. And all this at
-						an affordable price of 359 Rupees Only. (349 If only T
-						shirt)
+						experience this April.Tuck the special memory up of
+						Sphuran with you forever. And all this at an affordable
+						price of 329 Rupees Only.
 					</div>
 					<div className="body">
-						Payment Details:- Name- Ritu Raj Ranjan Mishra
+						Payment Details:-
 						<br></br>
-						UPI number- 7724919790<br></br>
-						UPI ID- rituraj772491@oksbi <br></br>You may also pay
-						via cash to this person by contacting him.
+						Name- Dishan Bhuin
+						<br></br>
+						UPI number- 8918892152<br></br>
+						UPI ID- 8918892152@paytm<br></br>You may also pay via
+						cash to this person by contacting him.
 					</div>
+					
 					<div className="body">
 						Don't miss the chance of showing off your calibre by
-						acquiring this funky T-shirt and band and get ready to
-						jolt your minds as you charge ahead for empowering
-						innovations!
-						<a href="https://forms.gle/K5X2uyZ1ZonJ9QUe6">
-							<CustomButton
+						acquiring this funky T-shirt and get ready to jolt your
+						minds as you charge ahead for empowering innovations!
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLScxVRiBRvnJyRZBg59VEVB2_fe_9eQ09fWRBJ5Q-PdnyJyo3w/viewform?usp=sf_link>">
+						<CustomButton>
 								text="Order Now"
 								variant="contained"
-							></CustomButton>
+							</CustomButton>
 						</a>
 					</div>
 				</div>

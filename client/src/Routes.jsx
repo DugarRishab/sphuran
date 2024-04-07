@@ -71,7 +71,7 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 					></Sponsors>
 				}
 			></Route>
-			<Route
+			{/* <Route
 				exact
 				path="/well-wishers"
 				element={
@@ -81,7 +81,7 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 						user={user}
 					></Wellwishers>
 				}
-			></Route>
+			></Route> */}
 			<Route
 				exact
 				path="/schedule"
@@ -94,7 +94,7 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 				}
 			></Route>
 
-			<Route
+			{/* <Route
 				exact
 				path="/auth"
 				element={
@@ -106,9 +106,9 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 						setUserLocation={setUserLocation}
 					></Auth>
 				}
-			></Route>
+			></Route> */}
 
-			<Route
+			{/* <Route
 				exact
 				path="/auth"
 				element={
@@ -120,9 +120,9 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 						setUserLocation={setUserLocation}
 					></Auth>
 				}
-			></Route>
+			></Route> */}
 
-			<Route
+			{/* <Route
 				exact
 				path="/register"
 				element={
@@ -134,7 +134,7 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 						setUserLocation={setUserLocation}
 					></Register>
 				}
-			></Route>
+			></Route> */}
 		</Routes>
 	);
 };

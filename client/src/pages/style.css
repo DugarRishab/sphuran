@@ -22,7 +22,6 @@
 	margin-top: 200px;
 	text-align: left;
 	padding: 0 40px;
-
 }
 .home .header .date {
 	font-family: "Exo 2";
@@ -354,12 +353,12 @@
 	justify-content: space-between;
 	flex-flow: row wrap;
 }
-.events .lower-body .tabs{
+.events .lower-body .tabs {
 	display: flex;
 	flex-direction: row;
 	margin: 20px;
 }
-.events .lower-body .tabs .item{
+.events .lower-body .tabs .item {
 	padding: 5px 10px;
 	margin: 5px;
 	background-color: rgba(255, 255, 255, 0);
@@ -370,11 +369,11 @@
 	cursor: pointer;
 	color: white;
 }
-.events .lower-body .tabs .item.active{
+.events .lower-body .tabs .item.active {
 	background-color: rgba(255, 255, 255, 0.25);
 	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
-.events .lower-body .extra{
+.events .lower-body .extra {
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(20px);
@@ -413,12 +412,12 @@
 	overflow: hidden;
 	width: 100%;
 	height: fit-content;
-	height: 150px;
+	height: 180px;
 }
-.events .lower-body .search-results .search-card .image-container img{
-		width: 100%;
+.events .lower-body .search-results .search-card .image-container img {
+	width: 100%;
 	height: auto;
-	object-fit: cover;
+	object-fit: contain;
 	object-position: center;
 }
 
@@ -429,7 +428,7 @@
 	text-overflow: ellipsis;
 	height: 180px;
 	max-height: 180px;
-	
+
 	overflow: hidden;
 }
 .events .lower-body .search-results .search-card .card-text .text-head {
@@ -460,7 +459,7 @@
 .events .lower-body .search-results .search-card .bottom .link:hover {
 	color: var(--blue);
 }
-.events .lower-body .schedule{
+.events .lower-body .schedule {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -498,15 +497,19 @@
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 }
-.events .lower-body .schedule .results .search-card{
+.events .lower-body .schedule .results .search-card {
 	width: 80%;
 	height: fit-content;
 	padding: 30px;
+	width: 100%;
 }
-.events .lower-body .schedule .results .search-card .details{
+.events .lower-body .schedule .results .search-card .details {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
+	/* border: 1px solid green; */
+	width: 100%;
+	gap: 20px;
 }
 .events .lower-body .tagline-2 {
 	margin: 200px 0;
@@ -532,14 +535,14 @@
 	font-size: 25px;
 }
 
-.events .link{
+.events .link {
 	text-decoration: underline;
 	cursor: pointer;
 	transition: 0.25s all;
 	color: rgb(225, 225, 225);
 	font-size: 18px;
 }
-.events .link:hover{
+.events .link:hover {
 	color: var(--blue);
 	text-decoration: underline;
 }
@@ -573,15 +576,15 @@
 
 .event .lower-body .desc .title {
 	color: white;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 	text-align: left;
 	font-size: 40px;
 }
-.event .lower-body .desc .img{
+.event .lower-body .desc .img {
 	width: 100%;
 	overflow: hidden;
 }
-.event .lower-body .desc .img img{
+.event .lower-body .desc .img img {
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
@@ -594,15 +597,15 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	
 }
-.event .link{
+.event .link {
 	text-decoration: underline;
 	cursor: pointer;
 	transition: 0.25s all;
 	color: rgb(208, 208, 208);
 	font-size: 18px;
 }
-
 
 .event .lower-body .tagline-2 {
 	margin: 200px 0;
@@ -651,8 +654,8 @@
 .team .lower-body .menu {
 	width: 30%;
 	max-width: 300px;
-	max-height: 500px;
-	overflow-y: scroll;
+	/* max-height: 500px; */
+	/* overflow-y: scroll; */
 	background-color: rgba(255, 255, 255, 0.1);
 	color: white;
 	padding: 60px 40px;
@@ -784,7 +787,7 @@
 	font-size: 20px;
 	line-height: 30px;
 }
-.sponsors .lower-body .desc .desc-body .link{
+.sponsors .lower-body .desc .desc-body .link {
 	margin-top: 20px;
 	text-decoration: underline;
 }
@@ -1046,13 +1049,12 @@
 	background-color: white;
 	margin: 0 10px;
 }
-.footer .left-col .address{
+.footer .left-col .address {
 	color: rgb(208, 208, 208, 0.75);
 	font-size: 15px;
 	width: 100%;
 	margin: auto;
 	margin-top: 10px;
-	
 }
 .footer .right-col .title,
 .footer .right-col-2 .title {
@@ -1156,7 +1158,7 @@
 	margin: 0 10px 0 0;
 }
 
-.foryou .header{
+.foryou .header {
 	text-align: center;
 	width: 100%;
 	border: 0px solid yellow;
@@ -1168,7 +1170,7 @@
 	line-height: 76px;
 	transition: 0.5s all;
 }
-.foryou .lower-body{
+.foryou .lower-body {
 	margin: auto;
 	margin-top: 100px;
 
@@ -1179,7 +1181,7 @@
 
 	width: 100%;
 }
-.foryou .lower-body .item{
+.foryou .lower-body .item {
 	width: 45%;
 	color: white;
 	background: rgba(255, 255, 255, 0.1);
@@ -1188,20 +1190,20 @@
 	/* width: 80%; */
 	/* padding: 60px 40px; */
 }
-.foryou .lower-body .item .img{
+.foryou .lower-body .item .img {
 	width: 100%;
 	overflow: hidden;
 }
-.foryou .lower-body .item .img img{
+.foryou .lower-body .item .img img {
 	width: 100%;
 }
-.foryou .lower-body .item .body{
+.foryou .lower-body .item .body {
 	padding: 20px 40px;
 	font-size: 20px;
 	line-height: 30px;
-	margin-top: 20px
+	margin-top: 20px;
 }
-.foryou .lower-body .item .body .button{
+.foryou .lower-body .item .body .button {
 	margin-top: 20px;
 }
 
@@ -1234,14 +1236,13 @@
 	padding: 60px 40px;
 	font-size: 20px;
 }
-.well-wishers .lower-body ul{
-	list-style:decimal;
+.well-wishers .lower-body ul {
+	list-style: decimal;
 	margin: 0 20px;
 }
-.well-wishers .lower-body ul li{
+.well-wishers .lower-body ul li {
 	margin: 10px 0;
 }
-
 
 @media only screen and (max-width: 480px),
 	only screen and (max-device-width: 480px) {
@@ -1333,22 +1334,35 @@
 	.events .lower-body .search-results .search-card .bottom {
 		justify-content: space-around;
 	}
-	.events .lower-body .schedule{
+	.events .lower-body .schedule {
 		flex-direction: row;
 	}
-	.events .lower-body .schedule .menu{
+	.events .lower-body .schedule .menu {
 		padding: 10px;
 	}
-	.events .lower-body .schedule .menu .item{
+	.events .lower-body .schedule .menu .item {
 		font-size: 15px;
 		margin: 5px 0;
 		width: 100%;
 	}
 	.team .lower-body {
 		margin-top: 200px;
+		flex-direction: column;
 	}
 	.team .lower-body .results {
-		padding: 30px;
+		margin: 20px;
+		padding: 30px 20px;
+		width: calc(100% - 40px);
+		margin-top: 20px;
+	}
+	/* .team .lower-body .results .members .member .img{
+		width: 150px;
+		height: 150px;
+	} */
+	.team .lower-body .team-dropdown{
+		/* width: 100%; */
+		margin: auto;
+		color: white !important;
 	}
 	.team .lower-body .menu {
 		padding: 10px;
@@ -1358,23 +1372,35 @@
 		margin: 5px 0;
 		width: 100%;
 	}
-	.events .lower-body .schedule .results{
-		padding: 10px;
-	}
-	
-	.events .lower-body .schedule .results .search-card{
-	width: 100%;
-	height: fit-content;
-	padding: 10px;
-}
-.events .lower-body .schedule .results .search-card .text-head{
-	font-size: 20px;
-	margin-top: 0;
-}
-.events .lower-body .schedule .results .search-card .details{
+	.events .lower-body .schedule {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
 }
+.events .lower-body .schedule .menu{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+	.events .lower-body .schedule .results {
+		padding: 10px;
+		width: 100%;
+	}
+
+	.events .lower-body .schedule .results .search-card {
+		width: 100%;
+		height: fit-content;
+		padding: 10px;
+	}
+	.events .lower-body .schedule .results .search-card .text-head {
+		font-size: 20px;
+		margin-top: 0;
+	}
+	.events .lower-body .schedule .results .search-card .details {
+		display: flex;
+		flex-direction: column;
+	}
 	.team .lower-body .results .title {
 		font-size: 25px;
 	}
@@ -1451,17 +1477,16 @@
 		font-size: 25px;
 	}
 
-	.foryou .lower-body{
+	.foryou .lower-body {
 		flex-direction: column;
 		margin-top: 200px;
-
 	}
-	.foryou .lower-body .item{
+	.foryou .lower-body .item {
 		width: 90%;
 		margin: auto;
 		margin-bottom: 20px;
 	}
-	.foryou .lower-body .item .body{
+	.foryou .lower-body .item .body {
 		padding: 10px 30px;
 		font-size: 15px;
 	}

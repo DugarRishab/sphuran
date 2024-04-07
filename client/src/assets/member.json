@@ -1,0 +1,487 @@
+[
+	{
+		"id": 1,
+		"name": "Coordinator",
+		"members": [
+			{
+				"name": "Utsav Kumar Vishwakarma",
+				"position": "Main Coordinator",
+				"img": "/assets/imgs/team/utsavkumarvishwakarma.jpg"
+			},
+			{
+				"name": "Bipro Bhadra",
+				"position": "Main Coordinator",
+				"img": "/assets/imgs/team/biprobhadra.jpg"
+			},
+			{
+				"name": "Sanjay Sharma",
+				"position": "Assistant Main Coordinator",
+				"img": "/assets/imgs/team/sanjaysharma.jpg"
+			},
+			{
+				"name": "Gourav Das",
+				"position": "Assistant Main Coordinator",
+				"img": "/assets/imgs/team/gouravdas.jpg"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Finance",
+		"members": [
+			{
+				"name": "Abhishek Kumar",
+				"position": "Finance & Audit (Head)",
+				"img": "/assets/imgs/team/abhishekkumar.jpg"
+			},
+			{
+				"name": "Dishan Bhuin",
+				"position": "Finance & Audit (Associate Head)",
+				"img": "/assets/imgs/team/dishanbhuin.jpg"
+			},
+			{
+				"name": "Niloy Mandal",
+				"position": "Finance & Audit (Associate)",
+				"img": "/assets/imgs/team/niloymandal.jpg"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Design",
+		"members": [
+			{
+				"name": "Pradip Sikder",
+				"position": "Design (Head)",
+				"img": "/assets/imgs/team/pradipsikder.jpg"
+			},
+			{
+				"name": "Geeta Birua",
+				"position": "Design (Head)",
+				"img": "/assets/imgs/team/geetabirua.jpg"
+			},
+			{
+				"name": "Satarupa Mahato",
+				"position": "Design (Head)",
+				"img": "/assets/imgs/team/satarupamahato.jpg"
+			},
+			{
+				"name": "Sanjeeviny  MP",
+				"position": "Design (Head)",
+				"img": "/assets/imgs/team/sanjeevinymahato.jpg"
+			},
+			{
+				"name": "Prinshu Kumar",
+				"position": "Design (Associate Head)",
+				"img": "/assets/imgs/team/prinshukumar.jpg"
+			},
+			{
+				"name": "Madhushree Shaw",
+				"position": "Design (Associate Head)",
+				"img": "/assets/imgs/team/madhushreeshaw.jpg"
+			},
+			{
+				"name": "Dhruv Jhunjhunwala",
+				"position": "Design (Associate Head)",
+				"img": "/assets/imgs/team/dhruvjhunjhunwala.jpg"
+			},
+			{
+				"name": "Ambhrin Roy",
+				"position": "Design (Associates)",
+				"img": "/assets/imgs/team/ambhrinroy.jpg"
+			},
+			{
+				"name": "Debankan Chatterjee",
+				"position": "Design (Associates)",
+				"img": "/assets/imgs/team/debankanchatterjee.jpg"
+			},
+			{
+				"name": "Vinayak",
+				"position": "Design (Associates)",
+				"img": "/assets/imgs/team/vinayak.jpg"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Sponsorship",
+		"members": [
+			{
+				"name": "Shreetama Majumder",
+				"position": "Sponsorship (Head)",
+				"img": "/assets/imgs/team/shreetamamajumder.jpg"
+			},
+			{
+				"name": "Soma Sai Sathwik",
+				"position": "Sponsorship (Head)",
+				"img": "/assets/imgs/team/somasaisathwik.jpg"
+			},
+			{
+				"name": "Anweshdeep Ghosh",
+				"position": "Sponsorship (Head)",
+				"img": "/assets/imgs/team/anweshdeepghosh.jpg"
+			},
+			{
+				"name": "Arnab Mahapatra",
+				"position": "Sponsorship (Head)",
+				"img": "/assets/imgs/team/arnabmahapatra.jpg"
+			},
+			{
+				"name": "Ayush Sagar",
+				"position": "Sponsorship (Head)",
+				"img": "/assets/imgs/team/ayushsagar.jpg"
+			},
+			{
+				"name": "Saksham Kumar",
+				"position": "Sponsorship (Associate Head)",
+				"img": "/assets/imgs/team/sakshamkumar.jpg"
+			},
+			{
+				"name": "Yashika Mittal",
+				"position": "Sponsorship (Associate Head)",
+				"img": "/assets/imgs/team/yashikamittal.jpg"
+			},
+			{
+				"name": "Shreyansh Trivedi",
+				"position": "Sponsorship (Associate Head)",
+				"img": "/assets/imgs/team/shreyanshtrivedi.jpg"
+			},
+			{
+				"name": "Ishika Singh",
+				"position": "Sponsorship (Associates)",
+				"img": "/assets/imgs/team/ishikasingh.jpg"
+			},
+			{
+				"name": "Simran Kumari",
+				"position": "Sponsorship (Associates)",
+				"img": "/assets/imgs/team/simrankumari.jpg"
+			},
+			{
+				"name": "Abhay Pratap Singh",
+				"position": "Sponsorship (Associates)",
+				"img": "/assets/imgs/team/abhaypratapsingh.jpg"
+			},
+			{
+				"name": "Harsh Kumar Sah",
+				"position": "Sponsorship (Associates)",
+				"img": "/assets/imgs/team/harshkumarsah.jpg"
+			},
+			{
+				"name": "Rudra Pratap Singh",
+				"position": "Sponsorship (Associates)",
+				"img": "/assets/imgs/team/rudrapratapsingh.jpg"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Publicity",
+		"members": [
+			{
+				"name": "Abhinav Singh",
+				"position": "Publicity (Head)",
+				"img": "/assets/imgs/team/abhinavsingh.jpg"
+			},
+			{
+				"name": "Shubham Mishra",
+				"position": "Publicity (Head)",
+				"img": "/assets/imgs/team/shubhammishra.jpg"
+			},
+			{
+				"name": "Anurag Patel",
+				"position": "Publicity (Associate Head)",
+				"img": "/assets/imgs/team/anuragpatel.jpg"
+			},
+			{
+				"name": "Pritam Kumar Baski",
+				"position": "Publicity (Associate Head)",
+				"img": "/assets/imgs/team/pritamkumarbaski.jpg"
+			},
+			{
+				"name": "Sushant Kashyap",
+				"position": "Publicity (Associate Head)",
+				"img": "/assets/imgs/team/sushantkashyap.jpg"
+			},
+			{
+				"name": "Harsh Aditya Punera",
+				"position": "Publicity (Associates)",
+				"img": "/assets/imgs/team/harshadityapunera.jpg"
+			},
+			{
+				"name": "Modassir Jamal",
+				"position": "Publicity (Associates)",
+				"img": "/assets/imgs/team/modassirjamal.jpg"
+			},
+			{
+				"name": "Aseem Singh",
+				"position": "Publicity (Associates)",
+				"img": "/assets/imgs/team/aseemsingh.jpg"
+			},
+			{
+				"name": "Sandeep Saini",
+				"position": "Publicity (Associates)",
+				"img": "/assets/imgs/team/sandeepsaini.jpg"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Content",
+		"members": [
+			{
+				"name": "Sounak Bhattacharya",
+				"position": "Content (Head)",
+				"img": "/assets/imgs/team/sounakbhattacharya.jpg"
+			},
+			{
+				"name": "Sumedha Boral",
+				"position": "Content (Head)",
+				"img": "/assets/imgs/team/sumedhaboral.jpg"
+			},
+			{
+				"name": "Shreya Choudhary",
+				"position": "Content (Head)",
+				"img": "/assets/imgs/team/shreyachoudhary.jpg"
+			},
+			{
+				"name": "Astitva Nath Mishra",
+				"position": "Content (Associate Head)",
+				"img": "/assets/imgs/team/astitvanathmishra.jpg"
+			},
+			{
+				"name": "Sharanya Bhattacharya",
+				"position": "Content (Associate Head)",
+				"img": "/assets/imgs/team/sharanyabhattacharya.jpg"
+			},
+			{
+				"name": "B Sudeshna",
+				"position": "Content (Associate Head)",
+				"img": "/assets/imgs/team/bsudeshna.jpg"
+			},
+			{
+				"name": "Priya Singh",
+				"position": "Content (Associates)",
+				"img": "/assets/imgs/team/priyasingh.jpg"
+			},
+			{
+				"name": "Abhay Raj Singh",
+				"position": "Content (Associates)",
+				"img": "/assets/imgs/team/abhayrajsingh.jpg"
+			},
+			{
+				"name": "Esha Kumari",
+				"position": "Content (Associates)",
+				"img": "/assets/imgs/team/eshakumari.jpg"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Logistics",
+		"members": [
+			{
+				"name": "Sougat Mahato",
+				"position": "Logistics (Head)",
+				"img": "/assets/imgs/team/sougatmahato.jpg"
+			},
+			{
+				"name": "Sangharsh Bhitkar",
+				"position": "Logistics (Head)",
+				"img": "/assets/imgs/team/sangharshbhitkar.jpg"
+			},
+			{
+				"name": "Shashank Kandala",
+				"position": "Logistics (Head)",
+				"img": "/assets/imgs/team/shashankkandala.jpg"
+			},
+			{
+				"name": "Suman Mantri",
+				"position": "Logistics (Associate Head)",
+				"img": "/assets/imgs/team/sumanmantri.jpg"
+			},
+			{
+				"name": "Haimabha Debnath",
+				"position": "Logistics (Associate Head)",
+				"img": "/assets/imgs/team/haimabhadebnath.jpg"
+			},
+			{
+				"name": "Divya",
+				"position": "Logistics (Associate Head)",
+				"img": "/assets/imgs/team/divya.jpg"
+			},
+			{
+				"name": "Souparna Pal",
+				"position": "Logistics (Associates)",
+				"img": "/assets/imgs/team/souparnapal.jpg"
+			},
+			{
+				"name": "Hrishit Das",
+				"position": "Logistics (Associates)",
+				"img": "/assets/imgs/team/hrishitdas.jpg"
+			},
+			{
+				"name": "Sandeep Raj",
+				"position": "Logistics (Associates)",
+				"img": "/assets/imgs/team/sandeepraj.jpg"
+			},
+			{
+				"name": "Pramod Saini",
+				"position": "Logistics (Associates)",
+				"img": "/assets/imgs/team/pramodsaini.jpg"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Event_Management",
+		"members": [
+			{
+				"name": "Soubhagya Saha",
+				"position": "Event Management (Head)",
+				"img": "/assets/imgs/team/soubhagyasaha.jpg"
+			},
+			{
+				"name": "Rajat Rahar",
+				"position": "Event Management (Head)",
+				"img": "/assets/imgs/team/rajatrahar.jpg"
+			},
+			{
+				"name": "Oindrila Biswas",
+				"position": "Event Management (Head)",
+				"img": "/assets/imgs/team/oindrilabiswas.jpg"
+			},
+			{
+				"name": "Sachin Saw",
+				"position": " Event Management (Associate Head)",
+				"img": "/assets/imgs/team/sachinsaw.jpg"
+			},
+			{
+				"name": "Arneet Dutta",
+				"position": " Event Management (Associate Head)",
+				"img": "/assets/imgs/team/arneetdutta.jpg"
+			},
+			{
+				"name": "Rounak Chowdhury",
+				"position": " Event Management (Associate Head)",
+				"img": "/assets/imgs/team/rounakchowdhury.jpg"
+			},
+			{
+				"name": "Ankit Kumar",
+				"position": " Event Management (Associate Head)",
+				"img": "/assets/imgs/team/ankitkumar.jpg"
+			},
+			{
+				"name": "Mainak Laskar",
+				"position": "Event Management (Associates)",
+				"img": "/assets/imgs/team/mainaklaskar.jpg"
+			},
+			{
+				"name": "Shekhar Pal",
+				"position": "Event Management (Associates)",
+				"img": "/assets/imgs/team/shekharpal.jpg"
+			},
+			{
+				"name": "Anay Verma",
+				"position": "Event Management (Associates)",
+				"img": "/assets/imgs/team/anayverma.jpg"
+			},
+			{
+				"name": "Akash Kumar Bharti",
+				"position": "Event Management (Associates)",
+				"img": "/assets/imgs/team/akashkumarbharti.jpg"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Volunteers",
+		"members": [
+			{
+				"name": "Gourab Mondal",
+				"position": "Volunteers (Head)",
+				"img": "/assets/imgs/team/gourabmondal.jpg"
+			},
+			{
+				"name": "Chinmoyee Sonowal",
+				"position": "Volunteers (Head)",
+				"img": "/assets/imgs/team/chinmoyeesonowal.jpg"
+			},
+			{
+				"name": "Mohammad Saif Jamal Khan",
+				"position": "Volunteers (Head)",
+				"img": "/assets/imgs/team/mohammadsaifjamalkhan.jpg"
+			},
+			{
+				"name": "Sushant Kashyap",
+				"position": "Volunteers (Associate Head)",
+				"img": "/assets/imgs/team/sushantkashyap.jpg"
+			},
+			{
+				"name": " Arnab Bose",
+				"position": "Volunteers (Associate Head)",
+				"img": "/assets/imgs/team/arnabbose.jpg"
+			},
+			{
+				"name": "Deepak Garg",
+				"position": "Volunteers (Associates)",
+				"img": "/assets/imgs/team/deepakgarg.jpg"
+			},
+			{
+				"name": "Harshit Kasera",
+				"position": "Volunteers (Associates)",
+				"img": "/assets/imgs/team/harshitkasera.jpg"
+			},
+			{
+				"name": "Raghav Trivedi",
+				"position": "Volunteers (Associates)",
+				"img": "/assets/imgs/team/raghavtrivedi.jpg"
+			},
+			{
+				"name": "Shruti Kar",
+				"position": "Volunteers (Associates)",
+				"img": "/assets/imgs/team/shrutikar.jpg"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Website",
+		"members": [
+			{
+				"name": "Anirban Mukherjee",
+				"position": "Website (Head)",
+				"img": "/assets/imgs/team/anirbanmukherjee.jpg"
+			},
+			{
+				"name": "Priyanshu Agarwal",
+				"position": "Website (Head)",
+				"img": "/assets/imgs/team/priyanshuagarwal.jpg"
+			},
+			{
+				"name": "Nafis Adnan Mondal",
+				"position": "Website (Associate Head)",
+				"img": "/assets/imgs/team/nafisadnanmondal.jpg"
+			},
+			{
+				"name": "Rishab Dugar",
+				"position": "Website (Associate Head)",
+				"img": "/assets/imgs/team/rishabdugar.jpg"
+			},
+			{
+				"name": "Aditi Mandal",
+				"position": "Website (Associates)",
+				"img": "/assets/imgs/team/aditimandal.jpg"
+			},
+			{
+				"name": "Devendra Prasad",
+				"position": "Website (Associates)",
+				"img": "/assets/imgs/team/devendraprasad.jpg"
+			},
+			{
+				"name": "Ankit Kumar",
+				"position": "Website (Associates)",
+				"img": "/assets/imgs/team/ankitkumar.jpg"
+			}
+		]
+	}
+]
