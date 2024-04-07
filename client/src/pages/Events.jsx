@@ -47,6 +47,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 			register: "https://forms.gle/fucjtsH44QkKJHTx7",
+			coordinators: "Pulkit Kapoor: 7905892410 and Arnab Mahapatra: 9330681644",
 		},
 		{
 			id: "3",
@@ -97,6 +98,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "50/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 			register: "https://forms.gle/WTM7Cu1QDz9ceShe9",
+			coordinators: "Adarsh Jaiswal: 7615893526 and Ayush Sagar: ",
 		},
 		{
 			id: "4",
@@ -146,6 +148,7 @@ const Events = ({ user, login, logout }) => {
 			prizeMoney: "10,000",
 			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
+			coordinators: "Iman Kalyan Majumder: 9831327139 and Nafis Adnan Mondal: 8420807274",
 		},
 		{
 			id: "5",
@@ -194,6 +197,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "70/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 			register: "https://forms.gle/7gfA97uLnsXuSBSa9",
+			coordinators: "Vatsal Jain: 8200138644 and Rounak Chowdhury",
 		},
 
 		{
@@ -244,6 +248,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "50/team (for non-iiestians)",
 			rules: "https://drive.google.com/drive/folders/1yF4Bdg4OLutiZk-ClbdwSn_Y9qAoPLV2",
 			register: "https://forms.gle/GqXBPDpzHqbPBwPy8",
+			coordinators: "Shreetama Majumde and Saksham Kumar: 8306913208",
 		},
 
 		{
@@ -288,6 +293,7 @@ const Events = ({ user, login, logout }) => {
 			entryFee: "50/team (for non-iiestians)",
 			register:
 				"https://docs.google.com/forms/d/e/1FAIpQLScOsrcbJw0Tz6vz0XjmHmRDTt0abQR5Z6sa2IS3E-oryOOSaQ/viewform?usp=sf_link",
+				coordinators: "Arnab Bose and B. Sudeshna: 9171644150",
 		},
 
 		{
@@ -337,6 +343,7 @@ const Events = ({ user, login, logout }) => {
 			prizeMoney: "8000",
 			entryFee: "50/team (for non-iiestians)",
 			register: "https://forms.gle/7WAwc733UWvhHCbU8",
+			coordinators: "Soubhagya Saha: 8420003678 and Anweshdeep Ghosh:8653112407",
 		},
 
 		{
@@ -407,7 +414,12 @@ const Events = ({ user, login, logout }) => {
 					BGMI - https://forms.gle/WFbkrEhW2HmbfHNt9 FIFA -
 					https://docs.google.com/forms/d/e/1FAIpQLSfU4obQyhhhNYyE-KJk4lPM4ceeYDmUrW8UnSMWDbkZBqeWWA/viewform?vc=0&c=0&w=1&flr=0
 				</>
-			),
+			),	
+			coordinators: (
+				<>Fifa: Soubhagya Saha: 8420003678 and Ambhrin Roy,
+				<br />
+					BGMI: Rajat Rahar and DIshan Bhuin: 8918892152
+				</>)
 		},
 	];
 
@@ -586,6 +598,7 @@ const Events = ({ user, login, logout }) => {
 								<div className="card-text">
 									<p className="text-head">{event.name}</p>
 									<p className="text">{event.desc}</p>
+									<p className="text-coordinators">{event.coordinators}</p>
 								</div>
 								<div className="bottom">
 									<p className="link">
