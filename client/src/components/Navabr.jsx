@@ -120,9 +120,9 @@ const Navbar = ({ user, login, logout }) => {
 							<NavLink to="/sponsor">
 								<div className="item">Sponsors</div>
 							</NavLink>
-							<NavLink to="/well-wishers">
+							{/* <NavLink to="/well-wishers">
 								<div className="item">Our well wishers</div>
-							</NavLink>
+							</NavLink> */}
 							<NavLink to="/contact">
 								<div className="item">Contact Us</div>
 							</NavLink>
@@ -267,9 +267,9 @@ const Navbar = ({ user, login, logout }) => {
 					<NavLink onClick={handleLinkClick} to="/sponsor">
 						<div className="item">Sponsors</div>
 					</NavLink>
-					<NavLink onClick={handleLinkClick} to="/well-wishers">
+					{/* <NavLink onClick={handleLinkClick} to="/well-wishers">
 						<div className="item">Our Well wishers</div>
-					</NavLink>
+					</NavLink> */}
 					<NavLink onClick={handleLinkClick} to="/contact">
 						<div className="item">Contact Us</div>
 					</NavLink>

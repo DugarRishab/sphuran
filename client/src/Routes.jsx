@@ -71,7 +71,7 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 					></Sponsors>
 				}
 			></Route>
-			<Route
+			{/* <Route
 				exact
 				path="/well-wishers"
 				element={
@@ -81,7 +81,7 @@ const AllRoutes = ({ userLocation, setUserLocation, user, login, logout }) => {
 						user={user}
 					></Wellwishers>
 				}
-			></Route>
+			></Route> */}
 			<Route
 				exact
 				path="/schedule"

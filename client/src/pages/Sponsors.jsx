@@ -5,63 +5,88 @@ const Sponsors = () => {
 	const sponsors = [
 		{
 			id: 1,
-			
-			img: "/assets/sponsors/present/download (1).png",
+
+			img: "/assets/sponsors/present/adarsha.jpg",
 		},
 		{
-			id: 2,
-			
-			img: "/assets/sponsors/present/crspl-logo.jpg",
+			id: 1,
+
+			img: "/assets/sponsors/present/banerjee.jpg",
 		},
 		{
-			id: 3,
-			
-			img: "/assets/sponsors/present/download (3).png",
+			id: 1,
+
+			img: "/assets/sponsors/present/electromec.jpg",
 		},
 		{
-			id: 4,
-			
-			img: "/assets/sponsors/present/download.png",
+			id: 1,
+
+			img: "/assets/sponsors/present/jaybeeco.jpg",
 		},
 		{
-			id: 5,
-			
-			img: "/assets/sponsors/present/download.jpg",
-		},
-		{
-			id: 6,
-			name: "Web Team",
-			img: "/assets/sponsors/present/Screenshot_20230330-011503_OneDrive.jpg",
-		},
-		{
-			id: 7,
-			name: "Web Team",
-			img: "/assets/sponsors/present/Screenshot_20230330-011534_OneDrive.jpg",
-		},
-		{
-			id: 8,
-			name: "Web Team",
-			img: "/assets/sponsors/present/WhatsApp Image 2023-04-05 at 09.07.15.jpg",
-		},
-		{
-			id: 9,
-			name: "Web Team",
-			img: "/assets/sponsors/present/madeeasy.jpg",
+			id: 1,
+
+			img: "/assets/sponsors/present/zetwerk.jpg",
 		},
 	];
 	const pastSponsors = [
 		{
 			id: 1,
-			name: "Web Team",
-			img: "/assets/sponsors/past/download.png",
+
+			img: "/assets/sponsors/past/download (1).png",
 		},
 		{
 			id: 2,
+
+			img: "/assets/sponsors/past/crspl-logo.jpg",
+		},
+		{
+			id: 3,
+
+			img: "/assets/sponsors/past/download (3).png",
+		},
+		{
+			id: 4,
+
+			img: "/assets/sponsors/past/download.png",
+		},
+		{
+			id: 5,
+
+			img: "/assets/sponsors/past/download.jpg",
+		},
+		{
+			id: 6,
+			name: "Web Team",
+			img: "/assets/sponsors/past/Screenshot_20230330-011503_OneDrive.jpg",
+		},
+		{
+			id: 7,
+			name: "Web Team",
+			img: "/assets/sponsors/past/Screenshot_20230330-011534_OneDrive.jpg",
+		},
+		{
+			id: 8,
+			name: "Web Team",
+			img: "/assets/sponsors/past/WhatsApp Image 2023-04-05 at 09.07.15.jpg",
+		},
+		{
+			id: 9,
 			name: "Web Team",
 			img: "/assets/sponsors/past/madeeasy.jpg",
 		},
 		{
-			id: 3,
+			id: 10,
+			name: "Web Team",
+			img: "/assets/sponsors/past/download.png",
+		},
+		{
+			id: 11,
+			name: "Web Team",
+			img: "/assets/sponsors/past/madeeasy.jpg",
+		},
+		{
+			id: 12,
 			name: "Web Team",
 			img: "/assets/sponsors/past/wowmomo.jpg",
 		},
